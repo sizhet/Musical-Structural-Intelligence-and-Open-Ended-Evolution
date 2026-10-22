@@ -15,6 +15,10 @@ Music is not merely an inventory of notes, motifs, phrases, or harmonic patterns
 
 ---
 
+![Fig-003-Musical-Relay-and-Composition.png](../figures/Fig-003-Musical-Relay-and-Composition.png)
+
+---
+
 ## 1. From Musical Units to Musical Works
 
 MSI-002 investigated candidate Musical UIERUs, their dynamic boundaries, and their transformation-dependent identity. A unit, however, does not by itself explain a musical work. The next problem is **organization across time, voices, roles, and perspectives**.

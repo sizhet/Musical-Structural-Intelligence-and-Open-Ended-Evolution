@@ -14,6 +14,10 @@ Musical intelligence is not exhausted by recognizing acoustic patterns or genera
 
 ---
 
+![Fig-007-Human-AI-Musical-Co-Evolution.png](../figures/Fig-007-Human-AI-Musical-Co-Evolution.png)
+
+---
+
 ## 1. Introduction: The Composer Without a Human Life
 
 A powerful music generator may recognize motifs, model harmony, imitate performance, and produce recordings that listeners find compelling. Yet an important question remains: what does it mean for such a system to *understand* or *value* music if it lacks the bodily and biographical conditions through which humans encounter it?

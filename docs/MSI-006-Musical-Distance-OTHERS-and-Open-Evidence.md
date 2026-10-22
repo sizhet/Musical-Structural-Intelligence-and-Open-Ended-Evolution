@@ -14,6 +14,10 @@ Musical similarity is not a single property. Two passages may share notes but di
 
 ---
 
+![Fig-006-Musical-Distance-and-OTHERS.png](../figures/Fig-006-Musical-Distance-and-OTHERS.png)
+
+---
+
 ## 1. The Central Problem: Similarity Is Not One Number
 
 A melody can be transposed and remain recognizably the same musical idea. A short rhythmic figure can occur independently in thousands of works. Two excerpts can share pitch contours but create strikingly different experiences because of harmony, timing, instrumentation, or musical context. Conversely, listeners can perceive kinship between passages whose surface-level note alignment is poor.

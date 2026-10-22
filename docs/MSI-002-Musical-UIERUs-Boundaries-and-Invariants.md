@@ -15,6 +15,10 @@ Musical structure is recognizable across changes of key, tempo, instrumentation,
 
 ---
 
+![Fig-002-Musical-UIERU-and-Structural-Invariants.png](../figures/Fig-002-Musical-UIERU-and-Structural-Invariants.png)
+
+---
+
 ## 1. The Research Problem
 
 Music exhibits a tension that is fundamental to structural intelligence: musical ideas can remain identifiable while their surface realizations change. A motif may survive transposition, rhythmic expansion, orchestration, or redistribution among voices. Yet a seemingly minor change in timing, accent, harmony, or placement may substantially alter its musical function. Thus, **identity cannot be equated with surface equality**, and **difference cannot be equated with loss of identity**.

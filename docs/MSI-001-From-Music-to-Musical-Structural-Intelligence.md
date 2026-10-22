@@ -15,6 +15,10 @@ Music offers an unusually rich setting in which to investigate structural intell
 
 ---
 
+![Fig-001-MSI-Grand-Architecture.png](../figures/Fig-001-MSI-Grand-Architecture.png)
+
+---
+
 ## 1. Introduction: Why Music?
 
 Music is a particularly demanding test for a theory of intelligence because it combines recurrent organization with expressive variation. A melody can remain recognizable after transposition; a rhythmic idea can survive changes in instrumentation; a theme can be developed across a large composition; and an inherited musical convention can be revised by later performers and communities. These are not merely questions of pattern matching. They concern identity, transformation, context, function, and the transmission of structured capability.

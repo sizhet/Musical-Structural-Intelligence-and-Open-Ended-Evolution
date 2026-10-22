@@ -15,6 +15,10 @@ The same musical passage can be valued differently by its composer, performer, l
 
 ---
 
+![Fig-005-Multi-Perspective-Musical-Worlds.png](../figures/Fig-005-Multi-Perspective-Musical-Worlds.png)
+
+---
+
 ## 1. Why Music Requires More Than One Scoring Function
 
 A musical score, a performance, and a listening experience are related but nonidentical objects. A composer may evaluate a phrase by its role in a larger formal argument; a performer may value its physical articulation and expressive possibility; a listener may respond to its emotional or autobiographical resonance; a community may recognize a culturally specific convention. Even within one person, evaluation can vary with attention, fatigue, familiarity, occasion, and historical development.

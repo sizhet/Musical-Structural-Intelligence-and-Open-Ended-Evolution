@@ -15,6 +15,10 @@ Precision is indispensable to music: timing, pitch relationships, formal organiz
 
 ---
 
+![Fig-004-Romantic-Intelligence-and-Scoring.png](../figures/Fig-004-Romantic-Intelligence-and-Scoring.png)
+
+---
+
 ## 1. The Research Problem: When Deviation Becomes Value
 
 In engineering, a deviation from a specified tolerance often indicates error. In music, the same formal description—departure from a baseline—can indicate error, expression, interpretation, play, or invention. A phrase played slightly behind the beat may feel relaxed in one setting and incompetent in another. A dissonance may function as a mistake, a deliberate tension, or the defining feature of an emerging style. A melodic alteration may destroy a recognizable motif or reveal a compelling new version of it.
