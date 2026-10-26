@@ -58,9 +58,9 @@ The distinction between G3 and G4 is especially important. One surprising work m
 
 Let \(N_t\) be the number of generated artifacts by time \(t\), and \(K_t\) the set of validated reusable compositional capabilities. Then:
 
-\[
+$$
 \Delta N_t > 0 \quad \not\Rightarrow \quad \Delta K_t > 0.
-\]
+$$
 
 A system can produce more music while gaining no generalizable compositional competence. MSI-OEE therefore treats **growth of validated structural capability** as a primary target rather than production volume.
 
@@ -72,9 +72,9 @@ A system can produce more music while gaining no generalizable compositional com
 
 A candidate unit can be represented abstractly as:
 
-\[
+$$
 U = (S, B, C, F, I, R, P),
-\]
+$$
 
 where:
 
@@ -92,9 +92,9 @@ This representation is deliberately provisional. Units may have multiple functio
 
 Represent a composition as an attributed graph:
 
-\[
+$$
 G_M = (V, E, \tau, \kappa),
-\]
+$$
 
 where \(V\) contains candidate units and events, \(E\) encodes temporal, harmonic, thematic, and hierarchical relationships, \(\tau\) describes transformations, and \(\kappa\) records contextual constraints and interpretive annotations.
 
@@ -166,11 +166,11 @@ A prompt such as “wistful chamber music” is underspecified. Localization may
 
 Candidate compositions may be searched under several objectives:
 
-\[
-\operatorname{Score}(G_M \mid p,c)
+$$
+operatorname{Score}(G_M \mid p,c)
 = F_p\bigl(Q_{\mathrm{coherence}}, Q_{\mathrm{expression}},
 Q_{\mathrm{novelty}}, Q_{\mathrm{performability}}, Q_{\mathrm{provenance}}, OTHERS; c\bigr).
-\]
+$$
 
 Here \(p\) identifies a perspective and \(c\) a context. The function \(F_p\) need not be additive, fixed, or shared among perspectives. The term **OTHERS** denotes unresolved or unmodeled evidence; it must not become an arbitrary numerical reward for novelty.
 
@@ -194,9 +194,9 @@ A system must not equate surprise with artistic achievement. Novelty rewards can
 
 A useful formulation treats exploration as subject to structural and evidential conditions:
 
-\[
+$$
 \text{CandidateValue} = F_p(\text{novelty},\text{coherence},\text{expression},\text{context},\text{evidence}),
-\]
+$$
 
 with the possibility that the evaluation function itself changes over time. Such changes require separate governance and validation, because an evolving evaluator can manufacture apparent progress.
 
@@ -208,9 +208,9 @@ A recognizable musical signature may emerge from distributions of unit choices, 
 
 Define a provisional signature descriptor:
 
-\[
+$$
 \Sigma_A = (D_U, D_R, D_G, D_P),
-\]
+$$
 
 where \(D_U\) describes unit usage, \(D_R\) transformation and relay patterns, \(D_G\) global organizational tendencies, and \(D_P\) perspective-conditioned evaluative preferences.
 
@@ -236,11 +236,11 @@ Evaluate a versioned series of compositions across varied prompts and contexts. 
 
 A proposed growth cycle is:
 
-\[
+$$
 \text{Generate} \rightarrow \text{Observe Residuals} \rightarrow
 \text{Propose Unit/Operator} \rightarrow \text{Test} \rightarrow
 \text{Counter-Test} \rightarrow \text{Promote or Reject}.
-\]
+$$
 
 A candidate should enter a versioned structural registry only if it meets explicit criteria, for example:
 
@@ -274,12 +274,12 @@ A system should not be called open-ended merely because it generates indefinitel
 
 Generation may scale faster than meaningful evaluation. This produces a central constraint on verified growth:
 
-\[
+$$
 R_{\mathrm{validated\ growth}} \leq
 \min\bigl(R_{\mathrm{candidate\ generation}},
 R_{\mathrm{independent\ evaluation}},
 R_{\mathrm{validation}}\bigr).
-\]
+$$
 
 This inequality is a conceptual upper-bound model, not an experimentally established law. It emphasizes that increasing candidate volume alone cannot guarantee faster knowledge accumulation.
 

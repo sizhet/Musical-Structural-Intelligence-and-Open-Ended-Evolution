@@ -117,20 +117,20 @@ A subject is therefore **not merely a label attached to a scoring forest**. The 
 
 Instead of assigning a single intrinsic quality value `q(M)`, define a vector of evaluative outputs:
 
-\[
+$$
 \mathbf{v}_{s,c,t}(M,P) =
 \bigl(v^{\mathrm{coherence}},v^{\mathrm{expression}},v^{\mathrm{novelty}},
  v^{\mathrm{familiarity}},v^{\mathrm{social}},v^{\mathrm{function}},\ldots\bigr)_{s,c,t}.
-\]
+$$
 
 Here `s` identifies the evaluator, `c` the context, and `t` the evaluator's historical state. The vector may contain missing values, intervals, ordinal comparisons, or uncertain estimates; it need not be fully numeric.
 
 A decision policy can select among candidates using this vector:
 
-\[
+$$
 \pi_{s,c,t}(M_1,\ldots,M_n) =
-\operatorname{Select}_{s,c,t}\!\left(\{\mathbf{v}_{s,c,t}(M_i,P_i)\}_{i=1}^{n}\right).
-\]
+operatorname{Select}_{s,c,t}\!\left(\{\mathbf{v}_{s,c,t}(M_i,P_i)\}_{i=1}^{n}\right).
+$$
 
 **Important:** `Select` is not necessarily a weighted sum or a total order. It may impose hard constraints, partial preferences, Pareto comparisons, or an abstention decision.
 
@@ -163,9 +163,9 @@ A **musical worldview** is proposed here as a working representation of the expe
 
 For subject `s`, let:
 
-\[
+$$
 W_s(t) = \{K_s(t), H_s(t), F_s(t), G_s(t), B_s(t)\},
-\]
+$$
 
 where:
 
@@ -177,10 +177,10 @@ where:
 
 The proposed update relation is:
 
-\[
-W_s(t+1) = \operatorname{Update}\bigl(W_s(t),\mathrm{Experience}_t,
+$$
+W_s(t+1) = operatorname{Update}\bigl(W_s(t),\mathrm{Experience}_t,
 \mathrm{Feedback}_t,\mathrm{CounterEvidence}_t\bigr).
-\]
+$$
 
 This equation is a bookkeeping model, not a complete theory of cognition. It highlights that a new musical experience can change more than a numerical preference: it can alter the categories and expectations used to understand later music.
 
@@ -204,11 +204,11 @@ Two subjects can agree that two melodies are structurally similar while disagree
 
 Define two separate research quantities:
 
-\[
+$$
 D_{\mathrm{struct}}(M_a,M_b\mid C),
 \qquad
 D_{\mathrm{persp}}(s_i,s_j\mid \mathcal{Q},C),
-\]
+$$
 
 where `Q` is a specified set of musical comparison tasks. `D_persp` might measure disagreement over pairwise rankings, dimension salience, or responses to transformations. It need not satisfy metric axioms, and its interpretation depends on the task distribution.
 
@@ -216,9 +216,9 @@ where `Q` is a specified set of musical comparison tasks. `D_persp` might measur
 
 For a candidate `M`, collect:
 
-\[
+$$
 \mathcal{J}(M) = \{(s_i,c_i,y_i,u_i,p_i)\}_{i=1}^{N},
-\]
+$$
 
 where `y_i` is the response, `u_i` the reported or estimated uncertainty, and `p_i` the provenance and protocol. Report subgroup distributions and disagreement alongside any aggregate statistic.
 
@@ -239,13 +239,13 @@ Persistent, reproducible disagreement may reveal an omitted scoring dimension or
 
 Music often passes through a chain of partially reconstructive operations:
 
-\[
+$$
 \mathrm{Composer\ Intention}
 \rightarrow \mathrm{Score/Plan}
 \rightarrow \mathrm{Performance}
 \rightarrow \mathrm{Acoustic\ Event}
 \rightarrow \mathrm{Listener\ Interpretation}.
-\]
+$$
 
 Each stage can preserve, transform, omit, or add information. The score does not uniquely determine performance; the waveform does not uniquely determine interpretation; the composer's intention does not uniquely determine listener value.
 
@@ -267,10 +267,10 @@ MSI-004 proposed Romantic Intelligence as a candidate capacity to explore and ev
 
 For a baseline `M`, transformation `T`, and evaluator `s`, consider:
 
-\[
+$$
 \Delta V_{s,c}(T;M) =
 V_{s,c}(T(M)) - V_{s,c}(M).
-\]
+$$
 
 The difference is meaningful only if `V` is operationalized on a comparable scale. In practice, ordinal paired comparisons may be more defensible than numerical subtraction.
 
@@ -291,9 +291,9 @@ Conventional feature sets may explain part of a musical judgment: pitch interval
 
 Represent an observation as:
 
-\[
+$$
 Y_{s,c} = f(X_{\mathrm{known}},s,c) + \varepsilon_{s,c},
-\]
+$$
 
 where the residual `ε` can include measurement noise, annotation error, omitted context, unstable preference, or genuinely missing explanatory features.
 
@@ -351,13 +351,13 @@ Three research spaces are useful:
 
 A typical music recommender asks an AI to adapt to human taste. A more ambitious research system also asks whether unfamiliar AI-discovered structures can be made intelligible to human listeners, while allowing listeners to reject them.
 
-\[
+$$
 \mathrm{AI\ Candidate}
 \rightarrow \mathrm{Intermediate\ Musical\ UIERUs}
 \rightarrow \mathrm{Human\ Encounter}
 \rightarrow \mathrm{Feedback}
 \rightarrow \mathrm{Revised\ Relay}.
-\]
+$$
 
 This is **translation and co-learning**, not evidence that humans and AI experience music in the same way.
 

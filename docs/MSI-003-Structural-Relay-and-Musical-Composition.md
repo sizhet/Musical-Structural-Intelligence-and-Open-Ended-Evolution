@@ -47,9 +47,9 @@ Let \(U_i\) and \(U_j\) denote candidate Musical UIERUs. A simple temporal adjac
 
 A provisional expression is:
 
-\[
+$$
 R_{ij} = (U_i, U_j, o, c, p, k, e),
-\]
+$$
 
 where:
 
@@ -86,17 +86,17 @@ These scales interact but should not be conflated. A similar phrase in two works
 
 A candidate musical unit may be represented as:
 
-\[
+$$
 U = (S,B,I,F,C,P,Q),
-\]
+$$
 
 where \(S\) is observable or inferred structure, \(B\) boundary evidence, \(I\) identity/invariance conditions, \(F\) functional role, \(C\) context, \(P\) perspective, and \(Q\) uncertainty or confidence information. This is a research-oriented schema, not a mandatory data format.
 
 A composition may then be modeled as:
 
-\[
+$$
 \mathcal{M} = (\mathcal{U},\mathcal{R},\mathcal{H},\mathcal{T},\mathcal{P},\mathcal{E}),
-\]
+$$
 
 with:
 
@@ -117,9 +117,9 @@ A graph is an analytical representation. It does not imply that human composers 
 
 A phrase hands off to another through continuation, answer, contrast, or closure:
 
-\[
+$$
 U_1 \xrightarrow{\mathrm{continue/answer}} U_2.
-\]
+$$
 
 The relation may involve rhythmic pickup, unresolved harmony, motivic response, or a perceived expectation. A test should distinguish intentional continuation from generic statistical adjacency.
 
@@ -127,9 +127,9 @@ The relation may involve rhythmic pickup, unresolved harmony, motivic response, 
 
 Two or more units interact simultaneously: counterpoint, call-and-response overlap, accompaniment, polyrhythm, or layered texture.
 
-\[
+$$
 (U_1 \parallel U_2) \xrightarrow{\mathrm{coordination}} U_{12}.
-\]
+$$
 
 Here \(U_{12}\) denotes an emergent composite interpretation, not a claim that the source units cease to exist. Synchronization, consonance, rhythmic interference, and attention compete or cooperate.
 
@@ -137,9 +137,9 @@ Here \(U_{12}\) denotes an emergent composite interpretation, not a claim that t
 
 A unit is transposed, inverted, augmented, fragmented, ornamented, reharmonized, or otherwise transformed:
 
-\[
+$$
 U' = T_{\theta}(U\mid C,P).
-\]
+$$
 
 The transformation may preserve recognizable identity, change musical function, or create a new unit. Identity and function must therefore be evaluated independently, as emphasized in MSI-002.
 
@@ -147,9 +147,9 @@ The transformation may preserve recognizable identity, change musical function, 
 
 Local units combine into phrases, phrases into sections, and sections into larger formal trajectories. These levels may be nested, overlapping, or only partially agreed upon.
 
-\[
+$$
 \{U_1,\ldots,U_n\} \xrightarrow{\mathrm{organize}} H_k.
-\]
+$$
 
 The operator is not merely aggregation: it may assign roles such as exposition, transition, development, interruption, and resolution. Such labels are tradition- and task-dependent.
 
@@ -157,9 +157,9 @@ The operator is not merely aggregation: it may assign roles such as exposition, 
 
 The same unit may be reinterpreted by a changed harmonic, rhythmic, timbral, narrative, or cultural context. Context can act on interpretation even when the unit's surface is unchanged.
 
-\[
+$$
 F(U\mid C_1,P) \neq F(U\mid C_2,P).
-\]
+$$
 
 For instance, a repeated melody can sound reassuring in one harmonic setting and unsettled in another. This illustrates why musical relay cannot be reduced to string operations on notes.
 
@@ -167,9 +167,9 @@ For instance, a repeated melody can sound reassuring in one harmonic setting and
 
 A composition can reintroduce earlier material at different scales, refer to its own opening, or develop transformations of transformations:
 
-\[
-U_{t+1} = T_t(U_t,\operatorname{history}(U_0,\ldots,U_t)).
-\]
+$$
+U_{t+1} = T_t(U_t,operatorname{history}(U_0,\ldots,U_t)).
+$$
 
 Recursive relay may support thematic coherence, long-range expectation, and cumulative reinterpretation. It does not imply that recursion is present or beneficial in every musical tradition.
 
@@ -177,9 +177,9 @@ Recursive relay may support thematic coherence, long-range expectation, and cumu
 
 A musical idea passes between composer, performer, listener, teacher, community, or AI system. Each receiver may reconstruct a different functional unit.
 
-\[
+$$
 U^{(A)} \xrightarrow{\mathrm{representation/performance}} \widehat{U}^{(B)}.
-\]
+$$
 
 The hat emphasizes that the receiving subject's interpretation need not equal the sender's internal representation. Cross-subject relay is foundational for later work on musical worldviews (MSI-005) and human–AI co-evolution (MSI-008).
 
@@ -191,10 +191,10 @@ We therefore propose **soft musical contracts** as graded, contextual, and revis
 
 A candidate contract is:
 
-\[
+$$
 K(U_i,U_j\mid C,P) =
 (K_{\mathrm{time}},K_{\mathrm{pitch}},K_{\mathrm{rhythm}},K_{\mathrm{harmony}},K_{\mathrm{role}},K_{\mathrm{style}},K_{\mathrm{expression}}).
-\]
+$$
 
 Each term may be represented as a constraint, a compatibility score, an uncertainty distribution, or a learned evaluator. Some dimensions may be unavailable, inapplicable, or intentionally violated.
 
@@ -214,9 +214,9 @@ Each term may be represented as a constraint, a compatibility score, an uncertai
 
 High contract compatibility may produce predictable, uninspired music. Low compatibility may yield either incoherence or originality. Therefore:
 
-\[
+$$
 \mathrm{Compatibility} \neq \mathrm{Aesthetic\ Value}.
-\]
+$$
 
 A scoring forest must evaluate the resulting experience rather than simply maximize conformance. This is the bridge to Romantic Intelligence (MSI-004).
 
@@ -226,9 +226,9 @@ An important hypothesis is that advanced composition sometimes **changes the con
 
 A provisional transition is:
 
-\[
+$$
 (K_t,\mathcal{M}_t) \rightarrow (K_{t+1},\mathcal{M}_{t+1}).
-\]
+$$
 
 This should be studied through concrete changes in musical conventions or listener expectations, not assumed whenever a piece is unusual.
 
@@ -247,10 +247,10 @@ A structural composition system can be expressed as an iterative research archit
 
 A schematic loop is:
 
-\[
+$$
 \mathcal{M}_{t+1} =
-\operatorname{Revise}(\mathcal{M}_t,\Delta_t,\mathcal{E}_t),
-\]
+operatorname{Revise}(\mathcal{M}_t,\Delta_t,\mathcal{E}_t),
+$$
 
 where \(\Delta_t\) summarizes evaluated differences and \(\mathcal{E}_t\) includes positive and negative evidence.
 
@@ -266,11 +266,11 @@ The scientific question is whether these benefits survive comparison with strong
 
 The composer's intended dependency graph, the performed acoustic structure, and a listener's inferred graph may differ:
 
-\[
+$$
 \mathcal{G}_{\mathrm{composer}}
 \rightarrow \mathcal{A}_{\mathrm{performance}}
 \rightarrow \widehat{\mathcal{G}}_{\mathrm{listener}}.
-\]
+$$
 
 These mappings are many-to-many and uncertain. A successful framework should represent disagreement rather than force a single authoritative analysis.
 
@@ -286,10 +286,10 @@ We therefore distinguish:
 
 An illustrative, non-additive evaluator is:
 
-\[
-V(\mathcal{M}\mid P,C)
-= F_P(\{V(U_i)\},\{V(R_{ij})\},\operatorname{global}(\mathcal{M}),C).
-\]
+$$
+V(\mathcal{M}\mid P,C) =
+F_P(\{V(U_i)\},\{V(R_{ij})\},operatorname{global}(\mathcal{M}),C).
+$$
 
 No universal closed-form \(F_P\) is claimed. Listener preference, style, expertise, and historical context may change the evaluation. The function notation makes dependencies explicit; it is not a solved theory of beauty.
 
@@ -299,10 +299,10 @@ Musical performance requires precision in many respects, yet expressive microtim
 
 A candidate formulation is:
 
-\[
-\operatorname{ExpressiveValue}(\delta\mid U,C,P)
+$$
+operatorname{ExpressiveValue}(\delta\mid U,C,P)
 \not\equiv -|\delta|,
-\]
+$$
 
 where \(\delta\) is deviation from a specified reference. This rejects the assumption that smaller deviation always means better music; it does not assert that any deviation is beneficial.
 
@@ -384,9 +384,9 @@ Adding thousands of generated motifs to a library is not necessarily structural 
 
 Candidate growth record:
 
-\[
+$$
 G = (\mathrm{candidate},\mathrm{source},\mathrm{test},\mathrm{counterevidence},\mathrm{transfer},\mathrm{status}).
-\]
+$$
 
 Only candidates that survive validation should be promoted to a reusable structural registry. Uncertain or negative results should remain visible.
 
@@ -487,12 +487,12 @@ Music can return candidate generalizations: soft contracts, overlapping unit bou
 
 The intended research loop is:
 
-\[
+$$
 \mathrm{SI\ Frameworks}
 \rightarrow \mathrm{Musical\ Experiments}
 \rightarrow \mathrm{Validated\ Findings}
 \rightarrow \mathrm{Candidate\ SI\ Extensions}.
-\]
+$$
 
 ## 16. Relationship to the MSI-OEE Sequence
 

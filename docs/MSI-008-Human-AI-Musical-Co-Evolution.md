@@ -63,9 +63,9 @@ Human musical cognition is situated in the body and environment. Examples includ
 
 A conceptual model is:
 
-\[
+$$
 V_{s,c}(m) = F_s\bigl(\phi(m), B_s, H_s, C_c, I_{s,c}\bigr),
-\]
+$$
 
 where \(m\) is a musical artifact, \(\phi(m)\) denotes its structural representation, \(B_s\) denotes subject-specific embodied affordances, \(H_s\) historical memory, \(C_c\) cultural context, and \(I_{s,c}\) situated interaction. This is a research decomposition, not a validated universal equation.
 
@@ -113,15 +113,15 @@ The goal is not to collapse these spaces into a single optimum. It is to constru
 
 Conventional preference alignment is often represented as adapting a generator to a fixed human target:
 
-\[
+$$
 A_t \longrightarrow H_t.
-\]
+$$
 
 Co-evolution introduces feedback in both directions:
 
-\[
+$$
 (A_t,H_t,R_t) \longrightarrow (A_{t+1},H_{t+1},R_{t+1}),
-\]
+$$
 
 where \(A_t\) is the AI's operational musical model, \(H_t\) denotes observable human musical understanding or preferences, and \(R_t\) is the set of available translation and relay mechanisms. The human term does **not** imply that an individual's preferences should be manipulated without consent.
 
@@ -143,9 +143,9 @@ We propose **Cross-Subject Aesthetic Translation Intelligence (CSATI)** as the c
 
 Suppose an AI discovers candidate structure \(u_A\), unfamiliar to a target human listener. Instead of directly optimizing the structure away, the system constructs a sequence:
 
-\[
+$$
 u_A \xrightarrow{T_1} u_1 \xrightarrow{T_2} u_2 \xrightarrow{\cdots} u_H,
-\]
+$$
 
 where each \(T_i\) is a transformation or presentation relay and \(u_H\) is an accessible realization. The transformations may adjust tempo, instrumentation, register, rhythmic density, layering, duration, or explanation.
 
@@ -156,9 +156,9 @@ Two constraints are essential:
 
 This introduces a potentially useful optimization problem:
 
-\[
+$$
 \max_{T_{1:k}}\; \bigl[\alpha\,A_H(T_{1:k}(u_A)) + \beta\,F_{\mathcal I}(T_{1:k},u_A)\bigr],
-\]
+$$
 
 subject to documented transformation costs and uncertainty. Here \(A_H\) is an operational measure of human accessibility, while \(F_{\mathcal I}\) measures preservation of specified invariants \(\mathcal I\). Weights are design choices, not universal aesthetic constants.
 
@@ -197,9 +197,9 @@ A human listener may value emotional resonance and familiarity; a computational 
 
 We therefore propose **perspective-preserving evaluation**:
 
-\[
+$$
 \mathbf{S}(m,c)=\bigl(S_{H_1},\ldots,S_{H_n},S_A,S_E\bigr),
-\]
+$$
 
 where \(S_{H_i}\) are human-perspective measurements, \(S_A\) is an AI functional scoring model, and \(S_E\) denotes external expert or task-specific evaluations. The vector is not necessarily reducible to one scalar.
 

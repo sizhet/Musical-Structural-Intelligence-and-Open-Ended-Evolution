@@ -45,9 +45,9 @@ Yet *size alone does not define a UIERU*. A segment may be acoustically detectab
 
 We propose a candidate musical unit:
 
-\[
+$$
 U_m = (S, C, P, F, R, E)
-\]
+$$
 
 where:
 
@@ -66,9 +66,9 @@ A candidate UIERU should be evaluated for identity preservation under selected t
 
 Let \(T\) be a transformation and \(I(U,C,P)\) a perspective-conditioned identity judgment. A working hypothesis is that some nontrivial transformations satisfy:
 
-\[
+$$
 I(U,C,P) \approx I(T(U),C',P')
-\]
+$$
 
 for specified contexts and perspectives. The approximation is empirical and may be probabilistic rather than categorical.
 
@@ -103,19 +103,19 @@ Musical composition provides several candidate relay operators:
 
 We write a conceptual relay operation as:
 
-\[
+$$
 U_k = \mathcal{R}(U_i,U_j\mid C,K,P)
-\]
+$$
 
 where \(K\) represents structural constraints or compatibility conditions. Musical constraints are frequently **soft contracts**: departures from a convention can be expressive rather than invalid. Nevertheless, not every deviation is valuable, and the relevant criteria vary by tradition and perspective.
 
 Musical relay also occurs across people and representations:
 
-\[
+$$
 \text{Composer} \rightarrow \text{Notation or Demonstration}
 \rightarrow \text{Performer} \rightarrow \text{Sound}
 \rightarrow \text{Listener}
-\]
+$$
 
 Each step may reconstruct, transform, or reinterpret structure. Transmission should therefore not be conflated with lossless copying.
 
@@ -125,9 +125,9 @@ Musical value is not reducible to a single pleasure score. Listeners may value s
 
 A provisional perspective-conditioned scoring model is:
 
-\[
+$$
 V(U\mid P,C,H,W) = F(U,P,C,H,W)
-\]
+$$
 
 where \(H\) is relevant experience and \(W\) represents evaluation criteria or their weights. This formulation is descriptive, not evidence that human experience can be exhaustively represented by a scalar function.
 
@@ -145,12 +145,12 @@ Engineering often rewards precision, repeatability, and conformity to specificat
 
 We use **Romantic Intelligence** provisionally to describe a capacity to generate and recognize valuable expressive deviations under meaningful structural constraints. Its candidate ingredients are:
 
-\[
+$$
 \text{Romantic Intelligence}
 \sim \text{Structured Freedom}
 + \text{Contextual Valuation}
 + \text{Creative Deviation}
-\]
+$$
 
 The plus signs indicate conceptual contributions, not an additive measurement law.
 
@@ -164,9 +164,9 @@ Conventional music-similarity methods can compare pitch, intervals, rhythm, harm
 
 We therefore distinguish:
 
-\[
+$$
 D_{\text{observed}} = f(D_{\text{matched}},D_{\text{structural}},O_{\text{THERS}})
-\]
+$$
 
 Here **OTHERS** is an explicit open evidence space, not an arbitrary residual bonus. Candidate evidence must be documented, tested against alternatives, and subjected to counter-evidence. An unexplained human–model disagreement may indicate a missing structural feature, a perspective difference, measurement noise, or bias; it does not automatically imply discovery of a new UIERU.
 
@@ -174,13 +174,13 @@ Music similarity and legal infringement must remain separate questions. Structur
 
 A promising growth loop is:
 
-\[
+$$
 \text{Unexplained Judgment}
 \rightarrow \text{Candidate Feature}
 \rightarrow \text{Counter-Evidence}
 \rightarrow \text{Validation}
 \rightarrow \text{Explicit Structural Model}
-\]
+$$
 
 ## 8. Musical Evolution Without a Digital Prerequisite
 
@@ -256,12 +256,12 @@ MSI-OEE receives conceptual tools from several related research directions:
 
 The proposed relay is:
 
-\[
+$$
 \text{SI Frameworks}
 \rightarrow \text{Musical Experiments}
 \rightarrow \text{Validated Findings}
 \rightarrow \text{Candidate SI Extensions}
-\]
+$$
 
 A musical observation should become a proposed general principle only after its mechanism, limits, and transferability have been examined.
 

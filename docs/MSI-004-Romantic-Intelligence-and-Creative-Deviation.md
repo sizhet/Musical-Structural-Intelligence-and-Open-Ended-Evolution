@@ -95,19 +95,19 @@ Let:
 
 A schematic **deviation value** is:
 
-\[
+$$
 \Delta V_P(U,\delta,C)
 = S_P(T_\delta(U),C) - S_P(B(U,C,P),C).
-\]
+$$
 
 This expression does not imply that aesthetic value is intrinsically scalar or measurable without disagreement. It is an experimental abstraction: \(S_P\) might be a vector of ratings, a distribution of pairwise preferences, or a context-specific decision rule.
 
 The research target is not simply to maximize \(\lVert\delta\rVert\). Instead, a candidate system should identify transformations satisfying contextual constraints while improving or extending independently evaluated value:
 
-\[
+$$
 \delta^* \in \arg\max_{\delta \in \mathcal{D}(U,C)}
 \mathbb{E}_{P \sim \Pi}[S_P(T_\delta(U),C)]
-\]
+$$
 
 subject to constraints on intelligibility, identity, provenance, performance feasibility, and diversity of perspectives where appropriate.
 
@@ -117,15 +117,15 @@ Here \(\Pi\) represents a **declared** evaluation population, not humanity as a 
 
 Conventional optimization holds the scoring function fixed while searching over candidates:
 
-\[
-U_{t+1} = \operatorname{Explore}(U_t; S_t).
-\]
+$$
+U_{t+1} = operatorname{Explore}(U_t; S_t).
+$$
 
 Open-ended aesthetic exploration may also produce evidence for revising the evaluator:
 
-\[
+$$
 (U_t,S_t,E_t) \rightarrow (U_{t+1},S_{t+1},E_{t+1}),
-\]
+$$
 
 where \(E_t\) is the evidence record supporting evaluation decisions.
 
@@ -159,17 +159,17 @@ MSI-002 treats candidate Musical UIERUs as context-dependent units with structur
 
 A provisional unit representation is:
 
-\[
+$$
 U = (X,B,I,F,C,R,E),
-\]
+$$
 
 where \(X\) is structural content, \(B\) boundaries, \(I\) identity conditions, \(F\) functional role, \(C\) contextual dependencies, \(R\) relay interfaces, and \(E\) evidence and uncertainty. This notation is compatible with, but does not replace, the fuller contracts proposed in MSI-002 and planned SPEC-001.
 
 A transformation may preserve some dimensions while changing others:
 
-\[
+$$
 T_\delta: U \mapsto U'.
-\]
+$$
 
 For example, a rhythmic displacement might preserve a motif's pitch contour but alter its expressive role. A reharmonization might preserve melodic identity while changing the perceived tension. A transformation can be structurally identity-preserving but function-changing, or vice versa.
 
@@ -234,10 +234,10 @@ Perspective dependence does not imply that every claim is equally supported. Wit
 
 One candidate mechanism links expressive value to a sequence:
 
-\[
+$$
 \text{Expectation} \rightarrow \text{Deviation} \rightarrow
 \text{Reinterpretation or Resolution}.
-\]
+$$
 
 This resembles, but should not be equated with, a two-way consistency or counter-evidence process. Some music deliberately withholds resolution. Some highly valued passages derive their power from repetition, stasis, or near-absence of surprise. The mechanism is therefore a **testable family of hypotheses**, not a universal law of beauty.
 
@@ -257,13 +257,13 @@ Possible residual factors include breath, phrasing, timbral interaction, histori
 
 A disciplined discovery loop is:
 
-\[
+$$
 \text{Observed Disagreement}
 \rightarrow \text{Residual Analysis}
 \rightarrow \text{Candidate Mechanism}
 \rightarrow \text{Controlled Test}
 \rightarrow \text{Validated Feature or Rejection}.
-\]
+$$
 
 Disagreement can also arise from poor measurement, listener noise, sample bias, recording artifacts, or an invalid baseline. The OTHERS mechanism must investigate these possibilities before promoting a new structural claim.
 

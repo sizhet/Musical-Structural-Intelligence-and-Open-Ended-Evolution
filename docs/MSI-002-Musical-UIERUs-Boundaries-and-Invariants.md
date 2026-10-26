@@ -52,9 +52,9 @@ These are *candidate criteria*, not universal necessities. A one-off musical eve
 
 Following MSI-001, define:
 
-\[
+$$
 U_m=(S,C,P,F,R,E),
-\]
+$$
 
 where:
 
@@ -99,9 +99,9 @@ Musical structure may be organized at several interacting scales:
 
 Let a musical work be represented as an event set \(X\). Candidate units may be subsets \(U_i\subseteq X\), but there is no requirement that:
 
-\[
+$$
 U_i\cap U_j=\varnothing.
-\]
+$$
 
 A note may simultaneously participate in a melodic motif, a harmonic cadence, and a rhythmic pattern. Units can also be **noncontiguous**, spanning repetitions or interactions among voices. This motivates graph- or hypergraph-like representations alongside sequential segmentation.
 
@@ -127,9 +127,9 @@ These boundaries often coincide but need not. A motif may start before a metrica
 
 For a candidate boundary at time \(t\), define a task- and perspective-conditioned probability:
 
-\[
+$$
 B(t\mid X,C,P,T)=\Pr(\text{boundary at }t\mid X,C,P,T),
-\]
+$$
 
 where \(T\) specifies the task (e.g., motif recognition, phrase segmentation, performance planning). The expression is a modeling proposal, not an assertion that human judgments are perfectly probabilistic.
 
@@ -169,19 +169,19 @@ Some transformations preserve symbolic identity but not perceptual or expressive
 
 For a restricted transformation family \(\mathcal T\), one might propose:
 
-\[
+$$
 U_a\sim_{\mathcal T}U_b
 \quad\text{if}\quad
 \exists\tau\in\mathcal T:\tau(U_a)\approx U_b.
-\]
+$$
 
 But approximate recognition may not be transitive: \(A\) resembles \(B\), and \(B\) resembles \(C\), while \(A\) no longer resembles \(C\). Consequently, perceptual identity is often better modeled as a **graded relation** than as a strict equivalence class.
 
 A provisional score is:
 
-\[
+$$
 I(U_a,U_b\mid C,P,T,\mathcal T)\in[0,1],
-\]
+$$
 
 interpreted as task-relative identity support, **not** an objective probability unless calibrated against a specified data-generating and labeling process.
 
@@ -202,9 +202,9 @@ Consider a four-note contour repeated twice. In one context it introduces a them
 
 This suggests that a unit may require two coupled representations:
 
-\[
+$$
 U_m=(U_{\mathrm{form}},U_{\mathrm{role}};C,P,R,E).
-\]
+$$
 
 This is an **alternative analytical decomposition** of the six-field model, not a replacement for it. Form and role should be evaluated separately, then jointly where appropriate.
 
@@ -223,9 +223,9 @@ A musical signature is not necessarily a single distinctive tune. It may emerge 
 
 We can model a signature provisionally as:
 
-\[
+$$
 \Sigma_A=\bigl(\mathcal U_A,\Pi_A,\mathcal R_A,\mathcal V_A\bigr),
-\]
+$$
 
 where \(\mathcal U_A\) denotes a distribution over candidate units, \(\Pi_A\) transformation policies, \(\mathcal R_A\) relay or composition relations, and \(\mathcal V_A\) observable valuation tendencies. \(A\) may refer to a work, performer, composer, ensemble, genre, or tradition.
 
@@ -235,9 +235,9 @@ where \(\mathcal U_A\) denotes a distribution over candidate units, \(\Pi_A\) tr
 
 A highly common musical cell is weak evidence of shared source or distinctive style. A rarer configuration may be more informative, but only relative to an appropriate reference corpus and cultural context. One possible measure is:
 
-\[
+$$
 D_{\mathrm{distinct}}(U\mid C)=-\log P(U\mid C).
-\]
+$$
 
 This is a candidate information-theoretic feature; estimating \(P(U\mid C)\) reliably is difficult, and rarity alone does not establish originality, value, or derivation.
 
@@ -273,13 +273,13 @@ Disagreement may arise from:
 
 This last category connects to **OTHERS** in the BM-ODWEI research line. However, an unexplained residual is not automatically a new musical principle. The proposed path is:
 
-\[
+$$
 \text{Model–Human Disagreement}
 \rightarrow\text{Candidate Residual}
 \rightarrow\text{Hypothesis}
 \rightarrow\text{Counter-Evidence}
 \rightarrow\text{Validated Feature or Rejection}.
-\]
+$$
 
 Disagreement should be recorded with provenance, annotator diversity, confidence, and possible confounds. Failed hypotheses remain valuable evidence.
 

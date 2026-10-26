@@ -38,9 +38,9 @@ The questions may inform one another, but they are not interchangeable. In parti
 
 Common representations include pitch sequences, interval contours, chroma, rhythm and onset patterns, harmonic labels, timbral embeddings, spectral descriptors, and learned audio or symbolic embeddings. For an aligned feature representation \(\phi\), a conventional distance might be
 
-\[
+$$
 D_{\phi}(A,B)=\lVert\phi(A)-\phi(B)\rVert_2.
-\]
+$$
 
 This is useful only to the extent that \(\phi\) retains the properties relevant to the question. A model optimized for acoustic similarity may overemphasize instrumentation; a pitch-only model may miss rhythmic identity; a broad embedding may collapse distinctions crucial to musicologists.
 
@@ -50,11 +50,11 @@ Musical time is elastic. Phrases may be ornamented, stretched, truncated, reharm
 
 A transformation-aware structural score can be written as
 
-\[
+$$
 D_{\mathrm{struct}}(A,B\mid C,P)
 =\inf_{T\in\mathcal{T}(C,P)}
 \left[d\bigl(\phi(T(A)),\phi(B)\bigr)+\lambda\,\mathrm{cost}(T)\right].
-\]
+$$
 
 Here \(C\) is musical context, \(P\) is an evaluation perspective, \(\mathcal T\) is an explicitly documented set of admissible transformations, and \(\mathrm{cost}(T)\) penalizes implausibly elaborate transformations. Without this penalty, an unrestricted transformation family could make unrelated works appear similar.
 
@@ -80,18 +80,18 @@ None of these identities should be silently substituted for another.
 
 Following the BM-ODWEI perspective, musical comparison can be represented schematically as
 
-\[
+$$
 \mathcal E(A,B\mid C,P)
 =\{E_{\mathrm{matched}},E_{\mathrm{structural}},E_{\mathrm{contextual}},E_{\mathrm{provenance}},E_{\mathrm{OTHERS}}\}.
-\]
+$$
 
 \(E_{\mathrm{OTHERS}}\) denotes **unexplained or unmodeled evidence**, not a magically observable scalar and not permission to add a favorable score after seeing the desired outcome. It can be represented as documented disagreements, missing descriptors, anomalous residuals, or candidate mechanisms awaiting validation.
 
 The decision procedure is then
 
-\[
+$$
 \widehat{Y}=g_{P,C}(\mathcal E;\theta),
-\]
+$$
 
 where \(Y\) is a precisely defined target, such as human-rated motif similarity, not a generic verdict of plagiarism.
 
@@ -111,9 +111,9 @@ These categories are provisional research partitions. They should be revised if 
 
 A shared fragment is more informative when it is rare in a relevant comparison population than when it is a common musical convention. One possible distinctiveness descriptor is
 
-\[
+$$
 I(U\mid C)=-\log\bigl(P(U\mid C)+\epsilon\bigr),
-\]
+$$
 
 where \(U\) is a candidate Musical UIERU, \(C\) defines a relevant corpus, and \(\epsilon\) stabilizes the expression. The estimated probability depends strongly on corpus sampling, segmentation, genre, period, and representation. Rarity is evidence of distinctiveness, **not proof of copying, originality, or legal protectability**.
 
@@ -123,9 +123,9 @@ A responsible comparison report should include the reference corpus, confidence 
 
 MSI-005 emphasizes that a composer's, performer's, listener's, and cultural community's Scoring Forests need not coincide. We therefore propose
 
-\[
+$$
 D_P(A,B\mid C,T)=h_P\bigl(\mathbf d(A,B),C,T,\mathbf u\bigr),
-\]
+$$
 
 where \(\mathbf d\) is a vector of documented comparisons, \(T\) is the evaluation task, and \(\mathbf u\) represents uncertainty and unresolved evidence. The function \(h_P\) should be learned or calibrated against observations for the specified perspective, not declared universal.
 
@@ -180,14 +180,14 @@ A model may help organize evidence; it must not label a work legally infringing 
 
 The proposed growth process is:
 
-\[
+$$
 \text{Observed Disagreement}
 \rightarrow \text{Residual Audit}
 \rightarrow \text{Candidate Explanation}
 \rightarrow \text{Controlled Test}
 \rightarrow \text{Counter-Evidence}
 \rightarrow \text{Validated Feature or Rejection}.
-\]
+$$
 
 **Step 1 — Observe.** Identify systematic failures of a specified baseline, with uncertainty intervals and replicates.
 
