@@ -44,7 +44,7 @@ This index identifies the seven planned figures for MSI-OEE, describes their con
 **Embed from `docs/`:**
 
 ```markdown
-![Fig-001 — MSI Grand Architecture](../figures/Fig-001-MSI-Grand-Architecture.png)
+![Fig-001 — MSI Grand Architecture](figures/Fig-001-MSI-Grand-Architecture.png)
 ```
 
 ### Fig-002 — Musical UIERU and Structural Invariants
@@ -60,7 +60,7 @@ This index identifies the seven planned figures for MSI-OEE, describes their con
 **Embed from `docs/` or `cases/`:**
 
 ```markdown
-![Fig-002 — Musical UIERU and Structural Invariants](../figures/Fig-002-Musical-UIERU-and-Structural-Invariants.png)
+![Fig-002 — Musical UIERU and Structural Invariants](figures/Fig-002-Musical-UIERU-and-Structural-Invariants.png)
 ```
 
 ### Fig-003 — Musical Relay and Composition
@@ -76,7 +76,7 @@ This index identifies the seven planned figures for MSI-OEE, describes their con
 **Embed:**
 
 ```markdown
-![Fig-003 — Musical Relay and Composition](../figures/Fig-003-Musical-Relay-and-Composition.png)
+![Fig-003 — Musical Relay and Composition](figures/Fig-003-Musical-Relay-and-Composition.png)
 ```
 
 ### Fig-004 — Romantic Intelligence and Scoring
@@ -92,7 +92,7 @@ This index identifies the seven planned figures for MSI-OEE, describes their con
 **Embed:**
 
 ```markdown
-![Fig-004 — Romantic Intelligence and Scoring](../figures/Fig-004-Romantic-Intelligence-and-Scoring.png)
+![Fig-004 — Romantic Intelligence and Scoring](figures/Fig-004-Romantic-Intelligence-and-Scoring.png)
 ```
 
 ### Fig-005 — Multi-Perspective Musical Worlds
@@ -108,7 +108,7 @@ This index identifies the seven planned figures for MSI-OEE, describes their con
 **Embed:**
 
 ```markdown
-![Fig-005 — Multi-Perspective Musical Worlds](../figures/Fig-005-Multi-Perspective-Musical-Worlds.png)
+![Fig-005 — Multi-Perspective Musical Worlds](figures/Fig-005-Multi-Perspective-Musical-Worlds.png)
 ```
 
 ### Fig-006 — Musical Distance and OTHERS
@@ -124,7 +124,7 @@ This index identifies the seven planned figures for MSI-OEE, describes their con
 **Embed:**
 
 ```markdown
-![Fig-006 — Musical Distance and OTHERS](../figures/Fig-006-Musical-Distance-and-OTHERS.png)
+![Fig-006 — Musical Distance and OTHERS](figures/Fig-006-Musical-Distance-and-OTHERS.png)
 ```
 
 ### Fig-007 — Human–AI Musical Co-Evolution
@@ -140,13 +140,13 @@ This index identifies the seven planned figures for MSI-OEE, describes their con
 **Embed:**
 
 ```markdown
-![Fig-007 — Human–AI Musical Co-Evolution](../figures/Fig-007-Human-AI-Musical-Co-Evolution.png)
+![Fig-007 — Human–AI Musical Co-Evolution](figures/Fig-007-Human-AI-Musical-Co-Evolution.png)
 ```
 
 ## Cross-Reference and Editorial Rules
 
 1. **Canonical names:** Keep the `Fig-001` through `Fig-007` identifiers and exact filenames unchanged across the repository.
-2. **Relative links:** Use `figures/...` from root-level Markdown files and `../figures/...` from `docs/`, `cases/`, or `specs/`.
+2. **Relative links:** Use `figures/...` from root-level Markdown files and `figures/...` from `docs/`, `cases/`, or `specs/`.
 3. **One source of truth:** Store each illustration once under `figures/`; reference the same file wherever it is reused.
 4. **Caption discipline:** Identify every figure as conceptual or proposed unless empirical validation is actually reported.
 5. **Readability:** Use descriptive alt text; avoid tiny labels and unexplained acronyms in final exported artwork.
