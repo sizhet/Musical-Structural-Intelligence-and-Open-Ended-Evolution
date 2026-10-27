@@ -18,7 +18,7 @@ The format follows the principles of [Keep a Changelog](https://keepachangelog.c
 
 > These are proposed directions, not delivered features or reported experimental findings.
 
-## [1.0.0] - 2026-10-26
+## [1.0.0] - 2026-10-27
 
 ### Added — Research framework
 - `docs/MSI-001-From-Music-to-Musical-Structural-Intelligence.md` — research motivation, scope, and musical structural-intelligence framing.
