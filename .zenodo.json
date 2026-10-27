@@ -1,0 +1,42 @@
+{
+"title": "Musical Structural Intelligence and Open-Ended Evolution (MSI-OEE): From Musical UIERUs and Romantic Intelligence to Perspective Scoring, Structural Relay, and Human–AI Co-Evolution",
+"upload_type": "publication",
+"publication_type": "workingpaper",
+"description": "<p>This theory-first research release develops Musical Structural Intelligence and Open-Ended Evolution (MSI-OEE) as a proposed framework for representing, transforming, evaluating, and evolving musical structures. It examines Musical Universal Intelligence Evolution and Relay Units (Musical UIERUs), identity and structural invariants, compositional relay, Romantic Intelligence and meaningful creative deviation, perspective-aware scoring, musical distance and OTHERS open evidence, AI musical creation, and bidirectional human–AI musical co-evolution.</p><p>The repository contains eight research papers, three illustrative cases, four proposed specifications, a figure series, open research questions, testable hypotheses, and a validation roadmap. The framework is exploratory: proposed mechanisms and hypotheses are not presented as empirically validated findings, and this release does not claim a reference runtime implementation.</p>",
+"creators": [
+{
+"name": "Tan, Sizhe"
+},
+{
+"name": "GPT-Obot"
+}
+],
+"keywords": [
+"Musical Structural Intelligence",
+"MSI-OEE",
+"Musical UIERU",
+"Structural Intelligence",
+"Structural Relay",
+"Romantic Intelligence",
+"Creative Deviation",
+"Perspective Scoring",
+"Musical Distance",
+"OTHERS",
+"Open-Ended Evolution",
+"Human-AI Co-Evolution",
+"AI Music Generation",
+"Research Hypotheses"
+],
+"license": "Apache-2.0",
+"access_right": "open",
+"language": "eng",
+"version": "v1.0.0",
+"publication_date": "2026-10-26",
+"related_identifiers": [
+{
+"identifier": "https://github.com/sizhet/Musical-Structural-Intelligence-and-Open-Ended-Evolution",
+"relation": "isSupplementTo",
+"scheme": "url"
+}
+]
+}
