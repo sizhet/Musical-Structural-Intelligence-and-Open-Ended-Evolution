@@ -1,315 +1,292 @@
-# Future Directions: Universal Intelligence Evolution and Relay Unit (UIERU)
+# Future Directions
+
+## Musical Structural Intelligence and Open-Ended Evolution (MSI-OEE)
 
 **Version:** 1.0.0  
 **Authors:** Sizhe Tan & GPT-Obot  
-**Status:** Research roadmap and open engineering agenda  
-**Project:** Universal Intelligence Evolution and Relay Unit  
-**Guiding principle:** *Engineering First · Theory Supported · Research Open*
-
-> **Scope.** This document outlines plausible research and engineering directions, not established performance claims or commitments to deliver specific implementations. UIERU is proposed as an optional, composable organization layer for existing human and machine intelligence capabilities. No prerequisite DOI is required to understand this roadmap.
-
-## 1. Research Thesis and Scope
-
-The proposed Universal Intelligence Evolution and Relay Unit (UIERU) integrates five interacting functions:
-
-\[
-U = (K, P, F, R, E)
-\]
-
-- **K — Contract:** task, subject, authority, goals, constraints, acceptance conditions.
-- **P — Calling Path:** executable and observable action/dependency structure.
-- **F — Scoring Forest:** perspective-aware forward guidance, online control, evaluation, and settlement.
-- **R — Relay:** evidence-preserving transfer, provenance, localization, and handoff.
-- **E — Evolution:** residual-driven improvement, counter-evidence, verification, versioning, and rollback.
-
-The primary research question is whether this integrated structure can improve coordination, evidence quality, adaptability, and reuse sufficiently to justify its organizational overhead. The word *universal* denotes a research ambition for broad applicability, not demonstrated universality.
-
-## 2. Forward-Guided Intelligence
-
-The Scoring Forest should be investigated as a **prospective decision and control mechanism**, rather than merely a post-execution rating mechanism.
-
-Priority research includes:
-
-1. Generating and filtering candidate Calling Paths before execution.
-2. Maintaining hard constraints separately from soft preferences and optimization scores.
-3. Allocating computation, tools, time, and risk budgets across candidate paths.
-4. Updating guidance from streaming observations, surprises, and counter-evidence.
-5. Measuring calibration, decision regret, intervention value, and guidance overhead.
-
-**Key engineering question:** Under what conditions does forward guidance outperform a well-designed conventional workflow or agent planner after accounting for scoring and coordination costs?
-
-**Potential artifacts:** Guidance API, event vocabulary, score provenance record, budget policy, replayable decision trace, and benchmark suite.
-
-**Related:** [UIERU-003](docs/UIERU-003-Calling-Path-and-Scoring-Forest-Duality.md), [UIERU-004](docs/UIERU-004-Forward-Guidance-and-Multi-Trail-Intelligence.md), [SPEC-002](specs/SPEC-002-Forward-Guidance-and-Multi-Trail-Lifecycle.md).
-
-## 3. Multi-Trail Exploration and Adversarial Sandboxes
-
-Multi-Trail Intelligence introduces several selectively activated trajectories rather than requiring a single winner-take-all execution path:
-
-- **Exploit:** execute a credible established strategy.
-- **Explore:** investigate alternative paths or underexamined assumptions.
-- **Challenge:** actively seek counter-evidence, failure conditions, and adversarial cases.
-
-Future research should define branch triggers, trail independence, sandbox isolation, cancellation semantics, safe external side effects, and portfolio folding that retains consequential minority evidence. It should distinguish simulated experiments from actions that require explicit real-world authorization.
-
-**Key questions:** When does an extra trail have positive expected value? How should trail diversity be measured? What prevents multiple trails from reproducing the same hidden assumption?
-
-**Potential artifacts:** Trail lifecycle state machine, sandbox capability profiles, branch-budget allocator, counter-evidence registry, and replayable trail portfolio.
-
-**Related:** [UIERU-005](docs/UIERU-005-Sandbox-Threading-and-Counter-Evidence.md), [CASE-002](cases/CASE-002-Multi-Agent-Software-Engineering-and-Multi-Trail-Sandboxes.md), [SPEC-002](specs/SPEC-002-Forward-Guidance-and-Multi-Trail-Lifecycle.md).
-
-## 4. Composable and Nested Intelligence Units
-
-UIERU composition should be tested across sequential, parallel, hierarchical, and federated structures. Composition must preserve explicit contracts, responsibilities, constraints, evidence, and authorization boundaries.
-
-Important research problems include:
-
-- **Contract reconciliation:** how to handle incompatible goals, permission scopes, deadlines, and acceptance criteria.
-- **Scoring folding:** how to aggregate useful summaries without erasing perspective disagreement or uncertainty.
-- **Cross-level guidance:** how parent and child units negotiate budgets and replanning.
-- **Compositional conformance:** which properties remain valid after nesting, substitution, or delegation.
-- **Failure containment:** how to isolate a malfunctioning unit without cascading uncontrolled actions.
-
-**Key engineering question:** Can a composed UIERU expose a usable contract and evidence trail without hiding safety-relevant internal disagreement?
-
-**Related:** [UIERU-006](docs/UIERU-006-Composition-Nesting-Folding-and-Contract-Reconciliation.md), [SPEC-004](specs/SPEC-004-Composition-Evolution-and-Conformance.md).
-
-## 5. Structural Relay, Portability, and Provenance
-
-Relay should carry more than final answers. A useful relay portfolio may include a validated result, execution path, decision rationale, scoring context, failed alternatives, counter-evidence, residuals, unresolved questions, and proposed structural deltas.
-
-Research priorities:
-
-1. Define interoperable relay envelopes with stable identifiers and schema versions.
-2. Support selective disclosure and minimization of sensitive information.
-3. Preserve provenance and evidence transformations across relays.
-4. Distinguish **portable knowledge** from **transferable authority**.
-5. Require receiver-side localization, validation, and acceptance decisions.
-6. Measure relay fidelity, reuse success, and negative transfer.
-
-**Key question:** What is the smallest exchange package that preserves the information needed for safe reuse and meaningful independent evaluation?
-
-**Potential artifacts:** Exchange schemas, reference validators, interoperability test vectors, provenance graph, and round-trip relay tests.
-
-**Related:** [UIERU-007](docs/UIERU-007-Structural-Relay-Provenance-and-Intelligence-Portability.md), [SPEC-003](specs/SPEC-003-Structural-Relay-and-Portfolio-Exchange.md).
-
-## 6. Bidirectional Collective Structural Learning
-
-A collective learning ecosystem should not merely publish successful templates. It should allow local units to contribute evidence and structural precedents while retaining the ability to reject, adapt, or challenge incoming material.
-
-Priority questions:
-
-- How should structural precedents be discovered, ranked, and versioned?
-- How can a receiving unit test transferability under its own contract and environment?
-- How should contradictory outcomes be represented without premature consensus?
-- What incentive and governance mechanisms discourage low-quality or selectively reported evidence?
-- How can shared knowledge be improved without exposing private subject histories?
-
-**Candidate metric families:** adoption after local validation, transfer success, correction latency, counter-evidence coverage, provenance completeness, and privacy leakage.
-
-**Related:** [UIERU-008](docs/UIERU-008-Bidirectional-Collective-Learning-and-Relay-Ecosystems.md), [CASE-003](cases/CASE-003-Large-Scale-Organizational-Relay-and-Collective-Learning.md).
-
-## 7. Residual-Driven Structural Evolution and RSI-Based Intelligence Driving
-
-Residuals—gaps between expected and observed behavior—can motivate structural improvement candidates. These candidates may modify Calling Paths, Scoring Forests, relay rules, sandbox protocols, or evaluation procedures. They must not be treated as improvements until independently tested.
-
-A proposed governed lifecycle is:
-
-```text
-Observe → Diagnose residual → Propose structural delta
-       → Isolated test → Independent evaluation
-       → Authorization → Limited rollout → Monitor / Roll back
-```
-
-Future work should separate **task adaptation** from **structural recursive self-improvement (RSI)** and test whether changes improve future tasks rather than merely the case that generated the delta.
-
-Research priorities include evaluator independence, anti-Goodhart controls, held-out tests, regression detection, change provenance, and version rollback. Modifying a scoring mechanism must not implicitly grant authority to approve its own deployment.
-
-**Key question:** Can UIERU produce repeatable, measurable structural improvements across task distributions without accumulating unacceptable regression risk or governance overhead?
-
-**Related:** [UIERU-009](docs/UIERU-009-Residual-Driven-Structural-Evolution-and-Recursive-Improvement.md), [CASE-002](cases/CASE-002-Multi-Agent-Software-Engineering-and-Multi-Trail-Sandboxes.md), [SPEC-004](specs/SPEC-004-Composition-Evolution-and-Conformance.md).
-
-## 8. Subject-Indexed World Models and Structural Memory
-
-Subject-based intelligence is a natural extension of UIERU. A shared event may have different relevance, meaning, and action implications for different subjects. Accordingly, an engineering system may need distinct identifiers for the **subject**, **principal**, **executor**, **observer**, **evaluator**, and **provenance source**.
-
-A candidate layered memory architecture distinguishes:
-
-1. Shared world events and externally checkable facts.
-2. Subject-indexed episodes and context-dependent experience records.
-3. World models, self models, and subject history.
-4. Validated structural principles and precedents that may be reusable elsewhere.
-
-The transformation `event → subject-indexed episode → candidate structural principle → future guidance` is a hypothesis to evaluate, not an automatic inference. The developmental relationship between self-concept and autobiographical memory offers inspiration, but childhood amnesia has multiple contributing mechanisms and does not establish a single-cause explanation. Functional subject indexing in AI likewise does **not** establish consciousness or subjective experience.
-
-**Engineering questions:** Does subject indexing improve long-horizon recall and action consistency? What should be forgotten? Which memories may be relayed, and under whose authority? How can contradictory subject perspectives coexist?
-
-**Related:** [UIERU-EXT-001](docs/extensions/UIERU-EXT-001-Subject-Indexed-World-Models-and-Structural-Memory.md).
-
-## 9. Big-Animal Intelligence Organization and Platform-Level Structural RSI
-
-Large AI organizations and platforms may operate many models, agents, tools, tenants, evaluators, and domain workflows. Their challenge is not only model capability scaling but **intelligence organization scaling**.
-
-A research architecture separates:
-
-- Global governance, identity, audit, and interoperability rules.
-- Domain-specific UIERU forests and capability registries.
-- Subject and tenant evaluation and authorization boundaries.
-- Distributed runtimes, sandboxes, relays, and evidence systems.
-- Platform-level structural precedent discovery and controlled improvement rollout.
-
-Potential gains include reuse of independently validated structural improvements across products and domains. Potential hazards include correlated scoring errors, platform-wide negative transfer, excessive centralized control, surveillance, vendor lock-in, and coordination costs.
-
-**Engineering questions:** When is centralized governance necessary, and when must scoring remain local? How can structural updates be canaried and rolled back? What measures capture platform-wide gains without masking harms to individual tenants?
-
-**Related:** [UIERU-EXT-002](docs/extensions/UIERU-EXT-002-Big-Animal-Intelligence-Organization-and-Platform-Level-Structural-RSI.md).
-
-## 10. Subject Sovereignty and Collective Intelligence Ecosystems
-
-Subject-centered memory and platform-scale learning converge on a governance question: **whose goals, memory, evaluation, and evolution are represented?**
-
-Research should distinguish ownership or control of infrastructure from task authority, subject-specific evaluation, access to private history, and permission to share structural knowledge. Neither relay nor portability should imply automatic transfer of authority.
-
-Priorities include:
-
-- Purpose-bound authorization for data and structural extraction.
-- Privacy-preserving publication of validated precedents.
-- Revocation, expiration, deletion, and retention semantics where technically feasible.
-- Receiver sovereignty and independently validated adaptation.
-- Dispute resolution for conflicting evaluations and incompatible interests.
-- Governance of platform-level RSI without erasing local agency.
-
-**Key question:** Can an ecosystem obtain measurable collective learning gains while maintaining effective subject and tenant control over sensitive memory and decisions?
-
-**Related:** [UIERU-EXT-003](docs/extensions/UIERU-EXT-003-Subject-Sovereignty-and-Collective-Intelligence-Ecosystems.md).
-
-## 11. Interoperability with Existing AI Infrastructure
-
-UIERU should be an optional organization and evidence layer, not a replacement for established models, agent frameworks, orchestration systems, or tool protocols.
-
-Research should evaluate adapters for common tool-calling, agent messaging, event streaming, workflow engines, and provenance formats. Interface compatibility alone is insufficient: semantic contract compatibility, authority checks, schema evolution, and failure recovery must also be tested.
-
-A practical strategy is **contracts and conformance first; reference runtime second**. Avoid requiring adopters to rewrite mature orchestration stacks merely to trial a UIERU profile.
-
-## 12. Evaluation Framework and Falsifiable Hypotheses
-
-The roadmap should prioritize experiments with clearly defined baselines, tasks, budgets, and pre-registered success criteria.
-
-| Hypothesis family | Example measurable outcome | Essential comparison |
-| --- | --- | --- |
-| Forward guidance | Lower task regret or fewer unsafe actions | Conventional planner/workflow |
-| Multi-Trail | Better defect discovery per unit cost | Single-path agent and unguided branching |
-| Relay | Higher reuse fidelity and lower handoff loss | Result-only or document-only handoff |
-| Composition | Better cross-team completion with bounded overhead | Standard orchestrated agents |
-| Structural RSI | Improved held-out future-task performance | Static structure and ungoverned adaptation |
-| Subject indexing | Better long-horizon subject-consistent retrieval | Event-only memory |
-| Platform-scale learning | Greater validated reuse without regressions | Isolated team improvement |
-| Sovereign collective learning | Utility gains with bounded disclosure | Centralized sharing and no sharing |
-
-**Minimum reporting discipline:** task distribution; hardware and model budget; human effort; intervention cost; latency; error bars; failure cases; privacy and authorization incidents; and the rate of negative transfer. A claimed benefit that disappears after accounting for organizational overhead is not a demonstrated benefit.
-
-See [TESTABLE-HYPOTHESES.md](TESTABLE-HYPOTHESES.md) and [VALIDATION-ROADMAP.md](VALIDATION-ROADMAP.md) for the repository-level test plan when those files are added.
-
-## 13. Proposed Engineering Phases
-
-### Phase A — Minimal conformance and traceability
-
-Implement contract validation, a basic Calling Path, event provenance, and a simple relay envelope. Benchmark against a checklist or conventional workflow. The [neighborhood lawn-service case](cases/CASE-001-Neighborhood-Lawn-Service-as-a-Minimal-UIERU.md) is an accessible starting point.
-
-**Exit criterion:** reproducible execution traces, explicit authority boundaries, and a demonstrable reason to retain UIERU overhead.
-
-### Phase B — Forward guidance and controlled multi-trail
-
-Add scored candidate paths, budget policies, sandbox lifecycle, counter-evidence, and decision replay. Use [multi-agent software engineering](cases/CASE-002-Multi-Agent-Software-Engineering-and-Multi-Trail-Sandboxes.md) as a testbed.
-
-**Exit criterion:** statistically credible gains on preselected tasks under matched budgets, or a documented negative result.
-
-### Phase C — Composition and relay interoperability
-
-Test nested units, contract reconciliation, receiver validation, portfolio exchange, and version compatibility across independent implementations.
-
-**Exit criterion:** round-trip interoperability and failure containment under adversarial test cases.
-
-### Phase D — Governed structural evolution
-
-Introduce structural delta proposals, independent evaluators, held-out tests, limited rollouts, and rollback. Test generalization across tasks and teams.
-
-**Exit criterion:** repeatable net improvement without unacceptable regression or authority escalation.
-
-### Phase E — Subject and platform-scale experiments
-
-Investigate subject-indexed memory, tenant sovereignty, structural precedent registries, distributed forests, and platform-level RSI using privacy-respecting, consented or synthetic datasets.
-
-**Exit criterion:** demonstrated value at scale with transparent accounting for governance, privacy, and coordination costs.
-
-These phases are logical dependencies, not a fixed release calendar.
-
-## 14. Non-Goals and Failure Boundaries
-
-UIERU research does **not** presume that:
-
-- Every task should be wrapped in a UIERU.
-- More trails always produce better outcomes.
-- A Scoring Forest has perfect knowledge of user preferences or task quality.
-- Structural portability entails execution authority.
-- A subject-indexed AI memory implies consciousness.
-- A larger platform should control every local scoring decision.
-- Any structural delta is automatically a genuine intelligence improvement.
-- A self-improving organization can safely bypass independent governance.
-
-Research should explicitly document conditions under which UIERU is inferior to simpler methods. Such negative findings are valuable boundary knowledge.
-
-## 15. Open Research Questions
-
-1. What is the minimal useful UIERU contract for a small task?
-2. Which scoring decisions should be hard constraints rather than weighted objectives?
-3. How can scoring uncertainty and perspective conflict survive folding?
-4. How should multi-trail exploration allocate scarce compute and human attention?
-5. What is the appropriate independence requirement for a Challenge trail?
-6. What provenance granularity is needed for trustworthy structural relay?
-7. Which compositional guarantees are actually testable?
-8. How can residuals be distinguished from noise or distribution shift?
-9. How can evaluator updates be governed independently of proposed improvements?
-10. What does a subject index contribute beyond conventional metadata and retrieval?
-11. Which platform-level improvements transfer across domains without negative transfer?
-12. How can collective learning preserve subject and tenant sovereignty?
-13. At what scale do coordination and audit costs outweigh expected gains?
-14. Which UIERU components are genuinely novel combinations, and which should be implemented by adapting existing standards?
-
-See [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md) for the evolving question registry when available.
-
-## 16. Research Navigation
-
-**Core architecture and theory:** [UIERU-001](docs/UIERU-001-From-Calling-Paths-to-Evolvable-Intelligence-Units.md) · [UIERU-002](docs/UIERU-002-Canonical-UIERU-Contracts-Execution-Guidance-and-Relay.md) · [UIERU-010](docs/UIERU-010-Universal-Architecture-Engineering-Boundaries-and-Validation.md).
-
-**Engineering specifications:** [SPEC-001](specs/SPEC-001-Canonical-UIERU-Contract-and-Schema.md) · [SPEC-002](specs/SPEC-002-Forward-Guidance-and-Multi-Trail-Lifecycle.md) · [SPEC-003](specs/SPEC-003-Structural-Relay-and-Portfolio-Exchange.md) · [SPEC-004](specs/SPEC-004-Composition-Evolution-and-Conformance.md).
-
-**Extensions:** [Subject-indexed world models](docs/extensions/UIERU-EXT-001-Subject-Indexed-World-Models-and-Structural-Memory.md) · [Big-Animal organization](docs/extensions/UIERU-EXT-002-Big-Animal-Intelligence-Organization-and-Platform-Level-Structural-RSI.md) · [Subject sovereignty](docs/extensions/UIERU-EXT-003-Subject-Sovereignty-and-Collective-Intelligence-Ecosystems.md).
-
-**Repository navigation:** [README](README.md) · [START HERE](START-HERE.md) · [CONTENTS](CONTENTS.md) · [GLOSSARY](GLOSSARY.md) · [FIGURE INDEX](FIGURE-INDEX.md).
-
-## 17. Closing Perspective
-
-UIERU's long-term research opportunity is not to replace existing intelligence with a new monolithic system. It is to test whether **governed execution, forward guidance, evidence-preserving relay, and validated structural evolution** can become interoperable, composable building blocks for more effective human–AI and AI–AI organizations.
-
-Three complementary directions deserve particular attention:
-
-```text
-Subject Experience and World Models
-                 ↓
-       UIERU Organization Layer
-                 ↓
-     Validated Structural Relay
-                 ↓
-  Collective and Platform-Level Learning
-                 ↓
-   Governed Structural Evolution
-```
-
-The central discipline remains the same: **preserve authority boundaries, retain counter-evidence, measure real gains, and allow simpler alternatives to win when they perform better.**
+**Status:** Research agenda and hypotheses; not a report of completed experimental validation.
 
 ---
 
-**Authors:** Sizhe Tan & GPT-Obot  
-**Version:** v1.0.0  
-**Document role:** Forward-looking research agenda; not an implementation guarantee or empirical validation report.
+## 1. Purpose and Scope
+
+This document identifies promising research directions emerging from the MSI-OEE framework. Music provides an unusually demanding setting for structural intelligence: patterns recur without remaining identical; transformations can preserve recognizable identity while changing expressive function; listeners disagree; performance and embodiment matter; and creative departures can sometimes become new conventions.
+
+MSI-OEE therefore asks not only whether AI can generate convincing music, but whether reusable musical intelligence units, structural relay, perspective-aware evaluation, and evidence-governed evolution can support **transferable discoveries**. The directions below are research proposals, not established capabilities.
+
+### A guiding distinction
+
+- **Output growth:** more generated musical artifacts.
+- **Capability growth:** demonstrably better composition, interpretation, comparison, or translation on held-out tasks.
+- **Structural growth:** new, independently validated units, operators, contracts, or evaluation dimensions that transfer beyond the examples that inspired them.
+- **Value-space growth:** novel musical experiences or aesthetic criteria that acquire independently observable significance over time.
+
+These are not interchangeable.
+
+---
+
+## 2. Musical UIERU Discovery at Multiple Scales
+
+**Research question:** At what scales do musical patterns become useful, reusable *intelligence units*, rather than merely repeated fragments?
+
+Candidate scales include gestures, rhythmic cells, motifs, phrases, harmonic trajectories, orchestration patterns, and large-form developmental schemes. Boundaries may overlap and depend on musical context and the perspective of a composer, performer, analyst, or listener.
+
+**Research program**
+
+1. Create datasets of short, legally usable or newly composed examples with controlled transformations.
+2. Annotate candidate boundaries and functions using multiple independent raters.
+3. Compare fixed-window, note-level, learned-embedding, and explicit UIERU representations.
+4. Measure transfer to unseen works, styles, transformations, and composition tasks.
+5. Record cases where a proposed unit fails to retain its claimed identity.
+
+**Success criterion:** Explicit units improve a preregistered downstream task or yield useful explanations beyond matched-capacity baselines. A recurring pattern alone is insufficient evidence of a UIERU.
+
+**Connections:** [MSI-002](docs/MSI-002-Musical-UIERUs-Boundaries-and-Invariants.md), [CASE-001](cases/CASE-001-Motif-Transformation-and-Identity.md), [SPEC-001](specs/SPEC-001-Musical-UIERU-Contract.md).
+
+---
+
+## 3. Transformation Invariants, Soft Contracts, and Relay Graphs
+
+**Research question:** Which musical relationships survive transformation, and how can those relationships be composed into larger structures?
+
+Future systems should model transposition, rhythmic augmentation, ornamentation, reharmonization, timbral transfer, recontextualization, and expressive timing as explicit operators with declared preconditions, intended invariants, and evidence of observed effects.
+
+A **soft contract** permits creative deviations without declaring every deviation valid. An operator should record:
+
+- What it was intended to preserve.
+- What it was permitted to change.
+- The musical context and perspective in which its claims apply.
+- Whether human and computational judgments support the claim.
+- Which counterexamples limit its scope.
+
+**Research program:** Compare graph-based composition with unconstrained generation on long-range coherence, thematic development, controllability, and listener preference, using matched budgets and blinded evaluations.
+
+**Connections:** [MSI-003](docs/MSI-003-Structural-Relay-and-Musical-Composition.md), [SPEC-002](specs/SPEC-002-Transformation-and-Relay-Operators.md).
+
+---
+
+## 4. Romantic Intelligence as a Testable Research Construct
+
+**Research question:** When does a departure from an established rule become expressive or creative rather than erroneous or random?
+
+MSI-OEE uses **Romantic Intelligence** as a *proposed operational construct*, not as a settled psychological category. It concerns the ability to generate, contextualize, evaluate, and learn from meaningful deviations under constraints.
+
+Three candidate levels are:
+
+1. **Expressive:** intentional variation in timing, dynamics, articulation, or phrasing.
+2. **Creative:** novel transformations or combinations that retain sufficient coherence to be interpretable.
+3. **Evolutionary:** discoveries that motivate revising a scoring dimension, stylistic convention, or structural vocabulary.
+
+**Validation challenge:** Mere novelty, dissonance, or low predictability does not establish value. Compare controlled deviations with random perturbations and conventional variants. Test whether perceived expressiveness or value survives blinded assessment, multiple listener groups, and repeated exposure.
+
+**Long-term implication:** If validated, the construct may inform other creative domains; any transfer beyond music requires independent evidence.
+
+**Connections:** [MSI-004](docs/MSI-004-Romantic-Intelligence-and-Creative-Deviation.md), [MSI-005](docs/MSI-005-Perspective-Scoring-and-Musical-Worldviews.md).
+
+---
+
+## 5. Perspective-Aware Musical Scoring and Worldview Evolution
+
+**Research question:** How can a system represent conflicting but legitimate musical evaluations without collapsing them into a universal taste score?
+
+A musical Scoring Forest should identify **who** evaluates **what**, **for which task**, **in what context**, and **with what uncertainty**. Composer, performer, listener, and cultural-community perspectives can overlap without being identical.
+
+Promising directions include:
+
+- Multidimensional assessments of structural coherence, expressiveness, memorability, surprise, accessibility, and novelty.
+- Hierarchical models of individual differences and changing preferences.
+- Longitudinal listening studies to distinguish learning from simple familiarity effects.
+- Explicit separation of individual judgments from inferred population-level trends.
+- Governance rules for scoring ownership, consent, provenance, and revision.
+
+**Critical safeguard:** Do not equate a model's predicted listener rating with the listener's experience, or a population average with universal aesthetic value.
+
+**Connections:** [MSI-005](docs/MSI-005-Perspective-Scoring-and-Musical-Worldviews.md), [SPEC-003](specs/SPEC-003-Perspective-Scoring-Schema.md).
+
+---
+
+## 6. Musical Distance, OTHERS, and Open Evidence Growth
+
+**Research question:** What important aspects of perceived musical resemblance are missing from current comparison models?
+
+The **OTHERS** space represents unexplained residuals or candidate missing dimensions, not an arbitrary numerical correction. It can include structural, perceptual, contextual, perspective-dependent, provenance-related, and translation-related evidence.
+
+A proposed growth loop is:
+
+**Observed disagreement → evidence record → candidate explanation → independent test → counter-evidence review → scope-limited structural promotion.**
+
+Examples of possible discoveries include previously unmodeled accent relations, phrase-boundary effects, context-dependent salience, or distinctive transformation chains. Each must compete against simpler explanations such as annotation noise, familiarity, genre convention, or model misspecification.
+
+**Legal boundary:** Musical similarity, evidence of copying, and copyright infringement are distinct questions. An experimental distance score must not be represented as an automated legal ruling.
+
+**Connections:** [MSI-006](docs/MSI-006-Musical-Distance-OTHERS-and-Open-Evidence.md), [CASE-002](cases/CASE-002-Musical-Similarity-and-OTHERS.md), [SPEC-004](specs/SPEC-004-OTHERS-Evidence-and-Validation.md).
+
+---
+
+## 7. From AI Music Generation to Structural Musical Creation
+
+**Research question:** Can an AI system accumulate reusable compositional knowledge rather than simply produce more musical samples?
+
+A candidate architecture combines audio and symbolic models with a Musical UIERU registry, structural localization, transformation operators, a composition relay graph, and perspective-conditioned evaluators.
+
+Research should distinguish four milestones:
+
+| Milestone | Demonstration required |
+|---|---|
+| Generation | Coherent and useful musical output |
+| Structural composition | Controlled long-range organization and thematic development |
+| Structural innovation | New reusable operators or structures that outperform alternatives on held-out tests |
+| Open-ended evolution | Sustained, independently validated growth across successive research cycles |
+
+An AI-generated signature is not automatically original: training-set memorization, style imitation, and accidental resemblance require explicit checks. Similarly, faster search is not necessarily faster validated discovery.
+
+**Connections:** [MSI-007](docs/MSI-007-AI-Musical-Creation-and-Structural-Evolution.md), [SPEC-001](specs/SPEC-001-Musical-UIERU-Contract.md), [SPEC-002](specs/SPEC-002-Transformation-and-Relay-Operators.md).
+
+---
+
+## 8. Embodiment, Functional Preference, and AI-Native Music
+
+**Research question:** Which aspects of human musical creativity depend on bodily, emotional, social, and autobiographical experience, and which can be modeled through alternative perception–action loops?
+
+An AI can process audio and optimize a musical preference function without thereby demonstrating subjective pleasure, consciousness, or human-like emotion. Research must maintain the distinction between **functional preference** and **subjective liking**.
+
+Possible experimental approaches include:
+
+- Interactive systems that listen, respond, and adapt during live performance.
+- Models incorporating movement, timing, physiological or environmental signals where participants have consented.
+- Comparisons of disembodied audio models with sensorimotor or collaborative systems.
+- Investigations of AI-native structural preferences that are not initially optimized for existing human tastes.
+
+AI-native structures outside normal human hearing or cognitive time scales require a careful account of what counts as music and for whom. Their value should not be assumed merely because an internal model assigns a high score.
+
+**Connections:** [MSI-008](docs/MSI-008-Human-AI-Musical-Co-Evolution.md).
+
+---
+
+## 9. Cross-Subject Aesthetic Translation and Human–AI Co-Evolution
+
+**Research question:** Can an unfamiliar musical structure be translated through intermediate UIERUs so that listeners learn to perceive it without erasing what made it novel?
+
+This is a candidate **bidirectional relay**, not merely AI adaptation to existing human preference:
+
+1. An AI system proposes an unfamiliar structure and states its structural claims.
+2. A translation process constructs graded, human-accessible intermediate versions.
+3. Listeners report comprehension, preference, and perceived continuity of identity.
+4. Counterexamples reveal which transformations damaged or preserved the intended structure.
+5. Both the translation policy and the underlying musical model may be revised.
+
+**Experimental design:** Randomize listeners to graded translation, repeated exposure without translation, explanatory text alone, and direct exposure. Evaluate comprehension and preference separately, with delayed follow-up where feasible.
+
+**Key constraint:** Improvement in preference alone does not establish understanding; improvement in comprehension alone does not establish aesthetic value.
+
+**Connections:** [MSI-008](docs/MSI-008-Human-AI-Musical-Co-Evolution.md), [CASE-003](cases/CASE-003-Human-AI-Musical-Translation.md).
+
+---
+
+## 10. Musical Intelligence Streams and Evaluation Bottlenecks
+
+An AI system may generate or search through musical structures faster than people can listen, analyze, or validate them. MSI-OEE distinguishes:
+
+- **Production stream:** more musical output than human attention can consume.
+- **Exploration stream:** faster search across transformations, combinations, and candidate units.
+- **Validated growth stream:** reproducible, independently supported additions to musical intelligence.
+
+The third stream is the meaningful research target. It may be constrained by evaluator quality, listener availability, cultural diversity, and the time required to establish lasting value.
+
+**Research direction:** Develop triage systems that select a diverse, uncertainty-aware, counterexample-rich sample of candidates for human evaluation, rather than allowing a single AI evaluator to validate its own output.
+
+---
+
+## 11. Research Infrastructure and Open Benchmarks
+
+A practical MSI-OEE research platform should prioritize reproducibility before scale.
+
+### 11.1 Data and rights
+
+Use newly composed, public-domain, appropriately licensed, or otherwise authorized material. Document provenance, transformation permissions, and dataset limitations. Respect performers' and participants' rights.
+
+### 11.2 Representations
+
+Support symbolic event sequences, audio features, structural graphs, and links between them. Record uncertainty when correspondences are approximate.
+
+### 11.3 Evaluation
+
+Use preregistered hypotheses where feasible, blinded listening tests, held-out styles, multiple rater populations, ablations, and matched-compute baselines. Report both successes and failures.
+
+### 11.4 Knowledge registry
+
+Maintain versioned candidate units and operators with evidence provenance, applicable contexts, confidence limitations, and counterexamples. Promote discoveries only within their validated scope.
+
+### 11.5 Governance
+
+Prevent evaluator leakage, circular self-grading, unjustified claims of originality, and the substitution of numerical scores for human consent or aesthetic authority.
+
+---
+
+## 12. Suggested Research Roadmap
+
+| Horizon | Focus | Deliverable | Decision gate |
+|---|---|---|---|
+| Near term | Motif identity and transformation | Small controlled benchmark and annotation protocol | Inter-rater agreement and baseline comparison |
+| Near term | Musical similarity and OTHERS | Evidence register and discrepancy analysis | Reproducible residuals beyond noise |
+| Medium term | Relay graph composition | Prototype with explicit operators and provenance | Better controllability or coherence than baselines |
+| Medium term | Perspective scoring | Multigroup listening dataset and scoring schema | Generalization across listeners and contexts |
+| Medium term | Aesthetic translation | Controlled intermediate-UIERU study | Measured learning beyond exposure effects |
+| Long term | Structural musical evolution | Versioned registry of validated discoveries | Transferable improvement over multiple cycles |
+| Long term | Human–AI musical ecology | Sustained collaborative creation and evaluation | Independent evidence of enduring value |
+
+These horizons are relative priorities, not promised timelines.
+
+---
+
+## 13. Bidirectional Relay to the Broader SI Research Program
+
+MSI-OEE draws conceptual tools from UIERU, SIF, UCPSF, SSI, BM-ODWEI, Structural RSI, and Structural Folding/Unfolding. Its potential return contributions include:
+
+| Potential musical finding | Candidate broader SI implication | Required caution |
+|---|---|---|
+| Context-dependent motif identity | Dynamic UIERU boundaries | Test outside music |
+| Expressive deviations under soft contracts | Flexible relay operators | Distinguish value from noise |
+| Conflicting listener judgments | Perspective-conditioned scoring | Preserve disagreement and uncertainty |
+| Persistent unexplained similarity | OTHERS-driven feature discovery | Rule out simpler confounds |
+| Intermediate musical translations | Cross-subject structural relay | Verify actual learning and identity preservation |
+| Novel compositional operators | Structural growth and RSI | Require held-out and independent validation |
+
+**Relay policy:** Music-specific observations remain domain-specific until their proposed generality is tested. Every promoted candidate should include scope, provenance, failure cases, and a validation status.
+
+---
+
+## 14. Open Questions That Should Remain Open
+
+1. Is a Musical UIERU a property of the score, performance, listener model, or a context-dependent relation among them?
+2. Which transformations preserve structural identity but change expressive function?
+3. Can a computational system discover a genuinely useful aesthetic dimension that was not predefined by its evaluators?
+4. How can cultural novelty be distinguished from unfamiliarity, statistical rarity, or deliberate obscurity?
+5. Can cross-subject musical translation preserve novelty while increasing comprehension?
+6. What evidence would justify describing a system as an innovative AI composer rather than a powerful generator?
+7. How should human scoring sovereignty interact with AI-native exploration?
+8. Can musical findings generalize to nonmusical structural intelligence without overextending analogy?
+
+These questions motivate [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md), [TESTABLE-HYPOTHESES.md](TESTABLE-HYPOTHESES.md), and [VALIDATION-ROADMAP.md](VALIDATION-ROADMAP.md).
+
+---
+
+## 15. Closing Perspective
+
+The most ambitious MSI-OEE outcome is not an unlimited stream of plausible compositions. It is an accountable process through which musical structures are discovered, transformed, compared, challenged, and sometimes retained as reusable intelligence. A further possibility is that human and AI participants could use bidirectional relay to explore forms of musical experience that neither would reach as easily alone.
+
+That possibility remains a hypothesis. The near-term obligation is to make it **precise enough to test, open enough to revise, and disciplined enough to reject when evidence fails**.
+
+---
+
+## Related Documents
+
+- [README](README.md) · [START-HERE](START-HERE.md) · [CONTENTS](CONTENTS.md)
+- [MSI-001 — From Music to Musical Structural Intelligence](docs/MSI-001-From-Music-to-Musical-Structural-Intelligence.md)
+- [MSI-004 — Romantic Intelligence and Creative Deviation](docs/MSI-004-Romantic-Intelligence-and-Creative-Deviation.md)
+- [MSI-007 — AI Musical Creation and Structural Evolution](docs/MSI-007-AI-Musical-Creation-and-Structural-Evolution.md)
+- [MSI-008 — Human–AI Musical Co-Evolution](docs/MSI-008-Human-AI-Musical-Co-Evolution.md)
+- [FIGURE-INDEX](FIGURE-INDEX.md) · [GLOSSARY](GLOSSARY.md)
+
+**Sizhe Tan & GPT-Obot**  
+*MSI-OEE — Musical Structural Intelligence and Open-Ended Evolution*

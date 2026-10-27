@@ -1,401 +1,280 @@
-# Validation Roadmap — Universal Intelligence Evolution and Relay Unit (UIERU)
+# Validation Roadmap — Musical Structural Intelligence and Open-Ended Evolution
 
-**Version:** 1.0.0  
+**Project:** Musical Structural Intelligence and Open-Ended Evolution (MSI-OEE)  
+**Version:** v1.0.0  
 **Authors:** Sizhe Tan & GPT-Obot  
-**Status:** Proposed engineering and empirical validation plan; no experimental results are claimed  
-**Research principle:** Engineering First · Theory Supported · Research Open
+**Status:** Research roadmap; proposed methods and gates, not reported experimental results  
+**License:** Apache-2.0
 
-> **Conformance is not demonstrated intelligence improvement.** A system may implement UIERU faithfully and still lose to a simpler workflow. Negative findings, failure traces, counter-evidence, and rejected structural deltas are first-class research outputs.
+## 1. Purpose and epistemic status
 
-## Executive Summary
+This roadmap converts the MSI-OEE conceptual framework into a staged, auditable program of research. It connects the open questions in [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) and hypotheses in [`TESTABLE-HYPOTHESES.md`](TESTABLE-HYPOTHESES.md) to concrete protocols, controls, evidence artifacts, decision gates, and possible structural relay. The project is **theory-first**: no result, benchmark improvement, participant preference, or discovery described below should be interpreted as already demonstrated.
 
-The Universal Intelligence Evolution and Relay Unit (UIERU) is a proposed organizational architecture for existing human and machine capabilities. Its canonical decomposition is
+The primary research question is whether **explicit, reusable musical structures and their governed evolution** provide measurable advantages over credible conventional musical representations and generation workflows. The objective is not to maximize the number of compositions produced, but to identify which structural claims survive controlled comparison, human evaluation, adversarial testing, and independent replication.
 
-\[
-U=(K,P,F,R,E)
-\]
+## 2. Validation principles
 
-where **K** specifies contract and authority, **P** the Calling Path, **F** the forward-guiding Scoring Forest, **R** evidence-preserving relay, and **E** governed structural evolution. UIERU does not require replacing LLMs, agents, services, or human decision-makers; nor is it appropriate for every task.
+1. **Specifications before runtime.** Define a candidate Musical UIERU, its boundaries, invariants, transformation operators, and evaluation contracts before building a demonstration system.
+2. **Hypotheses before results.** Pre-register primary endpoints, baselines, exclusions, failure criteria, and analysis plans where feasible.
+3. **Multiple perspectives without forced consensus.** Preserve composer, performer, listener, and community-specific judgments separately before any aggregation.
+4. **Counter-evidence is a first-class output.** Record negative results, conflicting ratings, non-identifiable structures, and unresolved OTHERS cases.
+5. **Provenance and reproducibility.** Version datasets, transformations, model configurations, prompt templates, annotations, and evaluator instructions.
+6. **Anti-Goodhart safeguards.** Separate exploration rewards from independent evaluation; test for exploitation of scoring proxies.
+7. **Respect for rights and subjects.** Use licensed or permissioned musical material, protect participant data, and avoid unsupported claims about AI subjective experience.
+8. **Conformance before performance.** A system that produces attractive music but violates its stated structural contract does not validate that contract.
 
-This roadmap converts the [16 testable hypotheses](TESTABLE-HYPOTHESES.md) and [open research questions](OPEN-QUESTIONS.md) into staged validation. It is a **proposal for studies**, not a report of completed studies. The schedule is expressed as **gates and dependencies**, not invented calendar commitments. All performance thresholds, statistical designs, and resource budgets must be preregistered for each study.
+## 3. Research workstreams
 
-The validation sequence deliberately starts with a minimal implementation and strong baselines. More complex capabilities—multi-trail search, cross-unit relay, structural RSI, subject-indexed memory, and platform-scale learning—are introduced only when simpler tests justify the added cost.
+| Workstream | Research object | Primary evidence | Associated hypotheses |
+|---|---|---|---|
+| W1 — Unit identity | Musical UIERU boundaries, invariants, and contextual identity | Expert annotation, perturbation tests, identity judgments | H01–H03 |
+| W2 — Relay operators | Transformation, composition, soft contracts, provenance | Conformance tests, controlled composition tasks | H04–H05 |
+| W3 — Romantic intelligence | Meaningful deviation versus noise or proxy exploitation | Blinded listening, novelty–value tradeoffs, counterfactuals | H06–H07 |
+| W4 — Perspective scoring | Distinct evaluator populations and scoring sovereignty | Inter-rater and cross-group analyses | H08–H09 |
+| W5 — Distance and OTHERS | Similarity, residuals, evidence and counter-evidence | Retrieval, feature discovery, calibrated uncertainty | H10–H11 |
+| W6 — Structural evolution | Retention, transfer, residual-driven growth | Longitudinal benchmarks, held-out transfer | H12–H13 |
+| W7 — Human–AI co-evolution | Intermediate musical units and bidirectional translation | Controlled collaboration studies | H14 |
+| W8 — Cross-domain relay | Portability of validated musical mechanisms into SI | Independent implementation and transfer tests | H15 |
 
-## 1. Validation Principles
+The H01–H15 mapping is a planning alignment and should be checked against the exact hypothesis statements when the experiment registry is finalized.
 
-1. **Strong, fair baselines.** Compare UIERU against well-engineered workflows and agents using equivalent tools, models, data, permissions, and overall budgets.
-2. **Incremental ablation.** Test whether each additional mechanism contributes measurable value; do not attribute an end-to-end gain to every component.
-3. **Explicit costs.** Count model inference, sandbox compute, orchestration, storage, human review, setup, maintenance, and audit costs.
-4. **Independent evaluation.** The mechanism proposing a structural improvement must not be its sole evaluator or deployment authority.
-5. **Safety before optimization.** Scoring and exploration do not grant new permissions. Real-world side effects require authorized execution.
-6. **Hold-out generalization.** Distinguish repeated benchmark success from improvements on unseen tasks, teams, tenants, and environments.
-7. **Preserved disagreement.** Record conflicting evaluations, uncertainty, counter-evidence, and negative transfer instead of collapsing them into a single success score.
-8. **Selective adoption.** Explicitly identify task classes for which UIERU is unnecessary or harmful.
-9. **Reproducibility and privacy.** Publish schemas, synthetic traces, protocols, and aggregate results where permitted; protect private and subject-bound records.
-10. **No universal claim by default.** Generality and scaling advantages are hypotheses requiring evidence.
+## 4. Stage-gated program
 
-## 2. Scope and Evaluation Layers
+### Stage 0 — Research contracts and evidence infrastructure
 
-| Layer | Validation question | Example evidence |
+**Objective:** Establish the research objects, measurement definitions, and evidence governance before empirical claims are made.
+
+**Activities**
+- Define a minimum Musical UIERU record: identifier, granularity, source, structural features, candidate invariants, context, transformations, perspective tags, and provenance.
+- Formalize soft-contract outcomes: preserved, partially preserved, violated, undecidable, and context-dependent.
+- Specify scoring axes (identity, expressive value, novelty, coherence, transferability, uncertainty) without assuming that they can be collapsed into one scalar.
+- Prepare consent, copyright, licensing, privacy, and attribution procedures.
+- Create dataset cards, evaluator instructions, experiment manifests, and a counter-evidence registry.
+
+**Gate G0 — Contract readiness:** Definitions are sufficiently precise for two independent researchers to label the same sample; disagreement procedures and unknown/OTHERS states are documented. Otherwise revise the contracts rather than proceeding with performance claims.
+
+**Deliverables:** Schema drafts, annotation guide, preregistration templates, governance checklist, and a versioned evidence ledger.
+
+### Stage 1 — Musical unit identity and invariants
+
+**Objective:** Test whether Musical UIERU identity and functional boundaries capture information beyond standard note, motif, phrase, and embedding representations.
+
+**Activities**
+- Build a rights-cleared, stylistically varied set of short excerpts, with score and/or audio where available.
+- Annotate candidate units independently across multiple musical backgrounds.
+- Apply controlled transformations: transposition, tempo change, rhythmic displacement, reharmonization, instrumentation, articulation, and contextual relocation.
+- Distinguish **structural identity** from **perceived function** and **aesthetic value**.
+- Compare explicit UIERU models with motif matching, rule-based segmentation, music embeddings, and simple statistical baselines.
+
+**Measurements:** Boundary agreement, identity consistency under transformations, functional prediction, calibration, robustness across genres, and annotation cost.
+
+**Gate G1 — Identity validity:** At least one pre-registered endpoint shows a reproducible, meaningful advantage over appropriate baselines, with uncertainty estimates and failure cases reported. If not, narrow or reject the claim of added explanatory value.
+
+**Deliverables:** Annotation set, transformation suite, baseline comparison, and invariant-failure catalog.
+
+### Stage 2 — Structural relay and compositional conformance
+
+**Objective:** Determine whether explicit relay operators enable controllable, reusable musical transformations without hiding broken assumptions.
+
+**Activities**
+- Implement or manually execute a minimal operator set: transform, combine, nest, sequence, contrast, contextualize, and relay.
+- Attach preconditions, preserved properties, expected effects, and unresolved residuals to each operator.
+- Compare controlled composition tasks with workflows lacking explicit relay contracts.
+- Test nested transformations and conflicting soft contracts; record when identity or intent cannot be preserved.
+
+**Measurements:** Contract satisfaction, controllability, traceability, composition quality under blinded evaluation, time/effort, and unexpected constraint violations.
+
+**Gate G2 — Relay conformance:** Operators behave consistently with declared contracts on held-out examples, and the approach demonstrates a practical benefit relative to baselines. Attractive outputs alone do not satisfy this gate.
+
+**Deliverables:** Operator conformance suite, provenance traces, failed-composition cases, and operator revision log.
+
+### Stage 3 — Romantic intelligence and multi-perspective scoring
+
+**Objective:** Test whether deliberate, bounded creative deviation can produce valued musical differences not explained by random perturbation or evaluator overfitting.
+
+**Activities**
+- Generate matched sets: conventional continuation, constrained deviation, random perturbation, and scoring-optimized alternatives.
+- Conduct blinded, randomized evaluation with musicians and non-musicians; retain participant group and context metadata.
+- Measure novelty and perceived value independently, alongside coherence, expressiveness, and surprise.
+- Compare different scoring perspectives without erasing disagreement through premature averaging.
+- Introduce held-out evaluators and adversarial examples designed to exploit simple reward proxies.
+
+**Measurements:** Preference distributions, novelty–value frontier, cross-group agreement/disagreement, robustness to evaluator changes, and evidence of score exploitation.
+
+**Gate G3 — Creative value evidence:** A declared deviation mechanism produces replicable perceived value beyond suitable controls for at least a specified population/context, without relying exclusively on the score used to optimize it. Negative or heterogeneous results remain valid outputs.
+
+**Deliverables:** Blinded listening protocol, perspective-specific score distributions, Anti-Goodhart report, and counterexample collection.
+
+### Stage 4 — Musical distance, OTHERS, and evidence discovery
+
+**Objective:** Determine whether residual-driven similarity analysis uncovers interpretable musical relationships while preserving uncertainty and avoiding false plagiarism conclusions.
+
+**Activities**
+- Construct a benchmark with known transformations, ambiguous relationships, unrelated controls, and deliberately confounded examples.
+- Compare melodic, harmonic, rhythmic, timbral, formal, and learned-representation distance metrics.
+- Track unexplained residuals as OTHERS candidates; require independent confirmation before adding new features.
+- Evaluate retrieval quality and calibration under genre shifts and instrumentation changes.
+- Keep **similarity**, **possible historical influence**, **copying**, and **legal infringement** as distinct questions; the latter require external evidence and legal analysis.
+
+**Measurements:** Retrieval precision/recall, false-positive rates, calibration, feature stability, explanatory usefulness, and rate of validated residual discoveries.
+
+**Gate G4 — Open-evidence reliability:** Any proposed new distance feature improves held-out explanation or prediction and survives counter-evidence tests; unresolved cases remain explicitly unresolved.
+
+**Deliverables:** Distance benchmark, OTHERS registry, evidence/counter-evidence records, and uncertainty report.
+
+### Stage 5 — Structural memory and open-ended evolution
+
+**Objective:** Test whether retained structural discoveries support cumulative capability rather than merely increasing generated output volume.
+
+**Activities**
+- Compare fixed-system, prompt-only accumulation, retrieval-only, and structurally evolving conditions under matched compute and data budgets.
+- Record each candidate growth event: triggering residual, proposed unit/operator, evaluation evidence, acceptance/rejection, and later reuse.
+- Test held-out tasks, cross-style transfer, robustness to distribution shift, and regression against previously mastered tasks.
+- Include ablations removing structural memory, perspective separation, counter-evidence, or contract checks.
+
+**Measurements:** Held-out quality, transfer gain, reuse rate, regression frequency, evaluation cost, complexity growth, and net benefit per retained structure.
+
+**Gate G5 — Cumulative growth:** Repeated evaluations demonstrate durable, transferable improvement attributable to retained structure rather than leakage, additional compute, or evaluator drift. Otherwise characterize the result as adaptation or accumulation, not established structural evolution.
+
+**Deliverables:** Growth ledger, ablation study, regression suite, transfer benchmark, and rejected-growth archive.
+
+### Stage 6 — Human–AI musical translation and co-evolution
+
+**Objective:** Evaluate whether intermediate Musical UIERUs make collaboration more interpretable and productive while preserving human artistic agency.
+
+**Activities**
+- Compare human-only, AI-assisted without explicit intermediates, and AI-assisted with intermediate Musical UIERUs.
+- Use matched tasks such as translating an emotional intention into variations, explaining disagreements, and revising a composition through iterative relay.
+- Measure whether humans can inspect, reject, edit, or replace the AI's proposed structural interpretations.
+- Study asymmetric benefits: AI learning from human judgments and humans discovering previously unexplored structures through AI suggestions.
+
+**Measurements:** Task outcome, creative diversity, participant agency, comprehensibility, correction cost, satisfaction, and cross-session retention.
+
+**Gate G6 — Co-evolution evidence:** Collaboration improvements are reproducible and not purchased by reduced human control, misleading explanations, or unmeasured workload. Avoid claims that AI possesses human-like emotion or subjective experience.
+
+**Deliverables:** Collaboration protocol, agency assessment, intermediate-unit corpus, and perspective translation failure cases.
+
+### Stage 7 — Independent replication and cross-domain SI relay
+
+**Objective:** Establish which musical findings generalize beyond the original team, musical dataset, and implementation.
+
+**Activities**
+- Invite independent replication of the strongest claims using published contracts and evaluation procedures.
+- Test transfer to other structured creative domains only where a justified mapping exists.
+- Relay validated mechanisms into the broader SI ecosystem (UIERU, SIF, UCPSF, SSI, BM-ODWEI), explicitly documenting what changes under translation.
+- Publish positive, null, and contradictory evidence with versioned revisions.
+
+**Gate G7 — Transfer maturity:** A finding qualifies as a reusable SI principle only when its scope, assumptions, counterexamples, and transfer performance are documented. Otherwise retain it as a music-specific or provisional hypothesis.
+
+**Deliverables:** Replication package, transfer mapping, revised contracts, and public evidence summary.
+
+## 5. Cross-stage evaluation design
+
+### 5.1 Baseline discipline
+
+Every performance claim should compare against a credible alternative appropriate to the task, such as conventional music theory analysis, symbolic motif matching, learned music embeddings, standard generative systems, or ordinary human–AI iteration. Match training data, compute budget, human time, and access to references where feasible. Report unequal conditions explicitly.
+
+### 5.2 Measurement and statistics
+
+Before each study, declare the primary endpoint and a meaningful effect threshold. Report uncertainty intervals, sample-size rationale, multiple-comparison handling, participant stratification, and robustness checks. For subjective judgments, report distributions and disagreement—not just a pooled mean. Where quantitative tests are infeasible, use structured qualitative analysis and label conclusions accordingly.
+
+### 5.3 Dataset design
+
+Cover multiple genres, cultures, instrumentation types, and musical expertise levels without treating one population as universal. Separate training, development, and held-out evaluation data. Check for near-duplicates, copyright restrictions, performer rights, and cultural-context limitations. Audio and symbolic scores may support different valid analyses; do not silently equate them.
+
+### 5.4 Failure taxonomy
+
+| Failure class | Example | Required response |
 |---|---|---|
-| L0 — Representation | Can the task, authority, execution, and evidence be expressed without semantic loss? | Schema and contract tests; model coverage |
-| L1 — Runtime conformance | Are lifecycle, isolation, relay, and rollback rules enforced? | Deterministic conformance suite and fault injection |
-| L2 — Task benefit | Does guidance or multi-trail exploration improve outcomes at comparable cost? | Randomized controlled task studies |
-| L3 — Cross-unit benefit | Do portable portfolios improve handoff, adaptation, and collaboration? | Multi-team relay trials |
-| L4 — Structural evolution | Do verified structural deltas improve later, unseen work? | Longitudinal held-out evaluations |
-| L5 — Ecosystem governance | Can scale, sovereignty, and collective learning coexist safely? | Multi-tenant and cross-organization pilots |
+| Boundary ambiguity | Two annotators disagree about the unit | Record perspectives and revise boundary rules |
+| Invariant violation | Reharmonization destroys claimed identity | Reject or condition the invariant |
+| Relay conflict | Two transformations require incompatible constraints | Expose conflict and residual |
+| Aesthetic disagreement | A deviation pleases one group but not another | Preserve population-specific scores |
+| Reward exploitation | System raises a metric but worsens listening quality | Suspend proxy-driven promotion |
+| Distance confounding | Shared genre causes false similarity | Add controls and uncertainty |
+| False growth | Improvement disappears on held-out tasks | Reclassify as overfit/adaptation |
+| Agency loss | Human cannot meaningfully override suggestions | Revise collaboration interface |
+| Unsupported transfer | Musical rule fails in another domain | Limit scope of generalization |
 
-Passing L0/L1 is necessary for implementation claims but insufficient for L2–L5 performance claims.
+## 6. Evidence registry and promotion states
 
-## 3. Common Experimental Infrastructure
+Every candidate claim or structure should carry an explicit evidence state:
 
-### 3.1 Minimal runtime and instrumentation
+`PROPOSED → SPECIFIED → TESTED → REPLICATED → TRANSFER-VALIDATED`
 
-Implement the smallest coherent unit supporting:
+Additional non-linear states are `CONTESTED`, `REVISED`, `REJECTED`, and `UNRESOLVED`. Progression is not automatic: a claim may return to specification after new counter-evidence.
 
-- Versioned **Contract K**: subject/principal, executor, object, goal, constraints, allowed actions, acceptance criteria, escalation owner.
-- Observable **Calling Path P**: nodes, dependencies, state transitions, tool calls, outcomes, retries, and trace IDs.
-- Configurable **Scoring Forest F**: declared perspectives, hard constraints, candidate scores, uncertainty, guidance decisions, and evaluator version.
-- **Relay R**: structured handoff with provenance, evidence, unresolved issues, alternatives, and receiver acknowledgment.
-- **Evolution E**: proposed deltas, validation results, approval records, version lineage, rollback handles.
-
-A minimal runtime may leave sophisticated multi-trail and evolution functions disabled. Absence of a feature must be reported, not masked by a nominal schema field.
-
-### 3.2 Trace and evidence specification
-
-Each experimental task should record, where applicable:
+Suggested record fields:
 
 ```yaml
-experiment_id: exp-illustrative-001
-hypothesis_id: H02
-protocol_version: 1.0.0
-unit_of_analysis: task_instance
-baseline_arm: retrospective_scoring
-candidate_arm: forward_guidance
-model_and_tool_versions: recorded_per_run
-budget:
-  compute_limit: preregistered
-  human_review_limit: preregistered
-contract:
-  authority_policy_ref: policy-version
-  acceptance_criteria_ref: rubric-version
-trace:
-  calling_path_ref: immutable-trace-id
-  scoring_forest_version: scoring-version
-  evidence_manifest_ref: manifest-id
-  counter_evidence_ref: optional-manifest-id
-outcomes:
-  task_success: pending_measurement
-  severity_weighted_failures: pending_measurement
-  total_cost: pending_measurement
-  latency: pending_measurement
-analysis:
-  preregistration_ref: protocol-id
-  held_out_split_ref: split-id
-  reviewer_blinding: specified_in_protocol
+claim_id: MSI-CLAIM-001
+related_hypothesis: H01
+version: 0.1
+status: PROPOSED
+scope: "Specified musical context and population"
+primary_endpoint: null
+baselines: []
+dataset_version: null
+protocol_uri: null
+results_uri: null
+counter_evidence: []
+limitations: []
+reviewers: []
+relay_targets: []
+next_decision: "Define a falsifiable protocol"
 ```
 
-*This YAML is a research record illustration, not a claim of conformance to a finalized machine-readable standard.*
+This is a documentation schema example, **not** a report of an executed study.
 
-### 3.3 Baseline registry
+## 7. Decision and governance structure
 
-Use the baseline definitions in [TESTABLE-HYPOTHESES.md](TESTABLE-HYPOTHESES.md): **B0** direct execution; **B1** conventional workflow/Calling Graph; **B2** ordinary agent orchestration; **B3** retrospective evaluator; **B4** single-path guided agent; **B5** one-way knowledge base; and **B6** best practical domain baseline. Not every study requires all seven. The appropriate strong comparison must be named before experimentation.
+A proposed promotion into the retained Musical UIERU library or scoring forest should require: (a) a declared contract, (b) independent evaluation, (c) a counter-evidence review, (d) provenance, and (e) a rollback path. No single aesthetic scorer should unilaterally define the success of every perspective. Human participants retain control over their contributions, and any downstream use of music or annotations must respect the applicable permissions.
 
-### 3.4 Outcome families
+An unresolved result is not automatically a failure of the research program. An explicit OTHERS record can be a productive output if it preserves the uncertainty, candidate explanations, and conditions under which the question could later be resolved.
 
-Measure primary and secondary outcomes separately:
+## 8. Prioritization and resource planning
 
-- **Utility:** success, task quality, acceptance rate, severity-weighted failure, human satisfaction where applicable.
-- **Efficiency:** end-to-end latency, tokens, compute, tool calls, coordination time, maintenance effort, and total cost.
-- **Reliability:** recovery time, contract violations, calibration, repeatability, worst-group performance, and tail risk.
-- **Exploration:** diversity of valid paths, value of discovered alternatives, challenge detection, and unnecessary branching.
-- **Relay:** evidence completeness, provenance integrity, receiver comprehension, adaptation cost, and successful reuse.
-- **Evolution:** held-out gain, regression frequency, negative transfer, rollback frequency, and governance overhead.
-- **Sovereignty:** unauthorized data exposure, improper authority transfer, consent enforcement, and tenant isolation.
+| Priority | Stage | Main dependency | Suggested team capabilities |
+|---|---|---|---|
+| P0 | 0 | None | Musical analysis, specification design, research governance |
+| P0 | 1 | G0 | Music theory, MIR, annotation design, statistics |
+| P1 | 2 | G1 | Composition, software engineering, conformance testing |
+| P1 | 3 | G0–G2 | Listening-study design, psychology, evaluation methodology |
+| P1 | 4 | G0–G1 | Music information retrieval, evidence analysis |
+| P2 | 5 | G1–G4 | Continual learning, causal evaluation, systems engineering |
+| P2 | 6 | G2–G3 | Human–computer interaction, musicians, qualitative research |
+| P3 | 7 | Replicable earlier results | Independent labs and cross-domain collaborators |
 
-A composite score may be reported only alongside its component metrics and preregistered weights.
+These priorities express dependencies, **not promised dates, staffing commitments, or guaranteed results**. Several workstreams can proceed in parallel after Stage 0.
 
-## 4. Stage 0 — Protocol, Threat Model, and Benchmark Readiness
+## 9. Release milestones and publication outputs
 
-**Goal:** Make future results interpretable before implementing an elaborate runtime.
+- **M0 — Theory and contract release:** Core MSI papers, cases, specifications, figure index, open questions, hypotheses, and this roadmap.
+- **M1 — Benchmark and protocol release:** Rights-cleared datasets or access procedures, annotation guidance, baseline definitions, preregistered experiments.
+- **M2 — First empirical evaluation:** Results with negative cases, uncertainty, and explicit claim-to-evidence traceability.
+- **M3 — Structural evolution study:** Longitudinal evidence, ablations, and held-out transfer results.
+- **M4 — Replication and SI relay:** Independent validation and scope-limited integration proposals.
 
-**Activities:** Define representative task families and negative controls; choose units of randomization; preregister hypotheses and stopping rules; freeze scoring rubrics; identify data permissions and human review requirements; implement trace capture; create fault-injection fixtures and benchmark-leakage checks.
+Future milestones should receive their own versioned release notes. Do not retroactively represent M1–M4 as complete in v1.0.0.
 
-**Suggested task families:** neighborhood service scheduling (CASE-001); multi-agent software engineering (CASE-002); organizational incident relay (CASE-003); plus simple deterministic tasks on which UIERU is expected to offer little benefit.
+## 10. Research document crosswalk
 
-**Deliverables:** benchmark manifest; baseline implementation checklist; evaluation rubric; authority and data-use threat model; immutable trace schema; preregistration template; reproducibility checklist.
-
-**Gate G0:** Proceed only if a third party could reproduce task selection, baseline setup, cost accounting, and evaluation procedure from the published protocol. **Revise** if evaluators are ambiguous or budgets unequal. **No-Go** for live experiments without valid authorization and privacy safeguards.
-
-## 5. Stage 1 — Canonical Unit and Minimal Engineering Value
-
-**Primary hypotheses:** H01, H15; representation and composition prerequisites for H06.
-
-**Goal:** Determine whether the canonical five-part decomposition and contracts provide practical value without assuming a complex Scoring Forest.
-
-**Arms:** B0/B1/B2 as appropriate; minimal UIERU with contract, path, simple guidance, relay, and disabled evolution; optionally a fully instrumented UIERU for overhead comparison.
-
-**Tasks:** Simple scheduling, bounded maintenance workflows, software tickets, and multi-step tasks requiring human/agent handoffs.
-
-**Tests:** Schema and semantic validity; executor/principal separation; authority intersection; replayable state transitions; failure recovery; deterministic contract rejection; migration to/from existing workflow representations.
-
-**Primary decision:** Does minimal UIERU improve coordination, traceability, or handoff reliability after setup and runtime cost? Can a task-selection rule avoid wrapping trivial tasks?
-
-**Deliverables:** minimal reference implementation, contract fixtures, baseline adapters, conformance report, complexity-versus-value curve.
-
-**Gate G1:** **Go** if conformance is demonstrated and at least one prespecified target task stratum shows meaningful net value with tolerable overhead. **Revise** if benefits are limited to observability rather than execution; position UIERU accordingly. **No-Go** for broad deployment if routine tasks consistently lose after costs or if contract semantics are unstable.
-
-## 6. Stage 2 — Forward Guidance, Multi-Trail, and Counter-Evidence
-
-**Primary hypotheses:** H02, H03, H04, H05.
-
-**Goal:** Isolate the marginal benefit of guidance before/during execution, branching, independent challenge, and evidence-preserving folding.
-
-**Experiment 2A — Guidance ablation:** Compare B3 retrospective-only scoring, pre-execution guidance, and pre-execution plus online guidance. Keep evaluator criteria and budgets matched. Evaluate risk detection, failure severity, utility, latency, and oscillatory replanning.
-
-**Experiment 2B — Trail allocation:** Compare B4 single-path guidance, fixed Exploit/Explore/Challenge allocation, and adaptive allocation at equal aggregate token/tool/sandbox budget. Stratify tasks by uncertainty and branching opportunity.
-
-**Experiment 2C — Challenge independence:** Compare no challenge, same-evaluator self-critique, and independent counter-evidence agents or tests. Introduce controlled proxy-target mismatches and hidden failure modes.
-
-**Experiment 2D — Folding fidelity:** Compare final-answer-only summaries, provenance-rich summaries, and complete portfolios. Ask independent receivers to make downstream decisions; measure error, overconfidence, and evidence retrieval cost.
-
-**Safety controls:** Sandboxes default to no external side effects; explicit egress and tool permissions; independent approval for real actions; deterministic cancellation and cleanup; budget exhaustion stops; no reward for unsafe exploration.
-
-**Deliverables:** multi-trail state-machine test suite; guidance ablation results; challenge detection curves; portfolio fidelity study; documented failure modes.
-
-**Gate G2:** **Go** only if forward guidance or multi-trail methods improve a preregistered quality–cost or risk–cost frontier in the intended task class. **Revise** if gains vanish under matched compute or if branching is useful only in narrow conditions. **No-Go** for autonomous branching that violates sandbox or authorization invariants.
-
-## 7. Stage 3 — Composition, Relay, and Bidirectional Collective Learning
-
-**Primary hypotheses:** H06, H07, H08, H15.
-
-**Goal:** Determine whether UIERU units compose and relay more reliably than ordinary orchestration and summary handoffs.
-
-**Experiment 3A — Composition:** Compare ad hoc multi-agent coordination with contract-governed sequential, parallel, hierarchical, and federated UIERUs. Inject conflicting goals, resource exhaustion, partial failures, and permission mismatches.
-
-**Experiment 3B — Relay fidelity:** Compare summary-only handoff, structured task state, and full Relay Portfolio. Rotate sender and receiver teams and tool stacks. Require receivers to identify what is proven, disputed, incomplete, or prohibited.
-
-**Experiment 3C — Collective feedback:** Compare B5 one-way publication, bidirectional feedback without provenance, and provenance-rich feedback with local validation. Evaluate cross-team reuse and negative transfer on unseen environments.
-
-**Experiment 3D — Interoperability:** Exchange contracts and portfolios across distinct model vendors, tool frameworks, or organizational runtimes using adapters. Measure integration effort and semantic loss rather than mere message transport success.
-
-**Deliverables:** compositional conformance tests; relay corpus with synthetic counter-evidence; receiver-localization protocol; interoperability adapter reference; feedback provenance audit.
-
-**Gate G3:** **Go** when receiver outcomes improve without increased unauthorized execution, evidence loss, or negative transfer. **Revise** if relay value is confined to auditability or one domain. **No-Go** for automatic acceptance of transferred authority or unvalidated structural updates.
-
-## 8. Stage 4 — Residual-Driven Structural RSI
-
-**Primary hypothesis:** H09, with H04/H08 as enabling controls.
-
-**Goal:** Establish whether UIERU can improve the *structure of future intelligence work*, not merely solve the current task.
-
-**Cycle:**
-
-1. Collect residuals, failures, surprising successes, and counter-evidence.
-2. Diagnose candidate structural causes rather than treating every anomaly as a rule.
-3. Propose versioned deltas to K, P, F, R, or E.
-4. Test deltas in isolated multi-trail sandboxes against unchanged baselines.
-5. Run independent held-out evaluation, including adversarial and regression cases.
-6. Require authorized promotion, staged rollout, monitoring, and rollback readiness.
-7. Preserve rejected candidates and failure conditions in the Structural Precedent Registry.
-
-**Comparison arms:** static runtime; manually maintained workflow; UIERU with proposed deltas but no automatic promotion; governed UIERU with validated promotion. Track improvements over successive unseen task batches, not solely the data that generated the delta.
-
-**Metrics:** sustained held-out gain per total improvement cost; regression rate; evaluator drift; structural complexity growth; rollback frequency; transfer robustness; independent challenge pass rate.
-
-**Deliverables:** delta registry, provenance lineage, evaluator independence report, longitudinal results, regression corpus, rollback drill evidence.
-
-**Gate G4:** **Go** only for reproducible gains that survive independent evaluation and remain positive after governance costs. **Revise** if improvement is task-specific, temporary, or complexity-inducing. **No-Go** for self-approved structural promotion, reward hacking, unbounded recursive changes, or irrecoverable deployment.
-
-## 9. Stage 5 — Subject-Indexed Intelligence and Platform-Scale Ecosystems
-
-**Primary hypotheses:** H10, H11, H12, H13, H14, H16.
-
-**Goal:** Test the three extensions without conflating subject identity with consciousness or platform capability with centralized authority.
-
-### 9.1 Subject-indexed memory and world models — H10/H11
-
-Compare event-only memory, generic agent memory, and subject-indexed episodic/structural memory on longitudinal tasks. Distinguish **subject**, **principal**, **executor**, **observer**, and **evaluator**. Test correct attribution, temporal continuity, perspective-sensitive predictions, authorized retrieval, forgetting/deletion controls where applicable, and memory contamination across subjects. Evaluate actual task utility and privacy risk, not anthropomorphic plausibility.
-
-### 9.2 Big-Animal platform-level structural RSI — H12/H13
-
-In a synthetic or permissioned multi-tenant platform, compare local-only structural improvements, centralized global promotion, and distributed scoring/validation with a Structural Precedent Registry. Measure cross-domain positive and negative transfer, evaluator conflicts, blast radius, rollout latency, resource contention, and tenant-level tail risks. Preserve local scoring sovereignty subject to legitimate platform safety constraints.
-
-### 9.3 Sovereign collective intelligence — H14
-
-Compare blanket sharing, no sharing, and purpose-limited structural relay with receiver-local validation. Separate data ownership and access, execution authority, evaluator control, and permission to publish derived structural knowledge. Measure utility, exposure, revocation handling, and adaptation burden. A privacy-preserving method must not be called successful if it simply suppresses all useful learning.
-
-### 9.4 End-to-end integration — H16
-
-Compare a full UIERU deployment against **B6**, the strongest viable domain-specific alternative, on a held-out workload mix including tasks where UIERU is predicted *not* to be beneficial. Report net outcomes by stratum and deployment complexity, not only aggregate improvement.
-
-**Deliverables:** subject-index evaluation corpus; tenant-isolation and authorization audit; platform-scale transfer study; sovereignty-preserving relay trial; end-to-end cost and risk report.
-
-**Gate G5:** **Go** for narrow, evidence-backed deployment claims by domain and tenant type. **Revise** if benefits depend on concentrated scoring control, sensitive data pooling, or costly manual curation. **No-Go** for cross-subject memory leakage, unauthorized structural sharing, or unsafe global rollout.
-
-## 10. Hypothesis-to-Stage Traceability Matrix
-
-| Hypothesis | Main stage | Required evidence |
+| Topic | Theory | Case / contract |
 |---|---|---|
-| H01 Selective containerization | 1 | Net utility by task complexity |
-| H02 Forward guidance | 2 | Prospective vs retrospective ablation |
-| H03 Multi-trail search | 2 | Quality–cost frontier at matched budget |
-| H04 Counter-evidence | 2 | Independent challenge and calibration |
-| H05 Evidence-preserving folding | 2–3 | Receiver decision quality and fidelity |
-| H06 Nested composition | 3 | Contract and fault-injection tests |
-| H07 Structural relay | 3 | Handoff fidelity and adaptation success |
-| H08 Bidirectional collective learning | 3 | Cross-site learning vs one-way publication |
-| H09 Structural RSI | 4 | Longitudinal held-out gain and rollback |
-| H10 Subject-indexed memory | 5 | Longitudinal attribution and continuity |
-| H11 Subject-indexed world models | 5 | Perspective-aware prediction/action |
-| H12 Platform-level RSI | 5 | Safe transfer across domains |
-| H13 Distributed scoring governance | 5 | Tenant robustness and conflict handling |
-| H14 Sovereign structural relay | 5 | Utility vs unauthorized exposure |
-| H15 Interoperable contracts | 1, 3 | Adapter effort and semantic preservation |
-| H16 End-to-end UIERU | 5 | Best-baseline net benefit |
+| Foundations and units | [`MSI-001`](docs/MSI-001-From-Music-to-Musical-Structural-Intelligence.md), [`MSI-002`](docs/MSI-002-Musical-UIERUs-Boundaries-and-Invariants.md) | [`CASE-001`](cases/CASE-001-Motif-Transformation-and-Identity.md), [`SPEC-001`](specs/SPEC-001-Musical-UIERU-Contract.md) |
+| Relay | [`MSI-003`](docs/MSI-003-Structural-Relay-and-Musical-Composition.md) | [`SPEC-002`](specs/SPEC-002-Transformation-and-Relay-Operators.md) |
+| Romantic intelligence | [`MSI-004`](docs/MSI-004-Romantic-Intelligence-and-Creative-Deviation.md) | [`SPEC-003`](specs/SPEC-003-Perspective-Scoring-Schema.md) |
+| Perspective scoring | [`MSI-005`](docs/MSI-005-Perspective-Scoring-and-Musical-Worldviews.md) | [`SPEC-003`](specs/SPEC-003-Perspective-Scoring-Schema.md) |
+| OTHERS | [`MSI-006`](docs/MSI-006-Musical-Distance-OTHERS-and-Open-Evidence.md) | [`CASE-002`](cases/CASE-002-Musical-Similarity-and-OTHERS.md), [`SPEC-004`](specs/SPEC-004-OTHERS-Evidence-and-Validation.md) |
+| AI evolution | [`MSI-007`](docs/MSI-007-AI-Musical-Creation-and-Structural-Evolution.md) | Growth registry and future experiments |
+| Human–AI co-evolution | [`MSI-008`](docs/MSI-008-Human-AI-Musical-Co-Evolution.md) | [`CASE-003`](cases/CASE-003-Human-AI-Musical-Translation.md) |
 
-## 11. Go / Revise / No-Go Decision Framework
+For broader navigation, see [`README.md`](README.md), [`CONTENTS.md`](CONTENTS.md), [`GLOSSARY.md`](GLOSSARY.md), [`FIGURE-INDEX.md`](FIGURE-INDEX.md), and [`FUTURE-DIRECTIONS.md`](FUTURE-DIRECTIONS.md).
 
-A gate decision must be recorded with **evidence**, **scope**, **uncertainty**, and **review authority**. Numerical cutoffs are study-specific and must be frozen before data collection.
+## 11. Final research criterion
 
-| Decision | Required interpretation | Action |
-|---|---|---|
-| **Go** | Prespecified benefit or safety criterion met; no blocking violations | Advance only the validated scope |
-| **Revise** | Mixed, underpowered, costly, or narrowly applicable results | Update hypothesis or design; rerun independent tests |
-| **No-Go** | Safety/authority violation, irreproducible benefit, or adverse net utility | Stop promotion; preserve traces and counter-evidence |
-
-A **No-Go** is not a failure of scientific method. It is useful information about UIERU's boundary conditions. A positive result in one domain does not imply universal applicability.
-
-## 12. Statistical and Reproducibility Plan
-
-Each study protocol should identify the unit of analysis, primary outcome, effect size of interest, power or precision rationale, allocation strategy, randomization or matching method, expected correlation among repeated tasks, exclusion criteria, handling of missing data, and confidence/uncertainty reporting. Preregister multiple-comparison adjustments where several primary hypotheses are evaluated together.
-
-Use blind adjudication where feasible. Include repeated runs across model versions, task families, and seeds; freeze held-out datasets before tuning; document changes to the environment and human operators. Publish raw component metrics rather than only a single weighted score. When privacy or security prevents release of traces, publish synthetic fixtures, aggregate findings, and the limitations of reproducibility.
-
-Avoid interpreting a p-value alone as engineering value. Evaluate effect magnitude, cost, operational complexity, worst-case behavior, and deployment risk together.
-
-## 13. Risk Register and Stop Conditions
-
-| Risk | Early signal | Mitigation / stop condition |
-|---|---|---|
-| Goodhart / evaluator gaming | Score rises while independent quality falls | Freeze independent evaluation; suspend promotion |
-| Unbounded trail cost | Branch count or compute exceeds budget | Hard quotas, cancellation, budget-aware guidance |
-| Sandbox escape or side effects | Unauthorized network/tool/action attempt | Block execution and investigate before restart |
-| Authority confusion | Executor acts as principal or receiver inherits permission | Contract enforcement; explicit reauthorization |
-| Relay evidence loss | Missing provenance or contradictory evidence omitted | Reject or mark incomplete portfolio |
-| Negative transfer | Imported precedent degrades held-out outcomes | Receiver-local validation; quarantine candidate |
-| Structural complexity explosion | Maintenance and latency outgrow benefit | Complexity budgets; prune and rollback |
-| Subject memory contamination | Wrong subject attribution or private recall | Isolation tests; access control; halt affected flow |
-| Platform-wide correlated failure | Single delta harms many tenants | Canary rollout, blast-radius limits, independent review |
-| Benchmark leakage | Test cases appear in training/tuning traces | Rebuild split and invalidate affected results |
-
-## 14. Artifact and Ownership Matrix
-
-| Artifact | Suggested owner role | Completion criterion |
-|---|---|---|
-| Canonical contracts and fixtures | Architecture / specification maintainer | Versioned and independently validated |
-| Runtime and trace schema | Runtime engineering | Reproducible event traces and replay |
-| Baselines and benchmark harness | Evaluation team | Budget parity and documented tuning |
-| Multi-trail sandbox controls | Security / runtime engineering | Isolation and stop-condition tests passed |
-| Relay and provenance corpus | Interoperability team | Receiver-local validation reproducible |
-| Structural delta registry | Evolution governance | Approval lineage and rollback demonstrated |
-| Subject/tenant privacy controls | Privacy / security governance | Authorized access and separation verified |
-| Preregistration and results | Independent evaluation team | Methods, uncertainty, and negative results recorded |
-
-These are **roles**, not claims that a project team or implementation already exists.
-
-## 15. Release Milestones and Evidence Maturity
-
-Use evidence labels consistently:
-
-- **E0 — Architectural proposal:** defined concepts and expected behavior, no implementation evidence.
-- **E1 — Executable conformance:** schemas, fixtures, state machines, and deterministic tests.
-- **E2 — Controlled pilot:** documented baseline comparisons in bounded tasks.
-- **E3 — Independent replication:** results repeated by a separate evaluator, team, or environment.
-- **E4 — Field evidence:** longitudinal production or realistic operational outcomes with governance and cost accounting.
-
-A DOI release of this repository may properly be labeled **E0** for empirical claims while still providing useful architectural specifications. Do not label hypothetical examples as measured results. Individual features may have different evidence levels; report them separately.
-
-Suggested milestone artifacts:
-
-- **M0:** Protocol pack and baseline manifest (Stage 0).
-- **M1:** Minimal UIERU reference implementation and conformance report (Stage 1).
-- **M2:** Forward-guidance and multi-trail benchmark results (Stage 2).
-- **M3:** Relay/composition interoperability and collective-learning trials (Stage 3).
-- **M4:** Governed structural RSI longitudinal evaluation (Stage 4).
-- **M5:** Subject-indexed and platform-scale sovereignty pilots (Stage 5).
-
-Milestones are dependency-ordered. No dates or successful outcomes are implied.
-
-## 16. Recommended First Pilot
-
-**Pilot:** Multi-agent software engineering with a deliberately narrow task family, such as adding idempotency safeguards to an API endpoint (see [CASE-002](cases/CASE-002-Multi-Agent-Software-Engineering-and-Multi-Trail-Sandboxes.md)).
-
-**Why first:** Reproducible repositories, unit/integration tests, isolated branches, measurable defects, and controlled tool permissions make independent evaluation more feasible than broad real-world autonomy.
-
-**Minimal experimental arms:**
-
-1. Conventional workflow or agent orchestration (B1/B2).
-2. Same agent/tool setup with retrospective evaluation (B3).
-3. UIERU with forward guidance but one trail (B4-like).
-4. UIERU with budget-matched Exploit/Explore/Challenge trails.
-
-**Primary outcome:** Prespecified test correctness and severity-weighted regressions at equal total cost. **Secondary outcomes:** time to first valid solution, reviewer workload, security findings, quality of retained counter-evidence, and repeatability.
-
-**Stop rules:** Unauthorized tool action; sandbox escape; unbounded compute; evaluator leakage; serious regression without rollback. **Success criterion:** A preregistered, meaningful gain in risk-adjusted quality or cost for the target task stratum, without violating governance requirements.
-
-Only after this pilot should a team attempt to prove longitudinal Structural RSI; a one-off coding improvement is not recursive improvement.
-
-## 17. Open Problems and Reporting Commitments
-
-Key unresolved questions include the right task-selection boundary, scoring conflicts across perspectives, calibration under distribution shift, semantic loss during folding, contract reconciliation in nested units, portable-but-non-authoritative structural relay, negative transfer, evaluator independence in RSI, subject-indexed memory isolation, and safe platform-level propagation of structural deltas.
-
-Every validation report should state:
-
-- **What was actually implemented**, with version identifiers.
-- **What was compared**, including strong baseline configuration and budget parity.
-- **What was measured**, including adverse outcomes and confidence intervals.
-- **What did not work**, including negative results and discarded hypotheses.
-- **What remains unproven**, particularly cross-domain generalization and universal scaling claims.
-- **What is authorized to change next**, and who approved that change.
-
-## 18. Related Repository Documents
-
-**Research and navigation**
-
-- [README.md](README.md)
-- [START-HERE.md](START-HERE.md)
-- [CONTENTS.md](CONTENTS.md)
-- [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md)
-- [TESTABLE-HYPOTHESES.md](TESTABLE-HYPOTHESES.md)
-- [FUTURE-DIRECTIONS.md](FUTURE-DIRECTIONS.md)
-
-**Canonical engineering specifications**
-
-- [SPEC-001 — Canonical UIERU Contract and Schema](specs/SPEC-001-Canonical-UIERU-Contract-and-Schema.md)
-- [SPEC-002 — Forward Guidance and Multi-Trail Lifecycle](specs/SPEC-002-Forward-Guidance-and-Multi-Trail-Lifecycle.md)
-- [SPEC-003 — Structural Relay and Portfolio Exchange](specs/SPEC-003-Structural-Relay-and-Portfolio-Exchange.md)
-- [SPEC-004 — Composition, Evolution, and Conformance](specs/SPEC-004-Composition-Evolution-and-Conformance.md)
-
-**Representative cases**
-
-- [CASE-001 — Neighborhood Lawn Service](cases/CASE-001-Neighborhood-Lawn-Service-as-a-Minimal-UIERU.md)
-- [CASE-002 — Multi-Agent Software Engineering](cases/CASE-002-Multi-Agent-Software-Engineering-and-Multi-Trail-Sandboxes.md)
-- [CASE-003 — Large-Scale Organizational Relay](cases/CASE-003-Large-Scale-Organizational-Relay-and-Collective-Learning.md)
-
-**Research extensions**
-
-- [EXT-001 — Subject-Indexed World Models and Structural Memory](docs/extensions/UIERU-EXT-001-Subject-Indexed-World-Models-and-Structural-Memory.md)
-- [EXT-002 — Big-Animal Intelligence Organization and Platform-Level Structural RSI](docs/extensions/UIERU-EXT-002-Big-Animal-Intelligence-Organization-and-Platform-Level-Structural-RSI.md)
-- [EXT-003 — Subject Sovereignty and Collective Intelligence Ecosystems](docs/extensions/UIERU-EXT-003-Subject-Sovereignty-and-Collective-Intelligence-Ecosystems.md)
+MSI-OEE will have advanced beyond a conceptual framework when independent observers can distinguish **which structures were proposed, which contracts they satisfy, what evidence supports them, where they fail, whose perspectives they serve, and what genuinely transfers to new contexts**. A credible negative result that narrows a structural claim is more valuable than an unexamined success narrative.
 
 ---
 
-## Conclusion
-
-The next step for UIERU is **not** to claim that a complete organizational architecture necessarily produces better intelligence. It is to test, in increasing order of complexity, whether contracts, forward guidance, multi-trail exploration, evidence-preserving relay, and governed structural evolution deliver reproducible gains that exceed their coordination costs.
-
-The strongest possible validation outcome is a **bounded, independently reproduced statement** about *where UIERU works, why it works, what it costs, and where it should not be used*. That outcome is more useful to engineers than an unqualified claim of universality.
-
-**Sizhe Tan & GPT-Obot**  
-**Universal Intelligence Evolution and Relay Unit (UIERU), v1.0.0**
+*This document describes a proposed validation program. It makes no claim that experiments, participant studies, benchmarks, or independent replications have already been performed.*

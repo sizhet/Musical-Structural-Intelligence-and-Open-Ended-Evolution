@@ -1,35 +1,32 @@
 cff-version: 1.2.0
 message: >-
-  If you use this research repository, please cite the versioned release
-  using the metadata provided here. Once a Zenodo DOI is assigned, cite
-  the archived release DOI.
+  If you use or discuss this research, please cite the repository release
+  using the metadata below. A DOI will be added after Zenodo registration.
 type: software
-title: "Universal Intelligence Evolution and Relay Unit (UIERU): Composable Structural Intelligence, Forward Guidance, Relay, and Validated Evolution"
+title: 'Musical Structural Intelligence and Open-Ended Evolution (MSI-OEE)'
+abstract: >-
+  A theory-first research framework for musical structural intelligence,
+  including musical UIERUs, structural relay, romantic intelligence,
+  perspective-aware scoring, musical distance and OTHERS, open-ended
+  structural evolution, and human–AI musical co-evolution. The initial
+  release provides research papers, cases, specifications, hypotheses,
+  and a validation roadmap; it does not claim an implemented runtime
+  or experimentally validated results.
 authors:
   - family-names: Tan
     given-names: Sizhe
   - name: GPT-Obot
-    affiliation: AI research collaborator
-repository-code: "https://github.com/sizhet/Universal-Intelligence-Evolution-and-Relay-Unit"
-url: "https://github.com/sizhet/Universal-Intelligence-Evolution-and-Relay-Unit"
 version: 1.0.0
-abstract: >-
-  UIERU proposes a composable organizational unit for structural intelligence,
-  integrating governed contracts, calling paths, forward-guiding scoring
-  forests, evidence-preserving structural relay, and independently validated
-  structural evolution. The repository presents architectural research,
-  engineering specifications, illustrative cases, testable hypotheses,
-  and a staged validation roadmap. Proposed advantages are research
-  hypotheses rather than established empirical results.
+date-released: '2026-10-26'
+repository-code: 'https://github.com/sizhet/Musical-Structural-Intelligence-and-Open-Ended-Evolution'
+url: 'https://github.com/sizhet/Musical-Structural-Intelligence-and-Open-Ended-Evolution'
+license: Apache-2.0
 keywords:
   - structural intelligence
-  - intelligence organization
-  - calling path
-  - scoring forest
-  - forward guidance
+  - musical intelligence
+  - musical UIERU
   - structural relay
-  - collective learning
-  - recursive self-improvement
-  - subject sovereignty
-  - AI governance
-license: Apache-2.0
+  - romantic intelligence
+  - perspective scoring
+  - open-ended evolution
+  - human-AI co-evolution

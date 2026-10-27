@@ -87,11 +87,11 @@ Avoid choosing the transformation set after inspecting test outcomes. Pre-regist
 
 A candidate structural comparison can be written as:
 
-\[
-D_{\mathrm{struct}}(A,B\mid c,p)
-= \min_{T\in\mathcal{T}_{\mathrm{allowed}}(c,p)}
-\operatorname{Cost}\bigl(\operatorname{Align}(T(A),B)\bigr).
-\]
+$$
+D_{\mathrm{struct}}(A,B\mid c,p) =
+ \min_{T\in\mathcal{T}_{\mathrm{allowed}}(c,p)}
+operatorname{Cost}\bigl(operatorname{Align}(T(A),B)\bigr).
+$$
 
 This expression defines an experimental family, not a universally valid music distance. The allowed transformations, alignment method, and costs require independent specification and testing.
 
@@ -99,12 +99,12 @@ This expression defines an experimental family, not a universally valid music di
 
 Rather than collapsing all evidence prematurely, record a structured vector:
 
-\[
+$$
 E(A,B\mid c,p)=
 (E_{\mathrm{surface}},E_{\mathrm{structure}},E_{\mathrm{function}},
 E_{\mathrm{distinctiveness}},E_{\mathrm{perception}},
 E_{\mathrm{provenance}},E_{\mathrm{OTHERS}}).
-\]
+$$
 
 | Evidence channel | Example measurements | Key limitation |
 |---|---|---|
@@ -149,9 +149,9 @@ This hypothesis must be tested by factorially varying accents and pitch while co
 
 Suppose R embedded in a highly common rhythmic figure is treated as less diagnostic than the same notes appearing in a rare, distinctive phrase context. A candidate mechanism is contextual rarity:
 
-\[
+$$
 I(U\mid C)=-\log P(U\mid C).
-\]
+$$
 
 This quantity is a model-based estimate of surprisal, **not** an objective measure of artistic originality or legal protectability. Its utility depends on the corpus, representation, smoothing, and cultural context.
 

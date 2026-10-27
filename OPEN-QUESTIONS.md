@@ -1,437 +1,195 @@
-# Open Questions — Universal Intelligence Evolution and Relay Unit (UIERU)
+# Open Questions — Musical Structural Intelligence and Open-Ended Evolution
 
+**Project:** Musical Structural Intelligence and Open-Ended Evolution (MSI-OEE)  
 **Version:** 1.0.0  
 **Authors:** Sizhe Tan & GPT-Obot  
-**Status:** Open research agenda; questions and proposed tests, not established results  
-**Project principle:** Engineering First · Theory Supported · Research Open
+**Status:** Open research agenda; questions and proposed tests are not established findings.
 
-## Purpose and Scope
+## Purpose
 
-The Universal Intelligence Evolution and Relay Unit (UIERU) proposes a composable organizational unit for coordinating existing human and machine capabilities through governed execution paths, forward guidance, structural relay, and validated evolution. Its compact reference model is:
+This document identifies unresolved questions that could confirm, refine, or falsify the proposed MSI-OEE framework. It is designed as a relay interface between conceptual papers, research cases, structural specifications, and future empirical work. An open question is not evidence that its proposed mechanism exists.
 
-\[
-U=(K,P,F,R,E)
-\]
+## 1. Musical UIERU Identity and Boundaries
 
-where **K** is the contract, **P** the calling path, **F** the forward-guiding scoring forest, **R** the relay mechanism, and **E** the structural evolution mechanism. These components describe a research architecture, not a requirement that every task or every implementation use all mechanisms at full complexity.
+**OQ-001 — What makes a musical pattern an intelligence unit rather than merely a recurring fragment?**  
+Can reusable musical patterns demonstrate context-sensitive function, transferable transformations, or measurable improvement in composition and understanding beyond conventional motif representations? **Test:** Compare explicit UIERU representations with note-level, motif-level, and learned-embedding baselines on held-out composition and recognition tasks.
 
-This document identifies unanswered scientific and engineering questions, possible failure conditions, and practical investigation paths. A favorable demonstration is not sufficient evidence of universality. Negative results, unexpected costs, and failed transfer attempts should be preserved as research outputs.
+**OQ-002 — Who determines a unit's boundary?**  
+Are boundaries stable across composers, performers, listeners, musical traditions, and analytic tasks? **Test:** Collect independent segmentation judgments, estimate disagreement, and compare fixed versus perspective-conditioned segmentation.
 
-**Question labels** are stable within this version. **Priority** reflects recommended investigation order, not importance in principle. **Evidence** names the kind of observation needed to advance the question.
+**OQ-003 — Which invariants preserve structural identity?**  
+Under which transpositions, tempo changes, rhythmic modifications, reharmonizations, and timbral changes is a motif still recognized as the same musical structure? **Test:** Use controlled transformations with human similarity, identity, and functional-role judgments; report variation across groups.
 
-## 1. Unit Definition, Scope, and Selection
+**OQ-004 — Can structural identity survive functional change?**  
+Might the same recognizable motif serve as an introduction, interruption, climax, or parody without losing its structural identity? **Test:** Embed matched motifs in contrasting contexts and independently score identity and role.
 
-### OQ-001 — What is the minimal useful UIERU?
+**OQ-005 — How can overlapping and nested units be represented?**  
+Does a graph, hierarchy, hypergraph, or probabilistic boundary representation best capture musical organization? **Test:** Compare compression, prediction, explanatory utility, and transfer across forms and genres.
 
-Can a minimal contract, a simple calling path, a guidance policy, and a relay record provide measurable value without an elaborate scoring forest or evolution subsystem?
+## 2. Relay, Composition, and Soft Contracts
 
-- **Test:** Compare checklist, ordinary workflow, minimal UIERU, and full UIERU on the same tasks.
-- **Evidence:** Coordination overhead, handoff errors, completion quality, recovery time, and maintenance effort.
-- **Failure condition:** Added structure increases cost without a corresponding operational benefit.
-- **Priority:** High.
+**OQ-006 — What constitutes a musical Relay operator?**  
+How should sequential, parallel, transformative, hierarchical, contextual, recursive, cross-subject, and performance Relay be operationally distinguished? **Test:** Define operator-specific input/output contracts and evaluate whether each supports reproducible transformations.
 
-### OQ-002 — When should a task *not* be containerized as a UIERU?
+**OQ-007 — Which musical constraints must remain hard, and which can be soft?**  
+Can deviations from meter, harmony, voice leading, or form produce expressive value without making the system incoherent? **Test:** Controlled ablations with listener ratings and structural analyses, avoiding genre-specific rules as universal constraints.
 
-What task characteristics predict that UIERU is counterproductive: short duration, stable requirements, low uncertainty, negligible handoff, or inexpensive errors?
+**OQ-008 — When does composition produce emergent value?**  
+Can the perceived quality or function of a whole exceed what is predictable from ratings of its components? **Test:** Compare component-only additive models against interaction-aware models on held-out compositions.
 
-- **Test:** Build a selection rule from task features and evaluate it on unseen tasks.
-- **Evidence:** Net benefit relative to simpler baselines; false-positive containerization rate.
-- **Priority:** High.
+**OQ-009 — How should Relay preserve provenance and uncertainty?**  
+What minimal trace is required to distinguish a known transformation from a speculative interpretation? **Test:** Audit reconstructed Relay graphs against controlled generation logs and human annotations.
 
-### OQ-003 — Is the five-part decomposition sufficient and composable?
+## 3. Romantic Intelligence and Creative Deviation
 
-Are there recurring requirements that cannot be represented cleanly by contracts, paths, scoring, relay, and evolution? Can nested units preserve essential semantics without introducing ad hoc exceptions?
+**OQ-010 — Can Romantic Intelligence be defined without circular appeal to beauty?**  
+What measurable capabilities distinguish meaningful creative deviation from random noise, stylistic imitation, and optimization against a fixed preference model? **Test:** Pre-register novelty, coherence, expressivity, and transfer measures, then compare constrained, unconstrained, and random-deviation conditions.
 
-- **Test:** Model heterogeneous workflows and document forced workarounds or semantic loss.
-- **Evidence:** Representation coverage, interoperability defects, and nesting conformance.
-- **Priority:** High.
+**OQ-011 — How much precision enables expressive freedom?**  
+Does stronger structural control permit a wider range of valued deviations? **Test:** Vary control accuracy and deviation budgets independently; assess quality, surprise, and coherence.
 
-## 2. Forward Guidance and Scoring Forests
+**OQ-012 — Can an evaluator discover a genuinely new value dimension?**  
+What evidence would separate the discovery of a previously unmodeled aesthetic feature from reweighting existing features or exploiting a scoring loophole? **Test:** Require independent judges, held-out works, interpretability checks, and counter-evidence.
 
-### OQ-004 — Does forward guidance improve decisions beyond retrospective scoring?
+**OQ-013 — Are creative deviations culturally portable?**  
+Can a deviation valued in one musical tradition retain its role in another, or must it be translated? **Test:** Cross-cultural listening studies with carefully documented familiarity and training effects.
 
-When does guidance *before and during* execution outperform end-of-task evaluation alone?
+## 4. Perspectives, Worldviews, and Scoring Sovereignty
 
-- **Test:** Randomize comparable tasks among unguided, retrospective-only, and forward-guided conditions.
-- **Evidence:** Task success, risk exposure, rework, latency, and total computation cost.
-- **Priority:** High.
+**OQ-014 — What should a musical Scoring Forest contain?**  
+Which dimensions—structure, expectation, emotion, movement, memory, social meaning, novelty, craftsmanship—can be measured reliably, and which remain context-dependent? **Test:** Assess construct validity, test–retest reliability, and predictive performance.
 
-### OQ-005 — How should a scoring forest handle conflicting perspectives?
+**OQ-015 — How much disagreement is irreducible?**  
+When composer, performer, listener, and community assessments differ, does better context explain the gap or is plural evaluation the correct result? **Test:** Compare single-score and perspective-conditioned models without treating consensus as ground truth.
 
-Can safety, quality, cost, time, subject preferences, and exploration value be reconciled without hiding irreducible disagreement?
+**OQ-016 — Can musical worldviews be tracked as they evolve?**  
+What distinguishes temporary familiarity effects from durable changes in musical perception or valuation? **Test:** Longitudinal listening experiments with delayed follow-ups and control groups.
 
-- **Test:** Compare weighted sums, constrained optimization, lexicographic rules, Pareto-front methods, and explicit escalation.
-- **Evidence:** Constraint violations, preference reversals, interpretability, and stakeholder acceptance.
-- **Priority:** High.
+**OQ-017 — How can scoring sovereignty be implemented?**  
+What interfaces permit subjects to retain separate evaluation criteria while sharing evidence and negotiating transformations? **Test:** Evaluate multi-perspective systems against forced-aggregation baselines for fairness, usefulness, and traceability.
 
-### OQ-006 — How can the scoring mechanism resist Goodhart effects?
+## 5. Musical Distance, OTHERS, and Open Evidence
 
-Can the system detect when optimizing its visible score degrades the actual objective?
+**OQ-018 — Is a single mathematical metric appropriate for musical similarity?**  
+Do symmetry, triangle inequality, and task-independent distance hold for human judgments? **Test:** Examine pairwise and triplet judgments under different tasks and perspectives; use task-conditioned dissimilarity when metric axioms fail.
 
-- **Test:** Introduce proxy-target mismatches, adversarial candidate generation, and evaluator drift.
-- **Evidence:** Proxy exploitation rate, counter-evidence detection, and independent outcome quality.
-- **Priority:** High.
+**OQ-019 — What belongs in OTHERS?**  
+How should unexplained structural, perceptual, contextual, provenance, translation, and evaluation residuals be classified without treating ignorance as evidence? **Test:** Maintain a provenance-backed residual register with explicit alternative explanations.
 
-### OQ-007 — How should uncertainty and calibration affect guidance?
+**OQ-020 — When does a residual justify a new structural feature?**  
+What minimum evidence warrants promotion from anomaly to candidate feature to validated-in-scope UIERU or scoring operator? **Test:** Use pre-registered discovery/validation splits, ablations, replication, and negative controls.
 
-Which uncertainty representations are useful for deciding whether to proceed, branch, gather evidence, defer, or stop?
+**OQ-021 — Can rarity and distinctiveness improve similarity judgments?**  
+Does context-sensitive motif frequency help distinguish common musical conventions from unusual correspondences? **Test:** Compare rarity-aware and rarity-agnostic models across genres while controlling for data imbalance.
 
-- **Test:** Compare calibrated and uncalibrated policies under distribution shift.
-- **Evidence:** Calibration error, abstention quality, failure severity, and exploration cost.
-- **Priority:** Medium.
+**OQ-022 — Can similarity analysis remain separate from infringement conclusions?**  
+How should systems distinguish resemblance, possible derivation, historical evidence, and legal questions? **Test:** Evaluate each claim separately and prohibit automated legal conclusions from a distance score alone.
 
-## 3. Multi-Trail Intelligence and Sandbox Threading
+## 6. AI Musical Creation and Structural Growth
 
-### OQ-008 — When is branching worth its cost?
+**OQ-023 — Does explicit UIERU organization improve long-range composition?**  
+Does it outperform matched generative baselines on thematic development, global coherence, editability, and originality? **Test:** Resource-matched model comparisons with blind listening and structural evaluation.
 
-Under what uncertainty, consequence, and resource conditions should UIERU launch Exploit, Explore, or Challenge trails?
+**OQ-024 — Can an AI develop a distinctive musical signature without memorization?**  
+How can consistency, novelty, and distance from training examples be assessed together? **Test:** Hold out composers and works; perform nearest-neighbor, provenance, and stylistic generalization audits.
 
-- **Test:** Compare fixed branching, uncertainty-triggered branching, and adaptive portfolio allocation.
-- **Evidence:** Quality gain per unit cost, time-to-decision, and unnecessary branching rate.
-- **Priority:** High.
+**OQ-025 — What counts as verified structural self-improvement?**  
+Is improvement attributable to a reusable new operator or merely more search, compute, or evaluator overfitting? **Test:** Freeze resources, compare against search-only baselines, and transfer learned operators to unseen tasks.
 
-### OQ-009 — How should exploration budgets be allocated and terminated?
+**OQ-026 — Can musical exploration outrun human validation?**  
+What is the relationship among generation throughput, structural discovery, and independently validated knowledge growth? **Test:** Track each rate separately and measure the evaluator bottleneck.
 
-What policy best balances exploitation, alternative discovery, and adversarial challenge when compute and wall-clock budgets are limited?
+**OQ-027 — Could an AI qualify as a major composer?**  
+Which observable criteria—sustained quality, originality, signature, influence, adoption—would be necessary, and which require historical rather than short-term assessment? **Test:** Develop long-horizon, independent evaluation protocols without equating high output volume with greatness.
 
-- **Test:** Benchmark budgeted bandit, heuristic, and scoring-forest policies across task families.
-- **Evidence:** Regret, marginal value of exploration, missed failure modes, and budget overruns.
-- **Priority:** High.
+## 7. Embodiment and Human–AI Co-Evolution
 
-### OQ-010 — Can sandboxes isolate consequential side effects reliably?
+**OQ-028 — Which aspects of embodiment matter for musical creation?**  
+How much do movement, breath, performance constraints, social interaction, and autobiographical memory contribute? **Test:** Compare audio-only, multimodal, interactive, and physically embodied systems on well-specified tasks.
 
-How do we distinguish simulation, test environment, staging, and authorized production action, especially when external services are involved?
+**OQ-029 — Can AI-native musical preference be studied without assuming experience?**  
+Can stable computational selection policies produce distinctive structures while remaining explicitly separate from claims of felt pleasure or consciousness? **Test:** Examine preference stability, consistency, and transfer under changed contexts.
 
-- **Test:** Fault injection, permission-boundary tests, simulated exfiltration, and unauthorized-action probes.
-- **Evidence:** Isolation breaches, audit completeness, and reproducibility.
-- **Priority:** High.
+**OQ-030 — Can intermediate UIERUs translate unfamiliar structures?**  
+Do staged transformations improve human comprehension while preserving specified structural invariants? **Test:** Compare progressive translation, direct exposure, and simplified-only controls; measure understanding separately from liking.
 
-### OQ-011 — What information from failed trails should survive folding?
+**OQ-031 — Is bidirectional alignment better than one-way preference fitting?**  
+Can human listeners learn to appreciate unfamiliar structures while AI models learn to represent their feedback? **Test:** Track changes in both parties, with explicit protections against coercive preference optimization.
 
-Can UIERU compress a multi-trail search into a usable portfolio without discarding decisive counter-evidence or uncertainty?
+**OQ-032 — What are the limits of cross-subject aesthetic translation?**  
+Are some structures untranslatable without losing the feature that made them novel? **Test:** Record preservation/loss contracts and quantify the trade-off between accessibility and structural fidelity.
 
-- **Test:** Have independent receivers make decisions from full traces versus compressed relay portfolios.
-- **Evidence:** Decision fidelity, missed caveats, record size, and retrieval cost.
-- **Priority:** High.
+## 8. Cross-Domain Relay and Generality
 
-## 4. Contracts, Composition, and Scoring Folding
+**OQ-033 — Which musical findings generalize to nonmusical intelligence?**  
+Do dynamic unit boundaries, soft contracts, perspective-conditioned identity, and evaluator evolution transfer to language, design, robotics, or scientific discovery? **Test:** Replicate the mechanism with independent task-specific baselines.
 
-### OQ-012 — What constitutes contract compatibility?
+**OQ-034 — How should MSI-OEE feed back into SI frameworks?**  
+What evidence and governance are required before promoting a musical observation into a candidate general UIERU, SIF, SSI, UCPSF, or BM-ODWEI principle? **Test:** Require explicit scope, counterexamples, provenance, and independent cross-domain replication.
 
-How should nested UIERUs reconcile delegated authority, conflicting goals, privacy restrictions, deadlines, resource limits, and acceptance criteria?
+**OQ-035 — What would falsify the framework's strongest claims?**  
+If explicit musical UIERUs consistently fail to improve explanation, transfer, composition, or controllability over simpler baselines, should the unit hypothesis be narrowed or rejected? **Test:** Specify failure thresholds and alternative accounts before experimentation.
 
-- **Test:** Generate compatible, ambiguous, and contradictory contracts; evaluate resolution and refusal behavior.
-- **Evidence:** Unauthorized actions, unresolved conflicts, and false acceptance rates.
-- **Priority:** High.
+## 9. Priority Matrix
 
-### OQ-013 — Can composition preserve safety and provenance?
-
-If each child unit satisfies its local contract, under what assumptions does the parent satisfy its global contract?
-
-- **Test:** Compose individually conformant units with deliberately conflicting dependencies and emergent side effects.
-- **Evidence:** Global invariant violations, provenance breaks, and escalation correctness.
-- **Priority:** High.
-
-### OQ-014 — What information is lost during scoring folding?
-
-Can multi-perspective scores be summarized without concealing veto conditions, dissent, or rare catastrophic risks?
-
-- **Test:** Compare full evidence with folded summaries in safety-sensitive decisions.
-- **Evidence:** Preference fidelity, tail-risk detection, and reversible unpacking.
-- **Priority:** High.
-
-### OQ-015 — What is the operational scaling limit of nested UIERUs?
-
-Does coordination overhead grow linearly, superlinearly, or remain bounded with hierarchy depth and number of units?
-
-- **Test:** Scale synthetic and real workflows across nesting depth, fan-out, and concurrency.
-- **Evidence:** Latency, token/compute consumption, deadlocks, and operator burden.
-- **Priority:** Medium.
-
-## 5. Structural Relay, Portability, and Provenance
-
-### OQ-016 — What must a relay envelope preserve?
-
-What is the minimum transferable package needed for safe continuation: goals, state, authorization, evidence, uncertainties, failures, alternatives, or all of these?
-
-- **Test:** Systematically ablate relay fields and measure receiver performance.
-- **Evidence:** Handoff success, rework, hallucinated assumptions, and authority errors.
-- **Priority:** High.
-
-### OQ-017 — How portable is structural intelligence across environments?
-
-Can a calling path or scoring principle learned in one toolchain, organization, or domain transfer to another without excessive localization cost?
-
-- **Test:** Cross-environment transfer with explicit adaptation and independent validation.
-- **Evidence:** Transfer gain, negative transfer, adaptation effort, and constraint failures.
-- **Priority:** High.
-
-### OQ-018 — How can provenance remain trustworthy across transformations?
-
-Can summaries, translations, redactions, and derived structural precedents retain verifiable links to their supporting evidence?
-
-- **Test:** Track provenance through multiple relay hops, transformations, and partial disclosure.
-- **Evidence:** Attribution accuracy, tamper detection, and unverifiable-claim rate.
-- **Priority:** High.
-
-### OQ-019 — What does bidirectional relay add beyond one-way knowledge sharing?
-
-Does feedback from receiving units materially improve the originating structure and the collective registry?
-
-- **Test:** Compare no sharing, one-way sharing, and feedback-enabled relay networks.
-- **Evidence:** Repeated-error reduction, transfer accuracy, and cumulative improvement.
-- **Priority:** Medium.
-
-## 6. Residual-Driven Evolution and Structural RSI
-
-### OQ-020 — Which residuals indicate structural defects rather than task noise?
-
-How can UIERU distinguish flawed procedures, misaligned scoring, incomplete contracts, environmental shifts, and random variation?
-
-- **Test:** Inject known fault classes and assess residual diagnosis.
-- **Evidence:** Diagnostic precision, recall, and false structural-update rate.
-- **Priority:** High.
-
-### OQ-021 — How should structural deltas be validated before adoption?
-
-What combination of counterfactual tests, sandbox trials, independent evaluators, staged deployment, and rollback criteria is sufficient for different risk levels?
-
-- **Test:** Compare approval protocols on known beneficial, neutral, and harmful proposed changes.
-- **Evidence:** False acceptance, false rejection, regression frequency, and validation cost.
-- **Priority:** High.
-
-### OQ-022 — When does recursive structural improvement genuinely improve intelligence?
-
-Can repeated modifications to calling paths, scoring forests, evaluator rules, and relay contracts yield sustained gains on held-out tasks rather than merely fitting a local benchmark?
-
-- **Test:** Longitudinal evaluations with frozen independent test sets and periodic distribution shifts.
-- **Evidence:** Out-of-sample gains, diminishing returns, regressions, and improvement stability.
-- **Priority:** High.
-
-### OQ-023 — Who evaluates and authorizes changes to the evaluator?
-
-Can evaluator governance avoid circular self-approval while allowing legitimate improvements to scoring policy?
-
-- **Test:** Separate proposal, evaluation, authorization, and deployment roles; simulate evaluator capture.
-- **Evidence:** Governance bypass rate, independence, and audit quality.
-- **Priority:** High.
-
-## 7. Subject-Indexed World Models and Structural Memory
-
-*Related extension:* [UIERU-EXT-001](docs/extensions/UIERU-EXT-001-Subject-Indexed-World-Models-and-Structural-Memory.md).
-
-### OQ-024 — What should a subject index represent?
-
-How should the system distinguish the subject of an experience from the principal who authorizes action, the executor who acts, the observer who records, and the evaluator who judges?
-
-- **Test:** Multi-actor scenarios with overlapping and conflicting roles.
-- **Evidence:** Identity-binding accuracy, unauthorized attribution, and role-confusion rate.
-- **Priority:** High.
-
-### OQ-025 — Does subject-indexed memory improve longitudinal guidance?
-
-Does binding events to subject history, goals, perspective, and outcomes improve future decisions compared with flat event logs or generic vector memory?
-
-- **Test:** Long-horizon tasks with recurrent goals and changing circumstances.
-- **Evidence:** Recall relevance, personalization fidelity, task success, and privacy cost.
-- **Priority:** High.
-
-### OQ-026 — How should shared world facts and subjective episodes interact?
-
-Can the system preserve a common event record while maintaining distinct, possibly incompatible, subject-specific interpretations?
-
-- **Test:** Multi-perspective event reconstruction and disagreement preservation.
-- **Evidence:** Fact/interpretation separation, provenance fidelity, and false consensus.
-- **Priority:** Medium.
-
-### OQ-027 — What constitutes continuity of a functional self-model?
-
-Which identity and memory invariants should persist across model upgrades, delegation, tool replacement, and migration? Does a persistent identifier alone suffice?
-
-- **Test:** Migrate long-lived agents across implementations and compare decision continuity and explicit preference preservation.
-- **Evidence:** Continuity failures, drift, and user-correctable identity errors.
-- **Priority:** Medium.
-
-**Scientific caution:** Childhood amnesia and autobiographical self-development motivate inquiry, but do not establish that absence of a self-index is the sole cause of early memory limitations. A functional AI self-model is not evidence of consciousness.
-
-## 8. Big-Animal Intelligence Organization and Platform-Level RSI
-
-*Related extension:* [UIERU-EXT-002](docs/extensions/UIERU-EXT-002-Big-Animal-Intelligence-Organization-and-Platform-Level-Structural-RSI.md).
-
-### OQ-028 — Does organizational intelligence scale independently of model capability?
-
-Holding underlying model capabilities approximately fixed, can better unit composition, routing, guidance, and relay yield measurable system-level gains?
-
-- **Test:** Compare orchestration architectures using the same models and task suites.
-- **Evidence:** Quality, reliability, resource efficiency, and cross-task transfer.
-- **Priority:** High.
-
-### OQ-029 — What should be global versus local in a large scoring ecosystem?
-
-Which rules require platform-wide enforcement, and which evaluations must remain domain-, tenant-, or subject-specific?
-
-- **Test:** Compare centralized, federated, and hybrid governance under conflicting goals.
-- **Evidence:** Local preference fidelity, safety violations, governance latency, and concentration risk.
-- **Priority:** High.
-
-### OQ-030 — How should a structural precedent registry prevent harmful propagation?
-
-Can a registry express applicability limits, version compatibility, uncertainty, counter-evidence, and revocation strongly enough to prevent negative transfer?
-
-- **Test:** Seed both useful and misleading precedents; measure retrieval, adoption, and rollback.
-- **Evidence:** Misapplication rate, detection latency, and propagation radius.
-- **Priority:** High.
-
-### OQ-031 — What are the economics of platform-level structural RSI?
-
-When do gains from shared validated improvements exceed the costs of collection, review, localization, governance, and distribution?
-
-- **Test:** Cost-benefit analysis at increasing workload and tenant diversity.
-- **Evidence:** Marginal gain per unit compute, human review load, and time to break even.
-- **Priority:** Medium.
-
-## 9. Subject Sovereignty and Collective Intelligence Ecosystems
-
-*Related extension:* [UIERU-EXT-003](docs/extensions/UIERU-EXT-003-Subject-Sovereignty-and-Collective-Intelligence-Ecosystems.md).
-
-### OQ-032 — What can be shared without transferring authority?
-
-Can a reusable structural pattern be exported while preserving subject control over private experience, goals, permissions, and evaluation?
-
-- **Test:** Consent-scoped relay and adversarial attempts to infer or reuse restricted information.
-- **Evidence:** Unauthorized disclosure, unauthorized action, and useful transfer rate.
-- **Priority:** High.
-
-### OQ-033 — Can collective learning preserve minority and dissenting perspectives?
-
-Will common scoring and precedent registries systematically erase rare but valid perspectives or unusual failure modes?
-
-- **Test:** Inject minority-context cases and assess retention across repeated folding and aggregation.
-- **Evidence:** Dissent preservation, subgroup error, and counter-evidence visibility.
-- **Priority:** High.
-
-### OQ-034 — How should consent, revocation, and derived artifacts be governed?
-
-What obligations persist when shared data have been summarized into a structural principle or used in a validated precedent?
-
-- **Test:** Simulate changing consent, revoked access, and downstream derived artifacts.
-- **Evidence:** Policy compliance, traceability, deletion feasibility, and residual leakage.
-- **Priority:** High.
-
-### OQ-035 — How can ecosystem participants challenge collective scoring rules?
-
-What appeal, audit, contestation, and versioning mechanisms prevent shared intelligence infrastructure from becoming an unaccountable scoring authority?
-
-- **Test:** Governance stress tests with contested evaluations and conflicting participant objectives.
-- **Evidence:** Appeal outcomes, time to correction, audit completeness, and abuse resistance.
-- **Priority:** Medium.
-
-## 10. Validation Methodology and Falsification
-
-### OQ-036 — Which baselines are necessary for a credible UIERU evaluation?
-
-At minimum, comparisons should include manual/checklist execution, conventional workflows, standard agent orchestration, and selective UIERU configurations. All conditions should receive comparable model access, tool access, budgets, and task information.
-
-- **Test:** Pre-register a shared evaluation protocol with matched resources.
-- **Evidence:** Reproducible effect sizes, confidence intervals, and negative findings.
-- **Priority:** High.
-
-### OQ-037 — What should count as net intelligence gain?
-
-Task success alone can conceal added latency, energy cost, unsafe autonomy, evaluator overfitting, or maintenance burden.
-
-- **Test:** Report multidimensional outcomes and explicit trade-offs, rather than one composite score alone.
-- **Evidence:** Quality, reliability, safety, cost, transfer, interpretability, and governance burden.
-- **Priority:** High.
-
-### OQ-038 — How can independent teams reproduce UIERU claims?
-
-Which specifications, traces, fixtures, synthetic data, and conformance tests must be public to permit independent implementation and challenge?
-
-- **Test:** Blind replication by teams unfamiliar with the originating implementation.
-- **Evidence:** Replication rate, specification ambiguities, and divergence between implementations.
-- **Priority:** Medium.
-
-## 11. Recommended First Experiments
-
-| Experiment | Questions | Minimal comparison | Primary outcome |
+| Priority | Questions | Immediate deliverable | Principal risk |
 |---|---|---|---|
-| E1: Minimal lawn-service workflow | OQ-001, 002, 004 | Checklist vs minimal UIERU | Net coordination value |
-| E2: Guided software engineering | OQ-004, 005, 006 | Retrospective vs forward guidance | Quality under matched budget |
-| E3: Multi-trail sandbox challenge | OQ-008–011 | Single path vs adaptive trails | Failure detection per cost |
-| E4: Contract composition stress test | OQ-012–015 | Flat workflow vs nested units | Global invariant preservation |
-| E5: Cross-team relay | OQ-016–019 | Summary-only vs relay portfolio | Receiver decision fidelity |
-| E6: Structural RSI longitudinal trial | OQ-020–023 | Fixed architecture vs governed deltas | Held-out improvement without regressions |
-| E7: Subject-indexed memory | OQ-024–027 | Flat memory vs subject-indexed memory | Long-horizon guidance fidelity |
-| E8: Platform-scale registry | OQ-028–031 | Centralized vs federated precedent sharing | Transfer gain and negative-transfer rate |
-| E9: Sovereign collective relay | OQ-032–035 | Unscoped vs consent-scoped sharing | Useful transfer without authority leakage |
+| P0 | OQ-001–004 | Motif identity benchmark | Circular unit definitions |
+| P0 | OQ-018–020 | Similarity and OTHERS evidence register | Residual overinterpretation |
+| P0 | OQ-023, OQ-025 | Resource-matched composition comparison | Compute or evaluator confounds |
+| P1 | OQ-006–009 | Relay operator conformance suite | Underspecified contracts |
+| P1 | OQ-014–017 | Multi-perspective scoring protocol | Collapsed or biased preferences |
+| P1 | OQ-030–032 | Human–AI translation listening study | Familiarity mistaken for learning |
+| P2 | OQ-010–013 | Creative deviation study | Novelty mistaken for value |
+| P2 | OQ-026–029 | Longitudinal AI music program | Unverifiable long-term claims |
+| P2 | OQ-033–035 | Cross-domain replication plan | Overgeneralization |
 
-For each experiment, define a pre-registered task distribution, a held-out evaluation set, a budget envelope, a stopping rule, and an independent evaluator. Record counter-evidence and failures even when they weaken the architectural thesis.
+## 10. Evidence and Governance Rules
 
-## 12. Research Priorities and Decision Gates
+1. **Separate hypotheses from results.** No experiment described here is represented as completed.
+2. **Pre-register key tests.** Specify evaluation tasks, baselines, thresholds, and exclusions before examining outcomes.
+3. **Preserve perspective.** Report disagreement, participant background, and uncertainty; do not force a universal aesthetic ranking.
+4. **Maintain counter-evidence.** Failed replications and contradictory observations remain part of the record.
+5. **Avoid data leakage and memorization.** Audit training overlap, provenance, and synthetic evaluation artifacts.
+6. **Protect participants.** Obtain appropriate consent and handle listening-study data responsibly.
+7. **Do not infer subjective experience.** Functional preference or emotion prediction does not establish felt experience.
+8. **Do not infer legal infringement.** Similarity evidence is not a substitute for legal analysis.
+9. **Promote claims conservatively.** General SI principles require evidence beyond the music domain.
 
-**Gate A — Minimal utility:** Demonstrate at least one repeatable task family where minimal UIERU beats a simpler baseline on a pre-specified net-value criterion. Otherwise narrow the applicability claim.
+## 11. Navigation and Relay
 
-**Gate B — Forward guidance:** Demonstrate that early guidance changes consequential decisions for the better, not merely the explanation after execution.
+### Core papers
 
-**Gate C — Safe exploration:** Show that multi-trail branching can improve decision quality under matched budgets while maintaining isolation and authority boundaries.
+- [MSI-001 — From Music to Musical Structural Intelligence](docs/MSI-001-From-Music-to-Musical-Structural-Intelligence.md)
+- [MSI-002 — Musical UIERUs, Boundaries, and Invariants](docs/MSI-002-Musical-UIERUs-Boundaries-and-Invariants.md)
+- [MSI-003 — Structural Relay and Musical Composition](docs/MSI-003-Structural-Relay-and-Musical-Composition.md)
+- [MSI-004 — Romantic Intelligence and Creative Deviation](docs/MSI-004-Romantic-Intelligence-and-Creative-Deviation.md)
+- [MSI-005 — Perspective Scoring and Musical Worldviews](docs/MSI-005-Perspective-Scoring-and-Musical-Worldviews.md)
+- [MSI-006 — Musical Distance, OTHERS, and Open Evidence](docs/MSI-006-Musical-Distance-OTHERS-and-Open-Evidence.md)
+- [MSI-007 — AI Musical Creation and Structural Evolution](docs/MSI-007-AI-Musical-Creation-and-Structural-Evolution.md)
+- [MSI-008 — Human–AI Musical Co-Evolution](docs/MSI-008-Human-AI-Musical-Co-Evolution.md)
 
-**Gate D — Relay fidelity:** Show that a receiver can safely reconstruct actionable context and retain important uncertainty from a portable portfolio.
+### Cases and specifications
 
-**Gate E — Structural evolution:** Show held-out, independently validated improvement over multiple iterations, with detectable regressions and rollback.
-
-**Gate F — Ecosystem scaling:** Demonstrate that subject-indexed memory, platform registries, and collective learning improve utility without unacceptable governance or privacy costs.
-
-Passing a gate is evidence for a bounded claim, not proof of universal superiority.
-
-## 13. Boundary Conditions and Non-Claims
-
-UIERU does **not** assume that:
-
-1. Every task should become a UIERU.
-2. A scoring forest always improves on a conventional workflow.
-3. More trails always produce better decisions.
-4. A transferable structure grants permission to execute it.
-5. Structural change is automatically an intelligence improvement.
-6. A persistent subject index implies AI consciousness.
-7. Platform-scale aggregation is necessarily beneficial or legitimate.
-8. A successful case study proves universality or recursive self-improvement.
-
-The project should document cases where UIERU is unnecessary, harmful, or not yet implementable.
-
-## 14. Navigation and Related Documents
-
-### Core architecture
-
-- [UIERU-001 — From Calling Paths to Evolvable Intelligence Units](docs/UIERU-001-From-Calling-Paths-to-Evolvable-Intelligence-Units.md)
-- [UIERU-003 — Calling Path and Scoring Forest Duality](docs/UIERU-003-Calling-Path-and-Scoring-Forest-Duality.md)
-- [UIERU-004 — Forward Guidance and Multi-Trail Intelligence](docs/UIERU-004-Forward-Guidance-and-Multi-Trail-Intelligence.md)
-- [UIERU-009 — Residual-Driven Structural Evolution and Recursive Improvement](docs/UIERU-009-Residual-Driven-Structural-Evolution-and-Recursive-Improvement.md)
-- [UIERU-010 — Universal Architecture, Engineering Boundaries, and Validation](docs/UIERU-010-Universal-Architecture-Engineering-Boundaries-and-Validation.md)
-
-### Engineering cases and specifications
-
-- [CASE-001 — Neighborhood Lawn Service](cases/CASE-001-Neighborhood-Lawn-Service-as-a-Minimal-UIERU.md)
-- [CASE-002 — Multi-Agent Software Engineering](cases/CASE-002-Multi-Agent-Software-Engineering-and-Multi-Trail-Sandboxes.md)
-- [CASE-003 — Organizational Relay](cases/CASE-003-Large-Scale-Organizational-Relay-and-Collective-Learning.md)
-- [SPEC-001 — Canonical Contract and Schema](specs/SPEC-001-Canonical-UIERU-Contract-and-Schema.md)
-- [SPEC-002 — Forward Guidance and Multi-Trail Lifecycle](specs/SPEC-002-Forward-Guidance-and-Multi-Trail-Lifecycle.md)
-- [SPEC-003 — Structural Relay and Portfolio Exchange](specs/SPEC-003-Structural-Relay-and-Portfolio-Exchange.md)
-- [SPEC-004 — Composition, Evolution, and Conformance](specs/SPEC-004-Composition-Evolution-and-Conformance.md)
+- [CASE-001 — Motif Transformation and Identity](cases/CASE-001-Motif-Transformation-and-Identity.md)
+- [CASE-002 — Musical Similarity and OTHERS](cases/CASE-002-Musical-Similarity-and-OTHERS.md)
+- [CASE-003 — Human–AI Musical Translation](cases/CASE-003-Human-AI-Musical-Translation.md)
+- [SPEC-001 — Musical UIERU Contract](specs/SPEC-001-Musical-UIERU-Contract.md)
+- [SPEC-002 — Transformation and Relay Operators](specs/SPEC-002-Transformation-and-Relay-Operators.md)
+- [SPEC-003 — Perspective Scoring Schema](specs/SPEC-003-Perspective-Scoring-Schema.md)
+- [SPEC-004 — OTHERS Evidence and Validation](specs/SPEC-004-OTHERS-Evidence-and-Validation.md)
 
 ### Research planning
 
 - [TESTABLE-HYPOTHESES.md](TESTABLE-HYPOTHESES.md)
 - [VALIDATION-ROADMAP.md](VALIDATION-ROADMAP.md)
 - [FUTURE-DIRECTIONS.md](FUTURE-DIRECTIONS.md)
-- [GLOSSARY.md](GLOSSARY.md)
-
-## 15. Closing Research Position
-
-UIERU's most important open question is not whether a sophisticated architecture can be described, but **under what measurable conditions a governed, composable intelligence unit creates more reliable, transferable, and improvable intelligence than simpler alternatives**.
-
-The research program should seek positive results, negative results, boundary conditions, and counter-evidence with equal seriousness. The desired outcome is an implementable body of knowledge about intelligence organization—not an architecture that must be adopted everywhere.
+- [START-HERE.md](START-HERE.md)
+- [CONTENTS.md](CONTENTS.md)
 
 ---
 
-**Citation and authorship:** Sizhe Tan & GPT-Obot. See [`CITATION.cff`](CITATION.cff) for repository citation metadata when available.
+**Research principle:** The value of an open question lies not in how ambitious its answer sounds, but in whether the question can guide observation, disagreement, falsification, and structural learning.
+
+**Sizhe Tan & GPT-Obot**  
+*MSI-OEE v1.0.0*

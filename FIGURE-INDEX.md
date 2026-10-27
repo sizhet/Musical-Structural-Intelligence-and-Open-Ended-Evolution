@@ -1,238 +1,171 @@
-# Figure Index — Universal Intelligence Evolution and Relay Unit (UIERU)
+# Figure Index — Musical Structural Intelligence and Open-Ended Evolution
 
+**Project:** Musical Structural Intelligence and Open-Ended Evolution (MSI-OEE)  
 **Version:** 1.0.0  
 **Authors:** Sizhe Tan & GPT-Obot  
-**Project:** Universal Intelligence Evolution and Relay Unit  
-**Principle:** Engineering First · Theory Supported · Research Open
+**Status:** Conceptual research framework; figures are explanatory schematics, not empirical results.
 
-> **Asset status:** The eight figure names below are the canonical planned assets. An eight-panel composite illustration has been generated, but that composite is **not** equivalent to eight independently exported PNG files. Before release, verify that every individual file exists at the exact path listed below, is legible, and matches its caption. Do not treat a planned figure as an already-verified file.
+## Purpose
 
-## 1. Purpose
+This index identifies the seven planned figures for MSI-OEE, describes their conceptual role, and provides consistent placement and Markdown embedding guidance. The illustrations should be interpreted as **proposed architectures and research hypotheses**, not as demonstrations of validated musical intelligence or AI subjective experience.
 
-This index is the authoritative map between UIERU's eight conceptual diagrams, their intended files, the research arguments they illustrate, and their recommended insertion locations. It provides stable naming and editorial guidance without claiming experimental validation. The diagrams are conceptual architecture illustrations, not measured results or executable specifications.
+> **Asset integrity note:** The filenames below are the canonical target names in the repository's `figures/` directory. Confirm that each image is actually exported as a separate PNG with the corresponding filename before using these links. A single seven-panel collage does not by itself create seven separate image files.
 
-## 2. Canonical Figure Catalog
+## Figure Inventory
 
-| Figure | Canonical filename | Central idea | Primary placement |
-|---|---|---|---|
-| Fig. 001 | `Fig-001-UIERU-in-Motion-From-Task-to-Relay-and-Evolution.png` | An intelligible task-to-evolution loop | `README.md`; `docs/UIERU-001-From-Calling-Paths-to-Evolvable-Intelligence-Units.md` |
-| Fig. 002 | `Fig-002-Calling-Path-and-Scoring-Forest-Duality.png` | Behavior–valuation duality and feedback | `docs/UIERU-003-Calling-Path-and-Scoring-Forest-Duality.md` |
-| Fig. 003 | `Fig-003-Forward-Guidance-and-Multi-Trail-Search.png` | Guided generation, selection, and allocation across trails | `docs/UIERU-004-Forward-Guidance-and-Multi-Trail-Intelligence.md` |
-| Fig. 004 | `Fig-004-Sandbox-Threading-and-Counter-Evidence.png` | Isolated trials, challenge paths, and evidence retention | `docs/UIERU-005-Sandbox-Threading-and-Counter-Evidence.md` |
-| Fig. 005 | `Fig-005-Composable-and-Nested-UIERU.png` | Composition, nested contracts, and reconciliation | `docs/UIERU-006-Composition-Nesting-Folding-and-Contract-Reconciliation.md` |
-| Fig. 006 | `Fig-006-Structural-Relay-and-Portfolio-Exchange.png` | Evidence-preserving, governed structural exchange | `docs/UIERU-007-Structural-Relay-Provenance-and-Intelligence-Portability.md` |
-| Fig. 007 | `Fig-007-Bidirectional-Collective-Learning-Ecosystem.png` | Local validation and reciprocal collective learning | `docs/UIERU-008-Bidirectional-Collective-Learning-and-Relay-Ecosystems.md` |
-| Fig. 008 | `Fig-008-UIERU-Grand-Architecture-and-Structural-Evolution.png` | Integrated architecture and governed evolution | `docs/UIERU-009-Residual-Driven-Structural-Evolution-and-Recursive-Improvement.md`; `docs/UIERU-010-Universal-Architecture-Engineering-Boundaries-and-Validation.md` |
+| ID | Canonical file | Main subject | Primary document | Additional placement |
+|---|---|---|---|---|
+| Fig-001 | `Fig-001-MSI-Grand-Architecture.png` | MSI-OEE research landscape and its structural feedback loops | `README.md`, `docs/MSI-001-From-Music-to-Musical-Structural-Intelligence.md` | `START-HERE.md` (optional) |
+| Fig-002 | `Fig-002-Musical-UIERU-and-Structural-Invariants.png` | Musical units, contextual boundaries, transformation invariants | `docs/MSI-002-Musical-UIERUs-Boundaries-and-Invariants.md` | `cases/CASE-001-Motif-Transformation-and-Identity.md` |
+| Fig-003 | `Fig-003-Musical-Relay-and-Composition.png` | Relay operators, soft contracts, compositional graphs | `docs/MSI-003-Structural-Relay-and-Musical-Composition.md` | `specs/SPEC-002-Transformation-and-Relay-Operators.md` |
+| Fig-004 | `Fig-004-Romantic-Intelligence-and-Scoring.png` | Precision, creative deviation, expressive valuation | `docs/MSI-004-Romantic-Intelligence-and-Creative-Deviation.md` | `docs/MSI-007-AI-Musical-Creation-and-Structural-Evolution.md` |
+| Fig-005 | `Fig-005-Multi-Perspective-Musical-Worlds.png` | Composer, performer, listener, and cultural scoring perspectives | `docs/MSI-005-Perspective-Scoring-and-Musical-Worldviews.md` | `specs/SPEC-003-Perspective-Scoring-Schema.md` |
+| Fig-006 | `Fig-006-Musical-Distance-and-OTHERS.png` | Similarity, unexplained residuals, counter-evidence, and validation | `docs/MSI-006-Musical-Distance-OTHERS-and-Open-Evidence.md` | `cases/CASE-002-Musical-Similarity-and-OTHERS.md`, `specs/SPEC-004-OTHERS-Evidence-and-Validation.md` |
+| Fig-007 | `Fig-007-Human-AI-Musical-Co-Evolution.png` | Human-native/AI-native perspectives and bidirectional translation | `docs/MSI-008-Human-AI-Musical-Co-Evolution.md` | `docs/MSI-007-AI-Musical-Creation-and-Structural-Evolution.md`, `cases/CASE-003-Human-AI-Musical-Translation.md` |
 
-All image paths are relative to the repository-root `figures/` directory.
+## Detailed Figure Descriptions and Placement Guidance
 
-## 3. Figure-by-Figure Editorial Guide
+### Fig-001 — MSI Grand Architecture
 
-### Fig. 001 — UIERU in Motion: From Task to Relay and Evolution
+**File:** `figures/Fig-001-MSI-Grand-Architecture.png`
 
-**Asset:** `figures/Fig-001-UIERU-in-Motion-From-Task-to-Relay-and-Evolution.png`
+**Concept:** An overview connecting musical perception and representation to Musical UIERUs, structural relay, perspective-aware scoring, OTHERS-based evidence discovery, and open-ended growth. Arrows should distinguish candidate generation, evaluation, counter-evidence, and validated knowledge promotion.
 
-**Message:** A UIERU organizes an authorized task through guidance, execution, evaluation, relay, and candidate structural improvement. Its purpose is intelligible coordination, not mandatory replacement of existing human, software, or AI capabilities.
+**Recommended placement:** In `README.md`, immediately after the introductory project thesis and before the research pillars. In `MSI-001`, place after the initial argument for music as a structural intelligence research domain.
 
-**Required visual elements:** task/contract; Calling Path; forward-guiding Scoring Forest; observed execution and evidence; Relay Portfolio; governed structural evolution; a feedback arrow to future guidance. Multi-Trail exploration may appear as an optional branch rather than an unavoidable step.
+**Suggested caption:** *Figure 1. Proposed MSI-OEE architecture: musical structures become candidates for reusable units, relay operations, perspective-conditioned evaluation, and evidence-governed structural growth.*
 
-**Primary insertion:** Immediately after the first concise UIERU definition or “How UIERU Works” section in `README.md`; after the introductory example and before formalization in `docs/UIERU-001-From-Calling-Paths-to-Evolvable-Intelligence-Units.md`.
-
-**Suggested caption:** *Figure 1. A minimal UIERU organizes a task into a guided execution path, evidence-bearing relay, and a validated opportunity for future structural improvement.*
-
-**README Markdown:**
+**Embed from repository root:**
 
 ```markdown
-![Fig. 001 — UIERU in motion, from task to relay and evolution](figures/Fig-001-UIERU-in-Motion-From-Task-to-Relay-and-Evolution.png)
+![Fig-001 — MSI Grand Architecture](figures/Fig-001-MSI-Grand-Architecture.png)
 ```
 
-**Document Markdown:**
+**Embed from `docs/`:**
 
 ```markdown
-![Fig. 001 — UIERU in motion, from task to relay and evolution](../figures/Fig-001-UIERU-in-Motion-From-Task-to-Relay-and-Evolution.png)
+![Fig-001 — MSI Grand Architecture](../figures/Fig-001-MSI-Grand-Architecture.png)
 ```
 
-### Fig. 002 — Calling Path and Scoring Forest Duality
+### Fig-002 — Musical UIERU and Structural Invariants
 
-**Asset:** `figures/Fig-002-Calling-Path-and-Scoring-Forest-Duality.png`
+**File:** `figures/Fig-002-Musical-UIERU-and-Structural-Invariants.png`
 
-**Message:** The Calling Path provides candidate actions, execution states, and evidence; the Scoring Forest supplies forward guidance, perspective-aware evaluation, monitoring, and revision. Their relationship is bidirectional rather than an after-the-fact score attached to a fixed workflow.
+**Concept:** Candidate motifs or phrases are represented with structural features, boundaries, contexts, and identity tests. Transformations such as transposition, rhythmic variation, re-orchestration, and reharmonization illustrate that surface equality, structural identity, and functional identity are different judgments.
 
-**Required visual elements:** action/observation flow; guidance/valuation flow; decision feedback; hard authorization and constraint gate; evidence feedback; alternative-path possibility.
+**Recommended placement:** In `MSI-002`, after defining the candidate Musical UIERU contract and before the discussion of transformation-dependent identity. Reuse in `CASE-001` near its transformation matrix.
 
-**Primary insertion:** `docs/UIERU-003-Calling-Path-and-Scoring-Forest-Duality.md`, following the section defining the two complementary structures.
+**Suggested caption:** *Figure 2. Musical UIERU candidates and the contextual tests used to investigate structural and functional identity under transformation.*
 
-**Suggested caption:** *Figure 2. Calling Paths and Scoring Forests form a coupled execution–guidance system: evidence updates evaluation, while evaluation influences future authorized actions.*
-
-### Fig. 003 — Forward Guidance and Multi-Trail Search
-
-**Asset:** `figures/Fig-003-Forward-Guidance-and-Multi-Trail-Search.png`
-
-**Message:** Guidance can generate and manage a portfolio of candidate trails, not merely rank completed outcomes.
-
-**Required visual elements:** goal/constraints; candidate generation; Exploit, Explore, and Challenge trails; budget and risk allocation; monitoring; replan/stop/continue decisions; evidence-aware selection. Distinguish proposals from approved real-world execution.
-
-**Primary insertion:** `docs/UIERU-004-Forward-Guidance-and-Multi-Trail-Intelligence.md`, after the first description of the Multi-Trail guidance cycle.
-
-**Suggested caption:** *Figure 3. Forward guidance allocates bounded exploration across complementary trails and uses emerging evidence to revise the search portfolio.*
-
-### Fig. 004 — Sandbox Threading and Counter-Evidence
-
-**Asset:** `figures/Fig-004-Sandbox-Threading-and-Counter-Evidence.png`
-
-**Message:** Isolated experimental trails can deliberately search for disconfirming evidence; unsuccessful paths may remain valuable as bounded evidence and residuals.
-
-**Required visual elements:** isolation boundary; trail lifecycle; Challenge/Counter-Evidence; evidence provenance; termination/rollback; portfolio retention; explicit authorization boundary for production effects.
-
-**Primary insertion:** `docs/UIERU-005-Sandbox-Threading-and-Counter-Evidence.md`, after the sandbox lifecycle or counter-evidence protocol.
-
-**Suggested caption:** *Figure 4. Multi-Trail sandboxes preserve both supporting and counter-evidence while keeping exploratory actions separate from authorized deployment.*
-
-### Fig. 005 — Composable and Nested UIERU
-
-**Asset:** `figures/Fig-005-Composable-and-Nested-UIERU.png`
-
-**Message:** UIERUs may be composed sequentially, in parallel, hierarchically, or federatively, subject to contract reconciliation and local evaluation sovereignty.
-
-**Required visual elements:** parent/child units; interfaces/contracts; local Scoring Forests; composition-level folding; conflict and authorization checks; evidence provenance.
-
-**Primary insertion:** `docs/UIERU-006-Composition-Nesting-Folding-and-Contract-Reconciliation.md`, following the composition modes discussion.
-
-**Suggested caption:** *Figure 5. Nested UIERUs coordinate through explicit contracts and perspective-aware folding without automatically transferring authority across boundaries.*
-
-### Fig. 006 — Structural Relay and Portfolio Exchange
-
-**Asset:** `figures/Fig-006-Structural-Relay-and-Portfolio-Exchange.png`
-
-**Message:** Structural relay carries evidence, alternatives, provenance, and candidate improvements, not just task outputs; the receiving unit validates and localizes before use.
-
-**Required visual elements:** sender; Relay Envelope/Portfolio; Calling Path; Scoring Forest context; evidence and counter-evidence; residuals and Structural Delta; receiver validation/localization; acceptance or rejection feedback.
-
-**Primary insertion:** `docs/UIERU-007-Structural-Relay-Provenance-and-Intelligence-Portability.md`, following the Relay Portfolio description.
-
-**Suggested caption:** *Figure 6. A governed Relay Portfolio preserves structural context and evidence while the recipient retains independent validation and execution authority.*
-
-### Fig. 007 — Bidirectional Collective Learning Ecosystem
-
-**Asset:** `figures/Fig-007-Bidirectional-Collective-Learning-Ecosystem.png`
-
-**Message:** Multiple UIERUs exchange candidate precedents and feedback bidirectionally; local adaptation and independent evaluation prevent shared structure from becoming compulsory policy.
-
-**Required visual elements:** several domain/subject units; exchange network or registry; local validation; successful and rejected candidate feedback; evolving precedents; differentiated subject/platform authority.
-
-**Primary insertion:** `docs/UIERU-008-Bidirectional-Collective-Learning-and-Relay-Ecosystems.md`, after the bidirectional learning architecture.
-
-**Suggested caption:** *Figure 7. Collective learning arises through reciprocal, provenance-aware structural exchange and local validation rather than unconditional replication.*
-
-### Fig. 008 — UIERU Grand Architecture and Structural Evolution
-
-**Asset:** `figures/Fig-008-UIERU-Grand-Architecture-and-Structural-Evolution.png`
-
-**Message:** The five canonical dimensions—Contract, Calling Path, Scoring Forest, Relay, Evolution—form an integrated organizational intelligence architecture with bounded, validated structural improvement.
-
-**Required visual elements:** canonical five-part model; forward guidance; Multi-Trail; evidence and residuals; Relay Portfolio; independent validation; deployment approval; monitoring and rollback; composition and collective learning as optional scale-up mechanisms.
-
-**Primary insertion:** `docs/UIERU-010-Universal-Architecture-Engineering-Boundaries-and-Validation.md`, immediately after the consolidated architecture description. Secondary use in `docs/UIERU-009-Residual-Driven-Structural-Evolution-and-Recursive-Improvement.md`, near the governed evolution lifecycle.
-
-**Suggested caption:** *Figure 8. The integrated UIERU architecture connects governed execution, forward guidance, structural relay, and evidence-driven improvement under explicit validation and authority boundaries.*
-
-## 4. Relative-Path Rules
-
-Use these exact relative path prefixes:
-
-| Markdown location | Image link prefix | Example |
-|---|---|---|
-| Repository root (`README.md`) | `figures/` | `figures/Fig-001-UIERU-in-Motion-From-Task-to-Relay-and-Evolution.png` |
-| `docs/` | `../figures/` | `../figures/Fig-002-Calling-Path-and-Scoring-Forest-Duality.png` |
-| `docs/extensions/` | `../../figures/` | `../../figures/Fig-008-UIERU-Grand-Architecture-and-Structural-Evolution.png` |
-| `cases/` or `specs/` | `../figures/` | `../figures/Fig-003-Forward-Guidance-and-Multi-Trail-Search.png` |
-
-**Generic embedding template for a core document:**
+**Embed from `docs/` or `cases/`:**
 
 ```markdown
-![Fig. NNN — Descriptive alt text](../figures/EXACT-CANONICAL-FILENAME.png)
-
-*Figure N. Concise explanation of the architectural relationship illustrated.*
+![Fig-002 — Musical UIERU and Structural Invariants](../figures/Fig-002-Musical-UIERU-and-Structural-Invariants.png)
 ```
 
-For the three `docs/extensions/` papers, no new illustrations are required. Optional cross-references to existing figures should use `../../figures/` and should not imply that the image specifically proves the extension's hypotheses.
+### Fig-003 — Musical Relay and Composition
 
-## 5. Cross-Reference Matrix
+**File:** `figures/Fig-003-Musical-Relay-and-Composition.png`
 
-| Document | Recommended figure(s) | Editorial role |
-|---|---|---|
-| `README.md` | Fig. 001 | First-screen introduction |
-| `START-HERE.md` | Fig. 001 (optional) | Quick conceptual orientation |
-| UIERU-001 | Fig. 001 | Accessible starting model |
-| UIERU-002 | Fig. 001 or Fig. 008 (optional) | Canonical contract-to-evolution architecture |
-| UIERU-003 | Fig. 002 | Calling Path–Scoring Forest coupling |
-| UIERU-004 | Fig. 003 | Forward-guided Multi-Trail search |
-| UIERU-005 | Fig. 004 | Sandbox and counter-evidence |
-| UIERU-006 | Fig. 005 | Composition and nesting |
-| UIERU-007 | Fig. 006 | Relay and provenance |
-| UIERU-008 | Fig. 007 | Collective learning |
-| UIERU-009 | Fig. 008 | Residual-driven evolution |
-| UIERU-010 | Fig. 008 | Unified architecture and validation |
-| CASE-001–003 | Existing figures only, if helpful | Illustrative reuse; no new assets required |
-| SPEC-001–004 | Existing figures only, if helpful | Explanatory reuse; normative rules remain in text |
-| UIERU-EXT-001–003 | None required | Text-first engineering extensions |
+**Concept:** Musical units can be sequenced, layered, transformed, nested, recursively developed, and interpreted across contexts. Relay edges should carry declared constraints, preserved properties, and intended creative deviations rather than imply unconditional compatibility.
 
-## 6. Visual Semantics and Accessibility
+**Recommended placement:** In `MSI-003`, after introducing the taxonomy of relay operators. Reuse in `SPEC-002` beside operator inputs, outputs, and soft-contract conditions.
 
-For visual consistency across the series, use a stable conceptual palette when editing or re-exporting assets:
+**Suggested caption:** *Figure 3. A proposed musical relay graph linking reusable units through composition and transformation operators with explicit constraints and provenance.*
 
-- **Blue:** contracts, Calling Paths, and execution structure.
-- **Purple:** Scoring Forests, guidance, and valuation.
-- **Orange:** Multi-Trail exploration, sandboxing, and counter-evidence.
-- **Green:** relay, learning, and structural evolution.
+**Embed:**
 
-Color alone must not encode a critical distinction. Include text labels, directional arrows, and clear boundary markings. Preserve readable font sizes when displayed at normal GitHub width; avoid cramped labels, ambiguous arrows, or decorative nodes that appear to carry formal semantics.
-
-For accessibility, alt text should describe the diagram's **meaning**, not merely repeat the filename. Keep detailed explanations in nearby prose so readers can understand the architecture without relying on the image.
-
-## 7. Figure Production and Release Checklist
-
-Before tagging `v1.0.0`, verify all of the following:
-
-- [ ] Eight **separate** PNG files exist under `figures/`, with exact case-sensitive canonical names.
-- [ ] Each PNG contains the intended **individual** figure, not the entire eight-panel composite repeated under different filenames.
-- [ ] Every file opens correctly and has sufficient resolution for GitHub and ResearchGate viewing.
-- [ ] Figure titles, labels, arrows, and captions accurately match the associated paper.
-- [ ] All embedded Markdown links resolve from their respective document directories.
-- [ ] Figure numbering is consistent: Fig. 001–008 in filenames, Fig. 1–8 in prose if preferred.
-- [ ] No diagram implies that untested hypotheses are experimentally demonstrated.
-- [ ] No diagram implies that a Scoring Forest grants authority, that relay automatically transfers authority, or that RSI proposals deploy without independent approval.
-- [ ] No diagram presents exploratory sandbox actions as unrestricted production execution.
-- [ ] Alt text and textual explanations are sufficient for readers who cannot view the images.
-- [ ] The final README and document placements are checked against the actual repository contents.
-
-A local validation command, run from the repository root:
-
-```bash
-python3 - <<'PY'
-from pathlib import Path
-names = [
-    'Fig-001-UIERU-in-Motion-From-Task-to-Relay-and-Evolution.png',
-    'Fig-002-Calling-Path-and-Scoring-Forest-Duality.png',
-    'Fig-003-Forward-Guidance-and-Multi-Trail-Search.png',
-    'Fig-004-Sandbox-Threading-and-Counter-Evidence.png',
-    'Fig-005-Composable-and-Nested-UIERU.png',
-    'Fig-006-Structural-Relay-and-Portfolio-Exchange.png',
-    'Fig-007-Bidirectional-Collective-Learning-Ecosystem.png',
-    'Fig-008-UIERU-Grand-Architecture-and-Structural-Evolution.png',
-]
-for name in names:
-    p = Path('figures') / name
-    print(('OK     ' if p.is_file() else 'MISSING'), p)
-PY
+```markdown
+![Fig-003 — Musical Relay and Composition](../figures/Fig-003-Musical-Relay-and-Composition.png)
 ```
 
-This command checks file presence only; it does not verify that each image has the correct contents or that Markdown links render.
+### Fig-004 — Romantic Intelligence and Scoring
 
-## 8. Scope and Attribution
+**File:** `figures/Fig-004-Romantic-Intelligence-and-Scoring.png`
 
-These figures are conceptual illustrations of the UIERU research program and should be interpreted alongside the accompanying text and specifications. They do not establish universal applicability, comparative performance gains, or empirical superiority.
+**Concept:** A precision-oriented evaluation plane interacts with an expressive or exploratory plane. Deviations are neither automatically errors nor automatically valuable; their expressive significance depends on context, listener perspective, and evidence. Candidate new scoring criteria may emerge from repeated, independently tested observations.
 
-**Research and authorship:** Sizhe Tan & GPT-Obot.  
-**Version:** v1.0.0.  
-**Related navigation:** [README](README.md) · [START HERE](START-HERE.md) · [CONTENTS](CONTENTS.md) · [GLOSSARY](GLOSSARY.md) · [FUTURE DIRECTIONS](FUTURE-DIRECTIONS.md).
+**Recommended placement:** In `MSI-004`, immediately after the formal distinction between random error, deliberate deviation, and meaningful expressive freedom.
+
+**Suggested caption:** *Figure 4. Romantic Intelligence as a research hypothesis: controlled deviation and perspective-dependent scoring may reveal expressive value beyond existing optimization criteria.*
+
+**Embed:**
+
+```markdown
+![Fig-004 — Romantic Intelligence and Scoring](../figures/Fig-004-Romantic-Intelligence-and-Scoring.png)
+```
+
+### Fig-005 — Multi-Perspective Musical Worlds
+
+**File:** `figures/Fig-005-Multi-Perspective-Musical-Worlds.png`
+
+**Concept:** The composer, performer, listener, and cultural community interact with a shared musical artifact but may have different world models, objectives, memories, and evaluative authority. The design should preserve disagreement and uncertainty rather than collapse all perspectives into one universal score.
+
+**Recommended placement:** In `MSI-005`, following the introduction of the four musical perspectives. Reuse in `SPEC-003` when presenting subject/context/score/provenance fields.
+
+**Suggested caption:** *Figure 5. Multiple musical perspectives evaluate and reinterpret shared structures while retaining distinct scoring contexts and authority.*
+
+**Embed:**
+
+```markdown
+![Fig-005 — Multi-Perspective Musical Worlds](../figures/Fig-005-Multi-Perspective-Musical-Worlds.png)
+```
+
+### Fig-006 — Musical Distance and OTHERS
+
+**File:** `figures/Fig-006-Musical-Distance-and-OTHERS.png`
+
+**Concept:** Feature-level and transformation-aware comparisons are combined with contextual evidence and human judgments. Unexplained agreement or disagreement enters an OTHERS register, followed by hypothesis formation, counter-evidence, independent validation, and possible promotion to a new structural feature. Similarity alone must not be depicted as a legal finding of plagiarism.
+
+**Recommended placement:** In `MSI-006`, after introducing the open-evidence comparison model. Reuse in `CASE-002` near the comparison protocol and in `SPEC-004` near the validation lifecycle.
+
+**Suggested caption:** *Figure 6. Musical similarity as an open-evidence process: residual disagreement motivates testable hypotheses and counter-evidence rather than unsupported conclusions.*
+
+**Embed:**
+
+```markdown
+![Fig-006 — Musical Distance and OTHERS](../figures/Fig-006-Musical-Distance-and-OTHERS.png)
+```
+
+### Fig-007 — Human–AI Musical Co-Evolution
+
+**File:** `figures/Fig-007-Human-AI-Musical-Co-Evolution.png`
+
+**Concept:** Human-native musical experience and AI-native computational evaluation are distinct but potentially interoperable. Intermediate Musical UIERUs, representation conversion, folding/unfolding, and bidirectional feedback create an experimental shared exploration space. AI functional preferences should not be portrayed as proof of subjective feeling.
+
+**Recommended placement:** In `MSI-008`, after introducing bidirectional musical relay and cross-subject aesthetic translation. Reuse in `MSI-007` near the discussion of AI-native exploration, and in `CASE-003` near the progressive translation protocol.
+
+**Suggested caption:** *Figure 7. A proposed human–AI musical co-evolution loop using intermediate structures, bidirectional relay, and independent perspective-aware evaluation.*
+
+**Embed:**
+
+```markdown
+![Fig-007 — Human–AI Musical Co-Evolution](../figures/Fig-007-Human-AI-Musical-Co-Evolution.png)
+```
+
+## Cross-Reference and Editorial Rules
+
+1. **Canonical names:** Keep the `Fig-001` through `Fig-007` identifiers and exact filenames unchanged across the repository.
+2. **Relative links:** Use `figures/...` from root-level Markdown files and `../figures/...` from `docs/`, `cases/`, or `specs/`.
+3. **One source of truth:** Store each illustration once under `figures/`; reference the same file wherever it is reused.
+4. **Caption discipline:** Identify every figure as conceptual or proposed unless empirical validation is actually reported.
+5. **Readability:** Use descriptive alt text; avoid tiny labels and unexplained acronyms in final exported artwork.
+6. **Claims and provenance:** Do not present speculative AI subjective experience, legal infringement determinations, or autonomous open-ended evolution as established results.
+7. **Release check:** Verify that all seven PNG files exist independently, load correctly on GitHub, and match their captions before creating the release tag.
+
+## Release Verification Checklist
+
+- [ ] All seven canonical PNG files are present under `figures/`.
+- [ ] Every image matches its corresponding title and conceptual content.
+- [ ] `README.md` includes Fig-001 with a working root-relative path.
+- [ ] MSI-001 through MSI-008 include their intended figure references.
+- [ ] CASE and SPEC references use valid parent-relative paths.
+- [ ] No image references point to a composite collage in place of an individual figure.
+- [ ] Captions and terminology match `GLOSSARY.md` and the research claims in the relevant documents.
+- [ ] Images render correctly in GitHub's Markdown preview.
+
+---
+
+**MSI-OEE v1.0.0**  
+*Musical Structural Intelligence and Open-Ended Evolution*  
+**Sizhe Tan & GPT-Obot**

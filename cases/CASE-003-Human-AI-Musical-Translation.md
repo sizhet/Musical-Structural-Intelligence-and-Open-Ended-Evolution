@@ -48,9 +48,9 @@ The unit of investigation is a short, synthetic musical passage with a known gen
 
 Let a source musical object be
 
-\[
+$$
 M_A=(U_A,G_A,\Theta_A,C_A,P_A),
-\]
+$$
 
 where:
 
@@ -64,10 +64,10 @@ For a human listener population \(H\), let \(P_H\) represent measurable listenin
 
 A **translation relay** is a sequence
 
-\[
+$$
 M_A \xrightarrow{T_1} M_1 \xrightarrow{T_2} \cdots
 \xrightarrow{T_k} M_H,
-\]
+$$
 
 with each intermediate state accompanied by an auditable preservation record.
 
@@ -75,10 +75,10 @@ with each intermediate state accompanied by an auditable preservation record.
 
 A candidate translation path \(\pi\) can be evaluated on separate axes:
 
-\[
+$$
 Q(\pi)=\bigl(F_{\mathrm{struct}}, A_{\mathrm{human}},
 L_{\mathrm{learn}}, N_{\mathrm{retained}}, R_{\mathrm{risk}}\bigr).
-\]
+$$
 
 Here:
 
