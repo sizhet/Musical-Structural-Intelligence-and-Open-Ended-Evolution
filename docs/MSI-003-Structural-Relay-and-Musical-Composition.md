@@ -17,6 +17,8 @@ Music is not merely an inventory of notes, motifs, phrases, or harmonic patterns
 
 ![Fig-003-Musical-Relay-and-Composition.png](../figures/Fig-003-Musical-Relay-and-Composition.png)
 
+*Figure 3. A proposed musical relay graph linking reusable units through composition and transformation operators with explicit constraints and provenance.*
+
 ---
 
 ## 1. From Musical Units to Musical Works
@@ -43,7 +45,7 @@ This is a hypothesis about a useful level of description, not a claim that all m
 
 ### 2.1 Relay is more than sequence
 
-Let \(U_i\) and \(U_j\) denote candidate Musical UIERUs. A simple temporal adjacency relation, \(U_i \prec U_j\), means only that one occurs before the other. A **relay** additionally carries a functional or structural dependency: some feature, expectation, tension, rhythmic organization, role, or transformation established by one unit influences the realization or interpretation of another.
+Let $U_i$ and $U_j$ denote candidate Musical UIERUs. A simple temporal adjacency relation, $U_i \prec U_j$, means only that one occurs before the other. A **relay** additionally carries a functional or structural dependency: some feature, expectation, tension, rhythmic organization, role, or transformation established by one unit influences the realization or interpretation of another.
 
 A provisional expression is:
 
@@ -53,11 +55,11 @@ $$
 
 where:
 
-- \(o\): relay operator or family of operators;
-- \(c\): musical and performance context;
-- \(p\): perspective or evaluating subject;
-- \(k\): compatibility constraints or *soft contract*;
-- \(e\): evidence supporting the proposed dependency.
+- $o$: relay operator or family of operators;
+- $c$: musical and performance context;
+- $p$: perspective or evaluating subject;
+- $k$: compatibility constraints or *soft contract*;
+- $e$: evidence supporting the proposed dependency.
 
 Not every adjacency is a relay, and not every dependency is consciously intended by a composer. A listener may hear a relationship that a composer did not deliberately construct; an analyst should distinguish perceptual relation from documented causal intention.
 
@@ -90,7 +92,7 @@ $$
 U = (S,B,I,F,C,P,Q),
 $$
 
-where \(S\) is observable or inferred structure, \(B\) boundary evidence, \(I\) identity/invariance conditions, \(F\) functional role, \(C\) context, \(P\) perspective, and \(Q\) uncertainty or confidence information. This is a research-oriented schema, not a mandatory data format.
+where $S$ is observable or inferred structure, $B$ boundary evidence, $I$ identity/invariance conditions, $F$ functional role, $C$ context, $P$ perspective, and $Q$ uncertainty or confidence information. This is a research-oriented schema, not a mandatory data format.
 
 A composition may then be modeled as:
 
@@ -100,12 +102,12 @@ $$
 
 with:
 
-- \(\mathcal{U}\): candidate musical units;
-- \(\mathcal{R}\): typed relay relations;
-- \(\mathcal{H}\): hierarchical and overlapping grouping relations;
-- \(\mathcal{T}\): temporal placement and synchronization constraints;
-- \(\mathcal{P}\): relevant perspectives and scoring policies;
-- \(\mathcal{E}\): observations, provenance, and counter-evidence.
+- $\mathcal{U}$: candidate musical units;
+- $\mathcal{R}$: typed relay relations;
+- $\mathcal{H}$: hierarchical and overlapping grouping relations;
+- $\mathcal{T}$: temporal placement and synchronization constraints;
+- $\mathcal{P}$: relevant perspectives and scoring policies;
+- $\mathcal{E}$: observations, provenance, and counter-evidence.
 
 The resulting object is best treated as a **typed, possibly hierarchical relay graph with temporal constraints**, not necessarily a tree. Polyphony creates overlapping dependencies; retrospective listening may add relations after the event; improvisation may revise the graph during performance.
 
@@ -131,7 +133,7 @@ $$
 (U_1 \parallel U_2) \xrightarrow{\mathrm{coordination}} U_{12}.
 $$
 
-Here \(U_{12}\) denotes an emergent composite interpretation, not a claim that the source units cease to exist. Synchronization, consonance, rhythmic interference, and attention compete or cooperate.
+Here $U_{12}$ denotes an emergent composite interpretation, not a claim that the source units cease to exist. Synchronization, consonance, rhythmic interference, and attention compete or cooperate.
 
 ### 4.3 Transformative relay
 
@@ -252,7 +254,7 @@ $$
 operatorname{Revise}(\mathcal{M}_t,\Delta_t,\mathcal{E}_t),
 $$
 
-where \(\Delta_t\) summarizes evaluated differences and \(\mathcal{E}_t\) includes positive and negative evidence.
+where $\Delta_t$ summarizes evaluated differences and $\mathcal{E}_t$ includes positive and negative evidence.
 
 This is an architectural proposal, not evidence that a particular algorithm will outperform modern generative models.
 
@@ -291,7 +293,7 @@ V(\mathcal{M}\mid P,C) =
 F_P(\{V(U_i)\},\{V(R_{ij})\},operatorname{global}(\mathcal{M}),C).
 $$
 
-No universal closed-form \(F_P\) is claimed. Listener preference, style, expertise, and historical context may change the evaluation. The function notation makes dependencies explicit; it is not a solved theory of beauty.
+No universal closed-form $F_P$ is claimed. Listener preference, style, expertise, and historical context may change the evaluation. The function notation makes dependencies explicit; it is not a solved theory of beauty.
 
 ## 8. Precision, Timing, and Romantic Intelligence
 
@@ -304,7 +306,7 @@ operatorname{ExpressiveValue}(\delta\mid U,C,P)
 \not\equiv -|\delta|,
 $$
 
-where \(\delta\) is deviation from a specified reference. This rejects the assumption that smaller deviation always means better music; it does not assert that any deviation is beneficial.
+where $\delta$ is deviation from a specified reference. This rejects the assumption that smaller deviation always means better music; it does not assert that any deviation is beneficial.
 
 **Romantic Intelligence**, developed in MSI-004, is proposed as the ability to generate, recognize, and evaluate meaningful creative deviations under context-sensitive constraints. In this account, precision supports expressive control, while freedom permits exploratory departure from existing rules.
 
@@ -335,7 +337,7 @@ The appropriate granularity and relay operators must be tested, not presumed uni
 
 ### 10.1 Motif development through transformative relay
 
-Consider an invented four-event motif with interval contour \((+2,+1,-3)\) in relative semitone steps. A later phrase transposes the motif, doubles its durations, and changes the harmonic setting.
+Consider an invented four-event motif with interval contour $(+2,+1,-3)$ in relative semitone steps. A later phrase transposes the motif, doubles its durations, and changes the harmonic setting.
 
 Possible analyses:
 
@@ -505,7 +507,7 @@ $$
 - **MSI-007** explores AI composition and structural evolution.
 - **MSI-008** addresses embodiment, cross-subject translation, and human–AI co-evolution.
 
-Related planned artifacts are `CASE-001-Motif-Transformation-and-Identity.md`, `SPEC-001-Musical-UIERU-Contract.md`, and `SPEC-002-Transformation-and-Relay-Operators.md`. The planned illustration is `figures/Fig-003-Musical-Relay-and-Composition.png`.
+Related planned artifacts are `CASE-001-Motif-Transformation-and-Identity.md`, `SPEC-001-Musical-UIERU-Contract.md`, and `SPEC-002-Transformation-and-Relay-Operators.md`. 
 
 ## 17. Conclusion
 

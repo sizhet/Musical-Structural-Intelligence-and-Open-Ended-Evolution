@@ -17,6 +17,8 @@ Precision is indispensable to music: timing, pitch relationships, formal organiz
 
 ![Fig-004-Romantic-Intelligence-and-Scoring.png](../figures/Fig-004-Romantic-Intelligence-and-Scoring.png)
 
+*Figure 4. Romantic Intelligence as a research hypothesis: controlled deviation and perspective-dependent scoring may reveal expressive value beyond existing optimization criteria.*
+
 ---
 
 ## 1. The Research Problem: When Deviation Becomes Value
@@ -86,12 +88,12 @@ A well-trained musician may intentionally deviate from a notated timing grid wit
 
 Let:
 
-- \(U\) be a candidate Musical UIERU or larger musical structure;
-- \(C\) be the performance and cultural context;
-- \(P\) be an evaluation perspective or population;
-- \(B(U,C,P)\) be a baseline expectation or reference realization;
-- \(T_\delta\) be a transformation parameterized by a deviation description \(\delta\);
-- \(S_P\) be a perspective-conditioned scoring process.
+- $U$ be a candidate Musical UIERU or larger musical structure;
+- $C$ be the performance and cultural context;
+- $P$ be an evaluation perspective or population;
+- $B(U,C,P)$ be a baseline expectation or reference realization;
+- $T_\delta$ be a transformation parameterized by a deviation description $\delta$;
+- $S_P$ be a perspective-conditioned scoring process.
 
 A schematic **deviation value** is:
 
@@ -100,9 +102,9 @@ $$
 = S_P(T_\delta(U),C) - S_P(B(U,C,P),C).
 $$
 
-This expression does not imply that aesthetic value is intrinsically scalar or measurable without disagreement. It is an experimental abstraction: \(S_P\) might be a vector of ratings, a distribution of pairwise preferences, or a context-specific decision rule.
+This expression does not imply that aesthetic value is intrinsically scalar or measurable without disagreement. It is an experimental abstraction: $S_P$ might be a vector of ratings, a distribution of pairwise preferences, or a context-specific decision rule.
 
-The research target is not simply to maximize \(\lVert\delta\rVert\). Instead, a candidate system should identify transformations satisfying contextual constraints while improving or extending independently evaluated value:
+The research target is not simply to maximize $\lVert\delta\rVert$. Instead, a candidate system should identify transformations satisfying contextual constraints while improving or extending independently evaluated value:
 
 $$
 \delta^* \in \arg\max_{\delta \in \mathcal{D}(U,C)}
@@ -111,7 +113,7 @@ $$
 
 subject to constraints on intelligibility, identity, provenance, performance feasibility, and diversity of perspectives where appropriate.
 
-Here \(\Pi\) represents a **declared** evaluation population, not humanity as a whole. In exploratory work, the objective should include uncertainty and novelty measures, not just average approval. Minority perspectives and disagreement should not be erased by a single mean score.
+Here $\Pi$ represents a **declared** evaluation population, not humanity as a whole. In exploratory work, the objective should include uncertainty and novelty measures, not just average approval. Minority perspectives and disagreement should not be erased by a single mean score.
 
 ### 4.1 The critical distinction: fixed objectives versus evolving objectives
 
@@ -127,7 +129,7 @@ $$
 (U_t,S_t,E_t) \rightarrow (U_{t+1},S_{t+1},E_{t+1}),
 $$
 
-where \(E_t\) is the evidence record supporting evaluation decisions.
+where $E_t$ is the evidence record supporting evaluation decisions.
 
 A revised scoring function is **not automatically better**. It must be tested against independent listeners, counterexamples, historical comparisons, and criteria that were not selected solely because they favor the system's outputs.
 
@@ -163,7 +165,7 @@ $$
 U = (X,B,I,F,C,R,E),
 $$
 
-where \(X\) is structural content, \(B\) boundaries, \(I\) identity conditions, \(F\) functional role, \(C\) contextual dependencies, \(R\) relay interfaces, and \(E\) evidence and uncertainty. This notation is compatible with, but does not replace, the fuller contracts proposed in MSI-002 and planned SPEC-001.
+where $X$ is structural content, $B$ boundaries, $I$ identity conditions, $F$ functional role, $C$ contextual dependencies, $R$ relay interfaces, and $E$ evidence and uncertainty. This notation is compatible with, but does not replace, the fuller contracts proposed in MSI-002 and planned SPEC-001.
 
 A transformation may preserve some dimensions while changing others:
 
@@ -429,10 +431,6 @@ These are **candidate transfers** to the wider SI research program. Validation i
 | MSI-007 | AI composition and structural evolution | Controlled innovation and evaluator governance |
 | MSI-008 / SSI | Subject boundaries and cross-subject relay | Human–AI aesthetic translation |
 | SIF / UCPSF / Structural RSI | Control, scoring, validation, growth | Candidate reusable patterns of value-sensitive structural evolution |
-
-**Planned companion specification:** `specs/SPEC-003-Perspective-Scoring-Schema.md`  
-**Planned companion case:** `cases/CASE-003-Human-AI-Musical-Translation.md`  
-**Planned illustration:** `figures/Fig-004-Romantic-Intelligence-and-Scoring.png`
 
 ## 18. Open Questions
 

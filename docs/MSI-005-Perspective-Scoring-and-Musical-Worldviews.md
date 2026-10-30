@@ -17,6 +17,8 @@ The same musical passage can be valued differently by its composer, performer, l
 
 ![Fig-005-Multi-Perspective-Musical-Worlds.png](../figures/Fig-005-Multi-Perspective-Musical-Worlds.png)
 
+*Figure 5. Multiple musical perspectives evaluate and reinterpret shared structures while retaining distinct scoring contexts and authority.*
+
 ---
 
 ## 1. Why Music Requires More Than One Scoring Function

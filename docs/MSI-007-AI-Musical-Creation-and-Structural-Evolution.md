@@ -14,6 +14,12 @@ Artificial intelligence can generate convincing musical surfaces, but the abilit
 
 ---
 
+![Fig-007-Human-AI-Musical-Co-Evolution.png](../figures/Fig-007-Human-AI-Musical-Co-Evolution.png)
+
+*Figure 7. A proposed human–AI musical co-evolution loop using intermediate structures, bidirectional relay, and independent perspective-aware evaluation.*
+
+---
+
 ## 1. Introduction: From Generating Music to Developing Musical Intelligence
 
 Music generation and musical creation should not be treated as synonyms. A system may produce audio judged locally plausible without sustaining a long-range dramatic trajectory, developing a recognizable compositional idea, or learning reusable principles from its failures. Conversely, a composition may initially challenge familiar preferences while ultimately contributing an important new structure or practice.
@@ -56,7 +62,7 @@ The distinction between G3 and G4 is especially important. One surprising work m
 
 ### 2.1 Output volume is not intelligence growth
 
-Let \(N_t\) be the number of generated artifacts by time \(t\), and \(K_t\) the set of validated reusable compositional capabilities. Then:
+Let $N_t$ be the number of generated artifacts by time $t$, and $K_t$ the set of validated reusable compositional capabilities. Then:
 
 $$
 \Delta N_t > 0 \quad \not\Rightarrow \quad \Delta K_t > 0.
@@ -78,13 +84,13 @@ $$
 
 where:
 
-- \(S\): structural representation (e.g., interval contour, rhythm, harmony, gesture);
-- \(B\): boundaries, including uncertain or overlapping boundaries;
-- \(C\): musical and cultural context;
-- \(F\): possible musical functions (tension, transition, closure, identity);
-- \(I\): transformation-dependent identity constraints or invariants;
-- \(R\): admissible relay and transformation interfaces;
-- \(P\): provenance and supporting evidence.
+- $S$: structural representation (e.g., interval contour, rhythm, harmony, gesture);
+- $B$: boundaries, including uncertain or overlapping boundaries;
+- $C$: musical and cultural context;
+- $F$: possible musical functions (tension, transition, closure, identity);
+- $I$: transformation-dependent identity constraints or invariants;
+- $R$: admissible relay and transformation interfaces;
+- $P$: provenance and supporting evidence.
 
 This representation is deliberately provisional. Units may have multiple functions, fuzzy boundaries, or conflicting identity judgments across listeners and tasks. A motif is not automatically a validated UIERU simply because it is detectable.
 
@@ -96,7 +102,7 @@ $$
 G_M = (V, E, \tau, \kappa),
 $$
 
-where \(V\) contains candidate units and events, \(E\) encodes temporal, harmonic, thematic, and hierarchical relationships, \(\tau\) describes transformations, and \(\kappa\) records contextual constraints and interpretive annotations.
+where $V$ contains candidate units and events, $E$ encodes temporal, harmonic, thematic, and hierarchical relationships, $\tau$ describes transformations, and $\kappa$ records contextual constraints and interpretive annotations.
 
 This graph does not replace audio or symbolic music. It provides a complementary layer for reasoning about long-range organization, compositional choices, and reuse.
 
@@ -172,7 +178,7 @@ operatorname{Score}(G_M \mid p,c)
 Q_{\mathrm{novelty}}, Q_{\mathrm{performability}}, Q_{\mathrm{provenance}}, OTHERS; c\bigr).
 $$
 
-Here \(p\) identifies a perspective and \(c\) a context. The function \(F_p\) need not be additive, fixed, or shared among perspectives. The term **OTHERS** denotes unresolved or unmodeled evidence; it must not become an arbitrary numerical reward for novelty.
+Here $p$ identifies a perspective and $c$ a context. The function $F_p$ need not be additive, fixed, or shared among perspectives. The term **OTHERS** denotes unresolved or unmodeled evidence; it must not become an arbitrary numerical reward for novelty.
 
 ### 4.3 Rendering is not the whole evaluation
 
@@ -212,7 +218,7 @@ $$
 \Sigma_A = (D_U, D_R, D_G, D_P),
 $$
 
-where \(D_U\) describes unit usage, \(D_R\) transformation and relay patterns, \(D_G\) global organizational tendencies, and \(D_P\) perspective-conditioned evaluative preferences.
+where $D_U$ describes unit usage, $D_R$ transformation and relay patterns, $D_G$ global organizational tendencies, and $D_P$ perspective-conditioned evaluative preferences.
 
 A signature is not automatically evidence of originality. A model may reproduce a recognizable artist's patterns through memorization or imitation. Research must distinguish:
 
@@ -511,7 +517,6 @@ The MSI-OEE research position is therefore deliberately conditional. AI systems 
 - **Next:** `MSI-008-Human-AI-Musical-Co-Evolution.md`
 - **Related cases:** `CASE-001-Motif-Transformation-and-Identity.md`; `CASE-002-Musical-Similarity-and-OTHERS.md`; `CASE-003-Human-AI-Musical-Translation.md`
 - **Related specifications:** `SPEC-001-Musical-UIERU-Contract.md`; `SPEC-002-Transformation-and-Relay-Operators.md`; `SPEC-003-Perspective-Scoring-Schema.md`; `SPEC-004-OTHERS-Evidence-and-Validation.md`
-- **Planned figure:** `figures/Fig-007-Human-AI-Musical-Co-Evolution.png` (shared with MSI-008)
 
 ---
 

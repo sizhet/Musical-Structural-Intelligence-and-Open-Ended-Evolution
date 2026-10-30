@@ -17,6 +17,8 @@ Music offers an unusually rich setting in which to investigate structural intell
 
 ![Fig-001-MSI-Grand-Architecture.png](../figures/Fig-001-MSI-Grand-Architecture.png)
 
+*Figure 1. Proposed MSI-OEE architecture: musical structures become candidates for reusable units, relay operations, perspective-conditioned evaluation, and evidence-governed structural growth.*
+
 ---
 
 ## 1. Introduction: Why Music?
@@ -64,7 +66,7 @@ This tuple is a **research scaffold**, not an established ontological definition
 
 A candidate UIERU should be evaluated for identity preservation under selected transformations, such as transposition, rhythmic augmentation, ornamentation, orchestration, and contextual re-harmonization. The allowable transformations cannot be assumed universal. An operation that preserves a motif in one musical tradition may alter its function in another.
 
-Let \(T\) be a transformation and \(I(U,C,P)\) a perspective-conditioned identity judgment. A working hypothesis is that some nontrivial transformations satisfy:
+Let $T$ be a transformation and $I(U,C,P)$ a perspective-conditioned identity judgment. A working hypothesis is that some nontrivial transformations satisfy:
 
 $$
 I(U,C,P) \approx I(T(U),C',P')
@@ -107,7 +109,7 @@ $$
 U_k = \mathcal{R}(U_i,U_j\mid C,K,P)
 $$
 
-where \(K\) represents structural constraints or compatibility conditions. Musical constraints are frequently **soft contracts**: departures from a convention can be expressive rather than invalid. Nevertheless, not every deviation is valuable, and the relevant criteria vary by tradition and perspective.
+where $K$ represents structural constraints or compatibility conditions. Musical constraints are frequently **soft contracts**: departures from a convention can be expressive rather than invalid. Nevertheless, not every deviation is valuable, and the relevant criteria vary by tradition and perspective.
 
 Musical relay also occurs across people and representations:
 
@@ -129,7 +131,7 @@ $$
 V(U\mid P,C,H,W) = F(U,P,C,H,W)
 $$
 
-where \(H\) is relevant experience and \(W\) represents evaluation criteria or their weights. This formulation is descriptive, not evidence that human experience can be exhaustively represented by a scalar function.
+where $H$ is relevant experience and $W$ represents evaluation criteria or their weights. This formulation is descriptive, not evidence that human experience can be exhaustively represented by a scalar function.
 
 Three forms of change should be separated:
 

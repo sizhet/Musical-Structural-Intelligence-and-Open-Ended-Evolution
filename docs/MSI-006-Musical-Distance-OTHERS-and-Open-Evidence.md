@@ -16,6 +16,8 @@ Musical similarity is not a single property. Two passages may share notes but di
 
 ![Fig-006-Musical-Distance-and-OTHERS.png](../figures/Fig-006-Musical-Distance-and-OTHERS.png)
 
+*Figure 6. Musical similarity as an open-evidence process: residual disagreement motivates testable hypotheses and counter-evidence rather than unsupported conclusions.*
+
 ---
 
 ## 1. The Central Problem: Similarity Is Not One Number
@@ -36,13 +38,13 @@ The questions may inform one another, but they are not interchangeable. In parti
 
 ### 2.1 Feature spaces
 
-Common representations include pitch sequences, interval contours, chroma, rhythm and onset patterns, harmonic labels, timbral embeddings, spectral descriptors, and learned audio or symbolic embeddings. For an aligned feature representation \(\phi\), a conventional distance might be
+Common representations include pitch sequences, interval contours, chroma, rhythm and onset patterns, harmonic labels, timbral embeddings, spectral descriptors, and learned audio or symbolic embeddings. For an aligned feature representation $\phi$, a conventional distance might be
 
 $$
 D_{\phi}(A,B)=\lVert\phi(A)-\phi(B)\rVert_2.
 $$
 
-This is useful only to the extent that \(\phi\) retains the properties relevant to the question. A model optimized for acoustic similarity may overemphasize instrumentation; a pitch-only model may miss rhythmic identity; a broad embedding may collapse distinctions crucial to musicologists.
+This is useful only to the extent that $\phi$ retains the properties relevant to the question. A model optimized for acoustic similarity may overemphasize instrumentation; a pitch-only model may miss rhythmic identity; a broad embedding may collapse distinctions crucial to musicologists.
 
 ### 2.2 Alignment and invariance
 
@@ -56,7 +58,7 @@ D_{\mathrm{struct}}(A,B\mid C,P)
 \left[d\bigl(\phi(T(A)),\phi(B)\bigr)+\lambda\,\mathrm{cost}(T)\right].
 $$
 
-Here \(C\) is musical context, \(P\) is an evaluation perspective, \(\mathcal T\) is an explicitly documented set of admissible transformations, and \(\mathrm{cost}(T)\) penalizes implausibly elaborate transformations. Without this penalty, an unrestricted transformation family could make unrelated works appear similar.
+Here $C$ is musical context, $P$ is an evaluation perspective, $\mathcal T$ is an explicitly documented set of admissible transformations, and $\mathrm{cost}(T)$ penalizes implausibly elaborate transformations. Without this penalty, an unrestricted transformation family could make unrelated works appear similar.
 
 This quantity is generally a **task-dependent dissimilarity**, not necessarily a mathematical metric: symmetry, triangle inequality, and identity of indiscernibles may fail.
 
@@ -85,7 +87,7 @@ $$
 =\{E_{\mathrm{matched}},E_{\mathrm{structural}},E_{\mathrm{contextual}},E_{\mathrm{provenance}},E_{\mathrm{OTHERS}}\}.
 $$
 
-\(E_{\mathrm{OTHERS}}\) denotes **unexplained or unmodeled evidence**, not a magically observable scalar and not permission to add a favorable score after seeing the desired outcome. It can be represented as documented disagreements, missing descriptors, anomalous residuals, or candidate mechanisms awaiting validation.
+$E_{\mathrm{OTHERS}}$ denotes **unexplained or unmodeled evidence**, not a magically observable scalar and not permission to add a favorable score after seeing the desired outcome. It can be represented as documented disagreements, missing descriptors, anomalous residuals, or candidate mechanisms awaiting validation.
 
 The decision procedure is then
 
@@ -93,7 +95,7 @@ $$
 \widehat{Y}=g_{P,C}(\mathcal E;\theta),
 $$
 
-where \(Y\) is a precisely defined target, such as human-rated motif similarity, not a generic verdict of plagiarism.
+where $Y$ is a precisely defined target, such as human-rated motif similarity, not a generic verdict of plagiarism.
 
 ### 3.2 Four candidate residual classes
 
@@ -115,7 +117,7 @@ $$
 I(U\mid C)=-\log\bigl(P(U\mid C)+\epsilon\bigr),
 $$
 
-where \(U\) is a candidate Musical UIERU, \(C\) defines a relevant corpus, and \(\epsilon\) stabilizes the expression. The estimated probability depends strongly on corpus sampling, segmentation, genre, period, and representation. Rarity is evidence of distinctiveness, **not proof of copying, originality, or legal protectability**.
+where $U$ is a candidate Musical UIERU, $C$ defines a relevant corpus, and $\epsilon$ stabilizes the expression. The estimated probability depends strongly on corpus sampling, segmentation, genre, period, and representation. Rarity is evidence of distinctiveness, **not proof of copying, originality, or legal protectability**.
 
 A responsible comparison report should include the reference corpus, confidence interval or calibration uncertainty, known sampling biases, and common-pattern counterexamples. Apparent uniqueness can disappear when the search population broadens.
 
@@ -127,7 +129,7 @@ $$
 D_P(A,B\mid C,T)=h_P\bigl(\mathbf d(A,B),C,T,\mathbf u\bigr),
 $$
 
-where \(\mathbf d\) is a vector of documented comparisons, \(T\) is the evaluation task, and \(\mathbf u\) represents uncertainty and unresolved evidence. The function \(h_P\) should be learned or calibrated against observations for the specified perspective, not declared universal.
+where $\mathbf d$ is a vector of documented comparisons, $T$ is the evaluation task, and $\mathbf u$ represents uncertainty and unresolved evidence. The function $h_P$ should be learned or calibrated against observations for the specified perspective, not declared universal.
 
 ### 5.1 Separate tasks
 

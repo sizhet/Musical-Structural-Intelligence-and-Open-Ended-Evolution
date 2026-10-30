@@ -17,6 +17,8 @@ Musical structure is recognizable across changes of key, tempo, instrumentation,
 
 ![Fig-002-Musical-UIERU-and-Structural-Invariants.png](../figures/Fig-002-Musical-UIERU-and-Structural-Invariants.png)
 
+*Figure 2. Musical UIERU candidates and the contextual tests used to investigate structural and functional identity under transformation.*
+
 ---
 
 ## 1. The Research Problem
@@ -60,12 +62,12 @@ where:
 
 | Field | Meaning | Illustrative evidence |
 |---|---|---|
-| \(S\) — Structural representation | Pitch, interval, rhythm, contour, harmony, timbre, gesture, or learned features | Score, MIDI, audio features, annotations |
-| \(C\) — Context | Meter, harmony, neighboring phrases, genre, performance, cultural setting | Local and global musical metadata |
-| \(P\) — Perspective | Listener, composer, performer, model, or community under which the unit is identified | Listener group, expertise, task specification |
-| \(F\) — Functional role | Opening, continuation, tension, release, reference, transition, accompaniment, etc. | Structural and perceptual judgments |
-| \(R\) — Relay interface | Compatibility and transformation relations with other units | Composition, variation, response, transition |
-| \(E\) — Evolution capability | Potential for adaptation, reuse, differentiation, and retention | Documented variants, generated candidates, validation history |
+| $S$ — Structural representation | Pitch, interval, rhythm, contour, harmony, timbre, gesture, or learned features | Score, MIDI, audio features, annotations |
+| $C$ — Context | Meter, harmony, neighboring phrases, genre, performance, cultural setting | Local and global musical metadata |
+| $P$ — Perspective | Listener, composer, performer, model, or community under which the unit is identified | Listener group, expertise, task specification |
+| $F$ — Functional role | Opening, continuation, tension, release, reference, transition, accompaniment, etc. | Structural and perceptual judgments |
+| $R$ — Relay interface | Compatibility and transformation relations with other units | Composition, variation, response, transition |
+| $E$ — Evolution capability | Potential for adaptation, reuse, differentiation, and retention | Documented variants, generated candidates, validation history |
 
 This tuple is a **research scaffold**, not a claim that these fields are independent, fully observable, or uniquely identifiable. Some fields may be distributions or sets of competing interpretations.
 
@@ -97,7 +99,7 @@ Musical structure may be organized at several interacting scales:
 
 ### 3.1 Nested and overlapping units
 
-Let a musical work be represented as an event set \(X\). Candidate units may be subsets \(U_i\subseteq X\), but there is no requirement that:
+Let a musical work be represented as an event set $X$. Candidate units may be subsets $U_i\subseteq X$, but there is no requirement that:
 
 $$
 U_i\cap U_j=\varnothing.
@@ -125,13 +127,13 @@ These boundaries often coincide but need not. A motif may start before a metrica
 
 ### 4.2 Boundary as a distribution, not a fixed cut
 
-For a candidate boundary at time \(t\), define a task- and perspective-conditioned probability:
+For a candidate boundary at time $t$, define a task- and perspective-conditioned probability:
 
 $$
 B(t\mid X,C,P,T)=\Pr(\text{boundary at }t\mid X,C,P,T),
 $$
 
-where \(T\) specifies the task (e.g., motif recognition, phrase segmentation, performance planning). The expression is a modeling proposal, not an assertion that human judgments are perfectly probabilistic.
+where $T$ specifies the task (e.g., motif recognition, phrase segmentation, performance planning). The expression is a modeling proposal, not an assertion that human judgments are perfectly probabilistic.
 
 A unit can therefore have **soft endpoints**, multiple plausible segmentations, or boundaries that become clearer after additional context arrives.
 
@@ -167,7 +169,7 @@ Some transformations preserve symbolic identity but not perceptual or expressive
 
 ### 5.2 An equivalence relation may be too strong
 
-For a restricted transformation family \(\mathcal T\), one might propose:
+For a restricted transformation family $\mathcal T$, one might propose:
 
 $$
 U_a\sim_{\mathcal T}U_b
@@ -175,7 +177,7 @@ U_a\sim_{\mathcal T}U_b
 \exists\tau\in\mathcal T:\tau(U_a)\approx U_b.
 $$
 
-But approximate recognition may not be transitive: \(A\) resembles \(B\), and \(B\) resembles \(C\), while \(A\) no longer resembles \(C\). Consequently, perceptual identity is often better modeled as a **graded relation** than as a strict equivalence class.
+But approximate recognition may not be transitive: $A$ resembles $B$, and $B$ resembles $C$, while $A$ no longer resembles $C$. Consequently, perceptual identity is often better modeled as a **graded relation** than as a strict equivalence class.
 
 A provisional score is:
 
@@ -227,7 +229,7 @@ $$
 \Sigma_A=\bigl(\mathcal U_A,\Pi_A,\mathcal R_A,\mathcal V_A\bigr),
 $$
 
-where \(\mathcal U_A\) denotes a distribution over candidate units, \(\Pi_A\) transformation policies, \(\mathcal R_A\) relay or composition relations, and \(\mathcal V_A\) observable valuation tendencies. \(A\) may refer to a work, performer, composer, ensemble, genre, or tradition.
+where $\mathcal U_A$ denotes a distribution over candidate units, $\Pi_A$ transformation policies, $\mathcal R_A$ relay or composition relations, and $\mathcal V_A$ observable valuation tendencies. $A$ may refer to a work, performer, composer, ensemble, genre, or tradition.
 
 **A signature is an inferential model, not an essential personal fingerprint.** Genre conventions, instrumentation, production practices, historical period, and dataset bias can create spurious signatures. Any authorship or style analysis must use matched controls and report uncertainty.
 
@@ -239,7 +241,7 @@ $$
 D_{\mathrm{distinct}}(U\mid C)=-\log P(U\mid C).
 $$
 
-This is a candidate information-theoretic feature; estimating \(P(U\mid C)\) reliably is difficult, and rarity alone does not establish originality, value, or derivation.
+This is a candidate information-theoretic feature; estimating $P(U\mid C)$ reliably is difficult, and rarity alone does not establish originality, value, or derivation.
 
 ## 8. Musical UIERUs as Relay-Compatible Units
 
@@ -261,7 +263,7 @@ Musical relay interfaces are often **soft contracts**: compatibility is graded, 
 
 ## 9. Perspective-Conditioned Identity and Open Evidence
 
-The same sound may be segmented and recognized differently by a novice listener, an expert musician, a performer, or a computational model. Thus, the identity relation should retain the perspective variable \(P\), rather than silently averaging across incompatible judgments.
+The same sound may be segmented and recognized differently by a novice listener, an expert musician, a performer, or a computational model. Thus, the identity relation should retain the perspective variable $P$, rather than silently averaging across incompatible judgments.
 
 Disagreement may arise from:
 
@@ -405,7 +407,11 @@ This paper establishes a provisional vocabulary for the remaining research docum
 - **MSI-007** investigates AI composition, structural learning, and the limits of automated evaluation.
 - **MSI-008** studies embodiment, AI-native exploration, aesthetic translation, and human–AI co-evolution.
 
-**Recommended figure:** `../figures/Fig-002-Musical-UIERU-and-Structural-Invariants.png` — show candidate units at multiple scales, overlapping boundaries, transformation operators, and the distinction between preserved form and changed function. Insert after Section 5 when the figure is available.
+![Fig-002-Musical-UIERU-and-Structural-Invariants.png](../figures/Fig-002-Musical-UIERU-and-Structural-Invariants.png)
+
+*Figure 2. Musical UIERU candidates and the contextual tests used to investigate structural and functional identity under transformation.*
+
+---
 
 ## 16. Conclusion
 

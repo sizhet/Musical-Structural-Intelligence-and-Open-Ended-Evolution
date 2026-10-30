@@ -16,6 +16,8 @@ Musical intelligence is not exhausted by recognizing acoustic patterns or genera
 
 ![Fig-007-Human-AI-Musical-Co-Evolution.png](../figures/Fig-007-Human-AI-Musical-Co-Evolution.png)
 
+*Figure 7. A proposed human–AI musical co-evolution loop using intermediate structures, bidirectional relay, and independent perspective-aware evaluation.*
+
 ---
 
 ## 1. Introduction: The Composer Without a Human Life
@@ -67,7 +69,7 @@ $$
 V_{s,c}(m) = F_s\bigl(\phi(m), B_s, H_s, C_c, I_{s,c}\bigr),
 $$
 
-where \(m\) is a musical artifact, \(\phi(m)\) denotes its structural representation, \(B_s\) denotes subject-specific embodied affordances, \(H_s\) historical memory, \(C_c\) cultural context, and \(I_{s,c}\) situated interaction. This is a research decomposition, not a validated universal equation.
+where $m$ is a musical artifact, $\phi(m)$ denotes its structural representation, $B_s$ denotes subject-specific embodied affordances, $H_s$ historical memory, $C_c$ cultural context, and $I_{s,c}$ situated interaction. This is a research decomposition, not a validated universal equation.
 
 AI embodiment need not duplicate human anatomy. An artificial musical agent may acquire sensorimotor constraints through instruments, robotics, responsive interfaces, environmental audio, and collaborative performance. Such coupling could yield distinct forms of musical competence without establishing human-equivalent feeling.
 
@@ -77,7 +79,7 @@ AI embodiment need not duplicate human anatomy. An artificial musical agent may 
 
 An AI system can exhibit a **functional musical preference**: a stable, measurable tendency to select some structures over others according to a scoring process or learned policy.
 
-Let \(P_A(m\mid c)\) denote the system's context-conditioned preference ordering over candidate music. Such an ordering can be tested for stability, sensitivity to context, and predictive value. It should not be equated with felt pleasure.
+Let $P_A(m\mid c)$ denote the system's context-conditioned preference ordering over candidate music. Such an ordering can be tested for stability, sensitivity to context, and predictive value. It should not be equated with felt pleasure.
 
 Three notions must be kept distinct:
 
@@ -123,7 +125,7 @@ $$
 (A_t,H_t,R_t) \longrightarrow (A_{t+1},H_{t+1},R_{t+1}),
 $$
 
-where \(A_t\) is the AI's operational musical model, \(H_t\) denotes observable human musical understanding or preferences, and \(R_t\) is the set of available translation and relay mechanisms. The human term does **not** imply that an individual's preferences should be manipulated without consent.
+where $A_t$ is the AI's operational musical model, $H_t$ denotes observable human musical understanding or preferences, and $R_t$ is the set of available translation and relay mechanisms. The human term does **not** imply that an individual's preferences should be manipulated without consent.
 
 A bidirectional cycle can be expressed as:
 
@@ -137,17 +139,23 @@ A bidirectional cycle can be expressed as:
 
 The relay is successful when both parties can contribute information to the process, not when the human simply learns to accept the AI's score.
 
+![Fig-007-Human-AI-Musical-Co-Evolution.png](../figures/Fig-007-Human-AI-Musical-Co-Evolution.png)
+
+*Figure 7. A proposed human–AI musical co-evolution loop using intermediate structures, bidirectional relay, and independent perspective-aware evaluation.*
+
+---
+
 ## 7. Cross-Subject Aesthetic Translation Intelligence
 
 We propose **Cross-Subject Aesthetic Translation Intelligence (CSATI)** as the capacity to build and validate pathways between structurally distinct musical representations and evaluative perspectives.
 
-Suppose an AI discovers candidate structure \(u_A\), unfamiliar to a target human listener. Instead of directly optimizing the structure away, the system constructs a sequence:
+Suppose an AI discovers candidate structure $u_A$, unfamiliar to a target human listener. Instead of directly optimizing the structure away, the system constructs a sequence:
 
 $$
 u_A \xrightarrow{T_1} u_1 \xrightarrow{T_2} u_2 \xrightarrow{\cdots} u_H,
 $$
 
-where each \(T_i\) is a transformation or presentation relay and \(u_H\) is an accessible realization. The transformations may adjust tempo, instrumentation, register, rhythmic density, layering, duration, or explanation.
+where each $T_i$ is a transformation or presentation relay and $u_H$ is an accessible realization. The transformations may adjust tempo, instrumentation, register, rhythmic density, layering, duration, or explanation.
 
 Two constraints are essential:
 
@@ -160,7 +168,7 @@ $$
 \max_{T_{1:k}}\; \bigl[\alpha\,A_H(T_{1:k}(u_A)) + \beta\,F_{\mathcal I}(T_{1:k},u_A)\bigr],
 $$
 
-subject to documented transformation costs and uncertainty. Here \(A_H\) is an operational measure of human accessibility, while \(F_{\mathcal I}\) measures preservation of specified invariants \(\mathcal I\). Weights are design choices, not universal aesthetic constants.
+subject to documented transformation costs and uncertainty. Here $A_H$ is an operational measure of human accessibility, while $F_{\mathcal I}$ measures preservation of specified invariants $\mathcal I$. Weights are design choices, not universal aesthetic constants.
 
 A bridge is successful only if listeners can demonstrate improved access **without** losing the feature that motivated the exploration.
 
@@ -201,7 +209,7 @@ $$
 \mathbf{S}(m,c)=\bigl(S_{H_1},\ldots,S_{H_n},S_A,S_E\bigr),
 $$
 
-where \(S_{H_i}\) are human-perspective measurements, \(S_A\) is an AI functional scoring model, and \(S_E\) denotes external expert or task-specific evaluations. The vector is not necessarily reducible to one scalar.
+where $S_{H_i}$ are human-perspective measurements, $S_A$ is an AI functional scoring model, and $S_E$ denotes external expert or task-specific evaluations. The vector is not necessarily reducible to one scalar.
 
 Important governance principles include:
 
@@ -395,10 +403,6 @@ A proposal should be rejected or revised if translation improves preference only
 - **MSI-006:** provides OTHERS, open evidence, similarity analysis, and counter-evidence.
 - **MSI-007:** examines AI composition, signatures, and structural evolution.
 - **MSI-008 (this paper):** connects those mechanisms through embodied constraints, cross-subject translation, and human–AI co-evolution.
-
-Companion documents: `CASE-003-Human-AI-Musical-Translation.md`, `SPEC-001-Musical-UIERU-Contract.md`, `SPEC-002-Transformation-and-Relay-Operators.md`, `SPEC-003-Perspective-Scoring-Schema.md`, `TESTABLE-HYPOTHESES.md`, and `VALIDATION-ROADMAP.md`.
-
-Recommended figure: `figures/Fig-007-Human-AI-Musical-Co-Evolution.png` (to be produced separately).
 
 ## 18. Limitations and Research Integrity
 
