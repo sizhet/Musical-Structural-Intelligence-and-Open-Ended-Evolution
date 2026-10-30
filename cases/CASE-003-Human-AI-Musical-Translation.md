@@ -54,13 +54,13 @@ $$
 
 where:
 
-- \(U_A\): candidate musical UIERUs (motifs, rhythmic cells, timbral gestures, etc.);
-- \(G_A\): their dependency and composition graph;
-- \(\Theta_A\): transformation parameters and structural constraints;
-- \(C_A\): source context and intended musical role;
-- \(P_A\): the computational perspective used to select or evaluate the structure.
+- $U_A$: candidate musical UIERUs (motifs, rhythmic cells, timbral gestures, etc.);
+- $G_A$: their dependency and composition graph;
+- $\Theta_A$: transformation parameters and structural constraints;
+- $C_A$: source context and intended musical role;
+- $P_A$: the computational perspective used to select or evaluate the structure.
 
-For a human listener population \(H\), let \(P_H\) represent measurable listening context, experience, and judgments—not a complete model of subjective experience.
+For a human listener population $H$, let $P_H$ represent measurable listening context, experience, and judgments—not a complete model of subjective experience.
 
 A **translation relay** is a sequence
 
@@ -73,7 +73,7 @@ with each intermediate state accompanied by an auditable preservation record.
 
 ### 3.1 Multi-objective translation
 
-A candidate translation path \(\pi\) can be evaluated on separate axes:
+A candidate translation path $\pi$ can be evaluated on separate axes:
 
 $$
 Q(\pi)=\bigl(F_{\mathrm{struct}}, A_{\mathrm{human}},
@@ -82,11 +82,11 @@ $$
 
 Here:
 
-- \(F_{\mathrm{struct}}\): preservation of predeclared source invariants;
-- \(A_{\mathrm{human}}\): human perceptual accessibility;
-- \(L_{\mathrm{learn}}\): measured improvement in structural comprehension;
-- \(N_{\mathrm{retained}}\): preservation of source novelty rather than conversion to familiar conventions;
-- \(R_{\mathrm{risk}}\): risk of copying, misleading evaluation, or undesirable manipulation.
+- $F_{\mathrm{struct}}$: preservation of predeclared source invariants;
+- $A_{\mathrm{human}}$: human perceptual accessibility;
+- $L_{\mathrm{learn}}$: measured improvement in structural comprehension;
+- $N_{\mathrm{retained}}$: preservation of source novelty rather than conversion to familiar conventions;
+- $R_{\mathrm{risk}}$: risk of copying, misleading evaluation, or undesirable manipulation.
 
 These dimensions should **not** be collapsed into a single score without reporting the tradeoffs. In particular, high accessibility achieved by deleting every distinctive source feature is not a successful translation.
 
