@@ -37,19 +37,19 @@ A Musical UIERU is a candidate reusable musical structure with a declared repres
 
 An **operator** is a versioned, typed mapping with declared effects:
 
-\[
+$$
 O:(U_1,\ldots,U_n;C,P,\theta)\longrightarrow(Y,\Delta,E)
-\]
+$$
 
 where:
 
-- \(U_i\): source Musical UIERUs or representations;
-- \(C\): musical and production context;
-- \(P\): perspective or evaluator reference, when relevant;
-- \(\theta\): parameters, including random seed where applicable;
-- \(Y\): resulting UIERU, realization, or composition graph;
-- \(\Delta\): declared structural changes and preserved properties;
-- \(E\): evidence, diagnostics, and provenance.
+- $U_i$: source Musical UIERUs or representations;
+- $C$: musical and production context;
+- $P$: perspective or evaluator reference, when relevant;
+- $\theta$: parameters, including random seed where applicable;
+- $Y$: resulting UIERU, realization, or composition graph;
+- $\Delta$: declared structural changes and preserved properties;
+- $E$: evidence, diagnostics, and provenance.
 
 An operator MAY be deterministic or stochastic. Stochastic operators MUST log enough parameters, seeds, model versions, and inputs to permit an appropriate level of reproducibility.
 
@@ -182,25 +182,25 @@ A **soft contract** encodes preferences, trade-offs, or context-dependent expect
 
 A **creative deviation** intentionally relaxes a soft constraint in pursuit of possible expressive or structural value. It is not simply a failure relabeled as creativity.
 
-For a candidate output \(Y\), one illustrative selection rule is:
+For a candidate output $Y$, one illustrative selection rule is:
 
-\[
+$$
 Y^* \in \arg\max_{Y\in\mathcal{F}_{hard}}
 \bigl[ S_P(Y,C)-\lambda R(Y,C)+\eta N(Y,C)\bigr]
-\]
+$$
 
-where \(\mathcal{F}_{hard}\) is the hard-feasible set, \(S_P\) is perspective-conditioned quality, \(R\) is a declared risk or soft-constraint penalty, and \(N\) is a novelty estimate. This is a *design example*, not a universal model of musical value. Weights and objectives are context-dependent and may themselves be challenged through counter-evidence.
+where $\mathcal{F}_{hard}$ is the hard-feasible set, $S_P$ is perspective-conditioned quality, $R$ is a declared risk or soft-constraint penalty, and $N$ is a novelty estimate. This is a *design example*, not a universal model of musical value. Weights and objectives are context-dependent and may themselves be challenged through counter-evidence.
 
 A deviation record SHOULD include: baseline, altered constraint, intended expressive hypothesis, observed listener effects, evaluator disagreements, and evidence status.
 
 ## 7. Identity Preservation Contract
 
-For each transformation, specify a candidate invariant set \(I=\{i_1,\ldots,i_k\}\) and an evaluation scope \(C\). Define a property-specific check:
+For each transformation, specify a candidate invariant set $I=\{i_1,\ldots,i_k\}$ and an evaluation scope $C$. Define a property-specific check:
 
-\[
-\operatorname{Preserve}(i_j,U,O(U),C)\in
+$$
+operatorname{Preserve}(i_j,U,O(U),C)\in
 \{\text{pass},\text{fail},\text{undetermined}\}.
-\]
+$$
 
 Examples of candidate invariants:
 
@@ -231,11 +231,11 @@ Original onsets and pitches may remain identical while accents shift from events
 
 A musical composition MAY be modeled as a typed, attributed directed multigraph:
 
-\[
+$$
 G=(V,E,\tau,\alpha)
-\]
+$$
 
-where nodes represent units, events, sections, or performance agents; edges represent temporal, simultaneous, transformational, contextual, or cross-subject relations; \(\tau\) assigns types and \(\alpha\) stores attributes and evidence references.
+where nodes represent units, events, sections, or performance agents; edges represent temporal, simultaneous, transformational, contextual, or cross-subject relations; $\tau$ assigns types and $\alpha$ stores attributes and evidence references.
 
 The graph is a *research representation*, not a claim that all musical meaning is graph-reducible.
 

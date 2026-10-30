@@ -41,35 +41,35 @@ The PSS does **not** establish whether an AI has subjective experience; equate p
 
 Let a scoring event be
 
-\[
+$$
 E = (S, X, C, T, F, O, U, P, V),
-\]
+$$
 
 where:
 
-- \(S\): subject or evaluator identity and authority;
-- \(X\): musical target, including representation and version;
-- \(C\): listening, performance, cultural, and experimental context;
-- \(T\): evaluation task and question;
-- \(F\): scoring forest, with dimensions and aggregation policy;
-- \(O\): observations and outputs;
-- \(U\): uncertainty and disagreement information;
-- \(P\): provenance and evidence references;
-- \(V\): schema, model, and rubric versions.
+- $S$: subject or evaluator identity and authority;
+- $X$: musical target, including representation and version;
+- $C$: listening, performance, cultural, and experimental context;
+- $T$: evaluation task and question;
+- $F$: scoring forest, with dimensions and aggregation policy;
+- $O$: observations and outputs;
+- $U$: uncertainty and disagreement information;
+- $P$: provenance and evidence references;
+- $V$: schema, model, and rubric versions.
 
 A contextual score can be written:
 
-\[
+$$
 \mathbf{s}_{S,C,T}(X) = (s_1,\ldots,s_k),
-\]
+$$
 
 with a **partial** aggregation function, if authorized:
 
-\[
+$$
 A_{S,C,T}(\mathbf{s}) \rightarrow q.
-\]
+$$
 
-The scalar \(q\) is optional. No global aggregation is assumed. Different subjects may use non-comparable dimensions, or decline aggregation entirely.
+The scalar $q$ is optional. No global aggregation is assumed. Different subjects may use non-comparable dimensions, or decline aggregation entirely.
 
 A **Scoring Forest** is a collection of potentially interacting scoring trees or operators, not necessarily a fixed weighted sum. Its components can include learned models, explicit rules, human judgments, comparative tests, and evidence filters. Some operators may be non-linear, context-dependent, or non-metric.
 
@@ -157,9 +157,9 @@ Each forest MUST declare `owner_subject_id`, `editable_by`, `aggregatable_with`,
 
 For cross-subject scoring, use distinct records:
 
-\[
+$$
 F_H(X\mid C_H), \quad F_A(X\mid C_A), \quad F_{H\leftrightarrow A}(X\mid C_R).
-\]
+$$
 
 The hybrid forest is a **new negotiated evaluation process**, not proof that the original human and AI perspectives have become identical.
 

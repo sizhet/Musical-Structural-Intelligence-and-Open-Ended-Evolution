@@ -33,19 +33,19 @@ Out of scope:
 
 For a declared task and perspective, a model may represent similarity using known evidence channels:
 
-\[
+$$
 \widehat{y}=f_\theta(x_{\mathrm{surface}},x_{\mathrm{structural}},x_{\mathrm{context}},p,t).
-\]
+$$
 
-Here, \(p\) denotes an evaluation perspective and \(t\) a task. An observed discrepancy \(r=y-\widehat{y}\), when the target supports numerical residuals, is a **signal for investigation**, not proof that an unknown musical feature exists. For categorical tasks, OTHERS may arise from disagreement patterns, calibration failures, systematic misclassifications, or anomalous expert descriptions.
+Here, $p$ denotes an evaluation perspective and $t$ a task. An observed discrepancy $r=y-\widehat{y}$, when the target supports numerical residuals, is a **signal for investigation**, not proof that an unknown musical feature exists. For categorical tasks, OTHERS may arise from disagreement patterns, calibration failures, systematic misclassifications, or anomalous expert descriptions.
 
 A proposed extended model may take the form:
 
-\[
+$$
 \widehat{y}'=f_{\theta'}(x_{\mathrm{known}},z_{\mathrm{candidate}},p,t),
-\]
+$$
 
-but \(z_{\mathrm{candidate}}\) MUST be independently specified and tested. An unobserved OTHERS term MUST NOT be silently tuned as a free parameter to force agreement.
+but $z_{\mathrm{candidate}}$ MUST be independently specified and tested. An unobserved OTHERS term MUST NOT be silently tuned as a free parameter to force agreement.
 
 **Operational distinction:** unexplained observation → candidate explanation → tested hypothesis → scoped knowledge. Each transition requires a separate record.
 
