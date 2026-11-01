@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use or discuss this research, please cite the repository release
   using the metadata below. A DOI will be added after Zenodo registration.
-type: software
+type: generic
 title: 'Musical Structural Intelligence and Open-Ended Evolution (MSI-OEE)'
 abstract: >-
   A theory-first research framework for musical structural intelligence,
