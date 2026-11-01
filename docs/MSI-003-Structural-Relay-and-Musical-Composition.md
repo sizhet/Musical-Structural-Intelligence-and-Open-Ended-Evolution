@@ -507,7 +507,7 @@ $$
 - **MSI-007** explores AI composition and structural evolution.
 - **MSI-008** addresses embodiment, cross-subject translation, and human–AI co-evolution.
 
-Related planned artifacts are `CASE-001-Motif-Transformation-and-Identity.md`, `SPEC-001-Musical-UIERU-Contract.md`, and `SPEC-002-Transformation-and-Relay-Operators.md`. 
+Related artifacts are `CASE-001-Motif-Transformation-and-Identity.md`, `SPEC-001-Musical-UIERU-Contract.md`, and `SPEC-002-Transformation-and-Relay-Operators.md`. 
 
 ## 17. Conclusion
 

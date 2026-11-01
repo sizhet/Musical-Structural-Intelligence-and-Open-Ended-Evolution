@@ -300,7 +300,6 @@ The proposed Musical UIERU is a hypothesis to be refined, not a unit whose exist
 - **Creative dimension:** [`MSI-004-Romantic-Intelligence-and-Creative-Deviation.md`](MSI-004-Romantic-Intelligence-and-Creative-Deviation.md)
 - **Research cases:** [`../cases/CASE-001-Motif-Transformation-and-Identity.md`](../cases/CASE-001-Motif-Transformation-and-Identity.md)
 - **Specifications:** [`../specs/SPEC-001-Musical-UIERU-Contract.md`](../specs/SPEC-001-Musical-UIERU-Contract.md)
-- **Figure:** [`../figures/Fig-001-MSI-Grand-Architecture.png`](../figures/Fig-001-MSI-Grand-Architecture.png)
 
 ## Citation Note
 

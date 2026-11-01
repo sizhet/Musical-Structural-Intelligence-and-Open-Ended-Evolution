@@ -165,7 +165,7 @@ $$
 U = (X,B,I,F,C,R,E),
 $$
 
-where $X$ is structural content, $B$ boundaries, $I$ identity conditions, $F$ functional role, $C$ contextual dependencies, $R$ relay interfaces, and $E$ evidence and uncertainty. This notation is compatible with, but does not replace, the fuller contracts proposed in MSI-002 and planned SPEC-001.
+where $X$ is structural content, $B$ boundaries, $I$ identity conditions, $F$ functional role, $C$ contextual dependencies, $R$ relay interfaces, and $E$ evidence and uncertainty. This notation is compatible with, but does not replace, the fuller contracts proposed in MSI-002 and SPEC-001.
 
 A transformation may preserve some dimensions while changing others:
 
