@@ -191,7 +191,18 @@ For publication context, see [GitHub Release Notes](GitHub-Release-Notes-v1.0.0.
 
 ---
 
-**MSI-OEE — Musical Structural Intelligence and Open-Ended Evolution**  
-*From precision to expression; from structure to Romantic Intelligence; from individual creation to open-ended co-evolution.*
+## Authors
 
 **Sizhe Tan & GPT-Obot**
+
+---
+
+## 📚 DBM-SI Series Navigation
+
+See:\
+[./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md](./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md)
+
+---
+
+**MSI-OEE — Musical Structural Intelligence and Open-Ended Evolution**  
+*From precision to expression; from structure to Romantic Intelligence; from individual creation to open-ended co-evolution.*
