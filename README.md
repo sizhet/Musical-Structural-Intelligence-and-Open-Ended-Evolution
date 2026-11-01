@@ -195,6 +195,8 @@ For publication context, see [GitHub Release Notes](GitHub-Release-Notes-v1.0.0.
 
 **Sizhe Tan & GPT-Obot**
 
+DOI: 10.5281/zenodo.23852000
+
 ---
 
 ## 📚 DBM-SI Series Navigation
