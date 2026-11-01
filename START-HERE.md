@@ -125,7 +125,7 @@ For the full directory, consult [CONTENTS](CONTENTS.md). For terminology, consul
 
 ## 4. Visual Entry Points
 
-The seven planned figures provide complementary views:
+The seven figures provide complementary views:
 
 | Figure | Main idea |
 |---|---|

@@ -114,7 +114,7 @@ MSI-OEE is designed to exchange research ideas and *validated* structural findin
 | Root navigation, validation, and release files | 15 |
 | **Total** | **37** |
 
-The counts describe the **planned v1.0.0 repository structure**, not an independently verified inventory of uploaded GitHub files.
+The counts describe the **v1.0.0 repository structure**, not an independently verified inventory of uploaded GitHub files.
 
 ---
 

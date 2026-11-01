@@ -5,7 +5,7 @@
 
 **Authors:** Sizhe Tan & GPT-Obot  
 **Release:** v1.0.0  
-**Date:** 2026-10-27  
+**Date:** 2026-10-31  
 **License:** Apache-2.0  
 **Repository:** https://github.com/sizhet/Musical-Structural-Intelligence-and-Open-Ended-Evolution
 
@@ -90,7 +90,7 @@ Before publishing the GitHub release and requesting a DOI:
 - [ ] Verify all referenced documents and paths exist in the release commit.
 - [ ] Verify all seven separately named figure assets and embedded links.
 - [ ] Confirm author names, repository title, date, and version are consistent across `README.md`, `CHANGELOG.md`, `CITATION.cff`, and `.zenodo.json`.
-- [ ] Confirm the repository contains the `LICENSE` file with Apache-2.0 text.
+- [ ] Confirm the repository contains the `LICENSE.txt` file with Apache-2.0 text.
 - [ ] Check Markdown links, formulas, image rendering, and YAML/JSON syntax.
 - [ ] Tag the intended commit as `v1.0.0` and publish its GitHub release.
 - [ ] Confirm Zenodo archives the correct tagged release; then record the issued DOI.

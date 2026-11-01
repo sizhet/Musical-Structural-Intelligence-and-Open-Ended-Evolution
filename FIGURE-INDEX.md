@@ -7,7 +7,7 @@
 
 ## Purpose
 
-This index identifies the seven planned figures for MSI-OEE, describes their conceptual role, and provides consistent placement and Markdown embedding guidance. The illustrations should be interpreted as **proposed architectures and research hypotheses**, not as demonstrations of validated musical intelligence or AI subjective experience.
+This index identifies the seven figures for MSI-OEE, describes their conceptual role, and provides consistent placement and Markdown embedding guidance. The illustrations should be interpreted as **proposed architectures and research hypotheses**, not as demonstrations of validated musical intelligence or AI subjective experience.
 
 > **Asset integrity note:** The filenames below are the canonical target names in the repository's `figures/` directory. Confirm that each image is actually exported as a separate PNG with the corresponding filename before using these links. A single seven-panel collage does not by itself create seven separate image files.
 

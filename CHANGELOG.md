@@ -18,7 +18,7 @@ The format follows the principles of [Keep a Changelog](https://keepachangelog.c
 
 > These are proposed directions, not delivered features or reported experimental findings.
 
-## [1.0.0] - 2026-10-27
+## [1.0.0] - 2026-10-31
 
 ### Added — Research framework
 - `docs/MSI-001-From-Music-to-Musical-Structural-Intelligence.md` — research motivation, scope, and musical structural-intelligence framing.
@@ -71,9 +71,9 @@ The format follows the principles of [Keep a Changelog](https://keepachangelog.c
 - Connected musical research questions to broader Structural Intelligence work while treating cross-domain transfer as a hypothesis to be tested.
 
 ### Publication and provenance
-- Initial planned public research release: **v1.0.0**.
+- Initial public research release: **v1.0.0**.
 - Research authorship: **Sizhe Tan & GPT-Obot**.
-- Preferred repository license: **Apache-2.0**; verify the actual `LICENSE` file before publication.
+- Preferred repository license: **Apache-2.0**; verify the actual `LICENSE.txt` file before publication.
 - Repository: <https://github.com/sizhet/Musical-Structural-Intelligence-and-Open-Ended-Evolution>.
 - Citation metadata (`CITATION.cff`), Zenodo metadata (`.zenodo.json`), release notes, and ResearchGate assets are part of the publication checklist; verify their presence before release.
 - **No DOI is asserted here**: add the actual identifier only after registration and confirmation.
@@ -91,7 +91,7 @@ Before publishing the `v1.0.0` GitHub release and requesting a Zenodo DOI:
 - [ ] Verify three case files and four specification files.
 - [ ] Verify the nine navigation/research-governance documents.
 - [ ] Confirm all seven **individual** PNG figures exist and their links resolve.
-- [ ] Confirm `LICENSE` contains the intended Apache-2.0 license text.
+- [ ] Confirm `LICENSE.txt` contains the intended Apache-2.0 license text.
 - [ ] Check `CITATION.cff` and `.zenodo.json` against actual authorship, title, repository URL, version, and date.
 - [ ] Confirm GitHub release tag and metadata agree on `v1.0.0`.
 - [ ] Verify that no placeholder DOI is presented as a registered identifier.
